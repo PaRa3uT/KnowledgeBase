@@ -1,0 +1,14 @@
+{
+  "name": "vuepress2",
+  "version": "1.0.0",
+  "description": "npm init\r npm install -D vuepress\r mkdir docs && echo '# Hello VuePress' > docs/README.md\r npx vuepress dev docs (npx vuepress build docs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.26"
+  }
+}
