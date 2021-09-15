@@ -1,3 +1,16 @@
 module.exports = {
-    base: "/<REPO>/"
+    plugins: [
+        '@vuepress/plugin-search',
+    ],
+
+    themeConfig: {
+        navbar: [
+            {text: 'Главная', link: '/'},
+            {text: 'OS', children: [
+                {text: 'Linux', children: [
+                    {text: 'Common', link: '/linux/common'}
+                ]}
+            ]}
+        ]
+    }
 }
