@@ -1,7 +1,7 @@
 {
   "name": "vuepress2",
   "version": "1.0.0",
-  "description": "npm init\r npm install -D vuepress\r mkdir docs && echo '# Hello VuePress' > docs/README.md\r npx vuepress dev docs (npx vuepress build docs)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
