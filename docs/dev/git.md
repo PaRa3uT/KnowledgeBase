@@ -1,10 +1,10 @@
 # Работа с GIT
 
 ## Описание команд
-git status
-git diff
-git checkout
-git checkout -b <branch_name>
+git status  
+git diff  
+git checkout  
+git checkout -b <branch_name> 
 git branch
 git pull
 git push
