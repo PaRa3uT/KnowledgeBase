@@ -8,6 +8,7 @@ module.exports = {
     themeConfig: {
         navbar: [
             {text: 'Главная', link: '/'},
+            {text: 'Ссылки', link: '/links'},
             {text: 'Dev', children: [
                 {text: 'Git', link: '/dev/git'}
             ]},
