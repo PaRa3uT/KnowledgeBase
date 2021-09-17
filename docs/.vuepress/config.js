@@ -14,8 +14,11 @@ module.exports = {
             ]},
             {text: 'OS', children: [
                 {text: 'Linux', children: [
-                    {text: 'Common', link: '/linux/common'}
-                ]}
+                    {text: 'Common', link: '/os/linux_common'}
+                ]},
+                {text: 'Windows', link: '/os/windows'},
+                {text: 'Windows Server', link: '/os/windows_server'},
+                {text: 'FreeBSD', link: '/os/freebsd'}
             ]}
         ]
     }
