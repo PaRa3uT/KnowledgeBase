@@ -19,7 +19,8 @@ module.exports = {
                 {text: 'Windows', link: '/os/windows'},
                 {text: 'Windows Server', link: '/os/windows_server'},
                 {text: 'FreeBSD', link: '/os/freebsd'}
-            ]}
+            ]},
+            {text: 'Other', link: '/other'}
         ]
     }
 }
