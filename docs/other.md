@@ -21,3 +21,6 @@ docker iamge ls
 docker container ls  
 docker container ls -all  
 docker container ls -eq  
+
+### List Docker volumes
+docker volume ls  
