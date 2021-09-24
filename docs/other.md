@@ -35,7 +35,7 @@ ansible --version
 ansible [all | ungrouped | <group_name> | <host_name> | host_ip] --list-hosts  
 
 ## Docker
-  docker inspect <image_name>  
+    docker inspect <image_name>  
 
 ### List Docker CLI commands
 docker  
