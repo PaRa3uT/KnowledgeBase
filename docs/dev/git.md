@@ -10,10 +10,16 @@ git diff
 git checkout  
 git checkout -b <branch_name>  
 git branch  
-git branch -D <branch_name>  
+git branch -D <branch_name> - delete branch  
 git pull  
 git push  
-git merge  
+git merge <branch_name> - merge branch into current branch  
+git commit -m "Commit description"  
+git commit --amend -m "updated latest commit message"  
+git stash - ?  
+git stash pop - ?  
+git stash apply - ?  
+git log  
 
 ## Рабочие процессы
 
