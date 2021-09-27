@@ -3,7 +3,9 @@
 awx-manage changepassword admin  
 ### Install (19.3.0) (https://github.com/ansible/awx/blob/devel/tools/docker-compose/README.md)  
 Check latest version on https://github.com/ansible/awx/releases/latest  
+```
 git clone -b x.y.z https://github.com/ansible/awx.git  
+```
 
 Configuration  
 In the <inventory file>, set your pg_password, broadcast_websocket_secret, secret_key, and any other settings you need for your deployment  
