@@ -3,6 +3,7 @@
 ## Описание команд
 git init  
 git init --bare  
+git clone &lt;remote&rt; - клонирование удаленного репозитория  
 ```
 git add  // добавляет все новые, измененные, удаленные файлы из текущей директории и ее поддиректорий
 ```
@@ -15,7 +16,7 @@ git checkout -b <branch_name>
 git branch - показывает список веток  
 git branch -D <branch_name> - delete branch  
 git pull  
-git pull &lt;repo link&lt; - 
+git pull &lt;repo link&lt; - скачивание данных с сервера  
 git push 'remote_name' 'branch_name' - перенести все изменения, в удаленный репозиторий  
 git fetch - связывается с удаленным репозиторием и забирает из него все изменения и сохраняет их локально  
 git merge <branch_name> - merge branch into current branch  
