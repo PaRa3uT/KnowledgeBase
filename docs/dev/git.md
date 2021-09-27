@@ -7,7 +7,7 @@ git init --bare
 git add  // добавляет все новые, измененные, удаленные файлы из текущей директории и ее поддиректорий
 ```
 git add .  
-git add <file_name>  
+git add &ltfile_name&lt  
 git status - показывает состояние репозитория (отслеживаемые, измененные, новые файлы и так далее)  
 git diff  
 git checkout  
@@ -15,7 +15,7 @@ git checkout -b <branch_name>
 git branch - показывает список веток  
 git branch -D <branch_name> - delete branch  
 git pull  
-git pull <repo link> - 
+git pull &ltrepo link&lt - 
 git push  
 git fetch - связывается с удаленным репозиторием и забирает из него все изменения и сохраняет их локально  
 git merge <branch_name> - merge branch into current branch  
