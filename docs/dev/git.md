@@ -8,7 +8,7 @@ git add  // добавляет все новые, измененные, удал
 ```
 git add .  
 git add <file_name>  
-git status  
+git status - показывает состояние репозитория (отслеживаемые, измененные, новые файлы и так далее)  
 git diff  
 git checkout  
 git checkout -b <branch_name>  
@@ -23,6 +23,8 @@ git stash - ?
 git stash pop - ?  
 git stash apply - ?  
 git log  
+git config  
+git help  
 
 ## Рабочие процессы
 
