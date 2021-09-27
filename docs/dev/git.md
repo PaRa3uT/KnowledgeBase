@@ -19,7 +19,8 @@ git branch &lt;branch&gt; - создание новой ветки
 git branch -D <branch_name> - удаление ветки  
 git pull  
 git pull &lt;repo link&gt; - скачивание данных с сервера  
-git push &lt;remote_name&gt; &lt;branch_name&gt; - перенести все изменения, в удаленный репозиторий  
+git pull &lt;remote&gt; &lt;branch&gt; - получение данных из удаленного репозитория и слияние с локальным  
+git push &lt;remote_name&gt; &lt;branch_name&gt; - перенести все локальные изменения, в удаленный репозиторий  
 git push &lt;remote&gt; :&lt;branch&gt; - удаление ветки на удаленном сервере  
 git fetch - связывается с удаленным репозиторием и забирает из него все изменения и сохраняет их локально  
 git merge <branch_name> - merge branch into current branch  
