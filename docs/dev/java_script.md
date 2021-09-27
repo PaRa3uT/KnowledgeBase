@@ -140,3 +140,126 @@ const arr = [0, 1, 2, [[[3, 4]]]];
 
 console.log(arr.flat(2)); // returns [0, 1, 2, [3,4]]
 ```
+## Получение значения cookie браузера
+```js
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+cookie('_ga');
+// Result: "GA1.2.1929736587.1601974046"
+```
+## Преобразование RGB в HEX
+```js
+const rgbToHex = (r, g, b) => "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+rgbToHex(0, 51, 255); 
+// Result: #0033ff
+```
+## Копирование в буфер обмена
+```js
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+copyToClipboard("Hello World");
+```
+## Проверка подлинности даты
+```js
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+isDateValid("December 17, 1995 03:24:00");
+// Result: true
+```
+## Определение дня в году
+```js
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+dayOfYear(new Date());
+// Result: 272
+```
+## Сделать первую букву в строке заглавной
+```js
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1)
+capitalize("follow for more")
+// Result: Follow for more
+```
+##Определить количество дней между двумя датами
+```
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000)
+dayDif(new Date("2020-10-21"), new Date("2021-10-22"))
+// Result: 366
+```
+## Очистка cookies
+```js
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+```
+## Генерация случайного HEX-кода
+```js
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+console.log(randomHex());
+// Result: #92b008
+```
+## Удаление дубликатов из массива
+```js
+const removeDuplicates = (arr) => [...new Set(arr)];
+console.log(removeDuplicates([1, 2, 3, 3, 4, 4, 5, 5, 6]));
+// Result: [ 1, 2, 3, 4, 5, 6 ]
+```
+## Получение параметров запроса из URL
+```js
+const getParameters = (URL) => {
+  URL = JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+  return JSON.stringify(URL);
+};
+getParameters(window.location)
+// Result: { search : "easy", page : 3 }
+```
+## Регистрация времени в формате hour::minutes::seconds
+```js
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+console.log(timeFromDate(new Date(2021, 0, 10, 17, 30, 0))); 
+// Result: "17:30:00"
+```
+## Четное/нечетное число
+```js
+const isEven = num => num % 2 === 0;
+console.log(isEven(2)); 
+// Result: True
+```
+## Получение среднего значения аргументов
+```js
+const average = (...args) => args.reduce((a, b) => a + b) / args.length;
+average(1, 2, 3, 4);
+// Result: 2.5
+```
+## Прокрутка страницы до конкретного места
+```js
+const goToTop = () => window.scrollTo(0, 0);
+goToTop();
+```
+## Реверс строки
+```js
+const reverse = str => str.split('').reverse().join('');
+reverse('hello world');     
+// Result: 'dlrow olleh'
+```
+## Проверить, пуст ли массив
+```js
+const isNotEmpty = arr => Array.isArray(arr) && arr.length > 0;
+isNotEmpty([1, 2, 3]);
+// Result: true
+```
+## Получить выделенный текст
+```js
+const getSelectedText = () => window.getSelection().toString();
+getSelectedText();
+```
+## Перемешивание массива
+```js
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+console.log(shuffleArray([1, 2, 3, 4]));
+// Result: [ 1, 4, 3, 2 ]
+```
+## Узнать, включен ли у пользователя темный режим
+```js
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+console.log(isDarkMode) // Result: True or False
+```
+## 
+```js
+```
+## 
+```js
+```
