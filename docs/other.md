@@ -36,6 +36,10 @@ docker exec tools_awx_1 awx-manage create_preload_data
 ansible --version  
 ansible [all | ungrouped | <group_name> | <host_name> | host_ip] --list-hosts  
 ansible-playbook playbooks/&lt;playbook&gt;.yml
+ansible-vault
+ansible-vault encrypt host_vars/cdn-01.example.com/secret (Зашифровать файл)
+ansible-vault edit host_vars/cdn-01.example.com/secret (Отредактировать зашифрованный файл)
+ansible-vault view host_vars/cdn-01.example.com/secret (Показать зашифрованный файл)
 
 ## Docker
   docker inspect <image_name>  
