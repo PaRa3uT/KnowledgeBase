@@ -27,3 +27,20 @@ console.log(item); // { name: 'Biscuit', flavour: 'Chocolate' }
 const keyName = 'name';
 console.log(item[keyName]); // returns 'Biscuit'
 ```
+## Деструктуризация объекта с динамическими ключами
+Переименовать переменные при деструктуризации с помощью алиасов (псевдонимов):
+```js
+const person = { id: 1, name: 'John Doe' };
+const { name: personName } = person;
+console.log(personName); // returns 'John Doe'
+```
+С помощью динамического ключа:
+```js
+const templates = {
+  'hello': 'Hello there',
+  'bye': 'Good bye'
+};
+const templateName = 'bye';
+const { [templateName]: template } = templates;
+console.log(template) // returns 'Good bye'
+```
