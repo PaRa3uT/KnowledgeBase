@@ -11,7 +11,8 @@ module.exports = {
             {text: 'Ссылки', link: '/links'},
             {text: 'Dev', children: [
                 {text: 'Git', link: '/dev/git'},
-                {text: 'JavaScript', link: '/dev/java_script'}
+                {text: 'JavaScript', link: '/dev/java_script'},
+                {text: 'SQL', link: '/dev/sql'},
             ]},
             {text: 'OS', children: [
                 {text: 'Linux', children: [
