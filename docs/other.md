@@ -7,13 +7,13 @@ Check latest version on https://github.com/ansible/awx/releases/latest
 git clone -b x.y.z https://github.com/ansible/awx.git
 ```
 
-Configuration  
+#### Configuration  
 In the "inventory file", set your pg_password, broadcast_websocket_secret, secret_key, and any other settings you need for your deployment  
 
-Build the image  
+#### Build the image  
 make docker-compose-build  
 
-Run AWX  
+#### Run AWX  
 Start the containers  
 make docker-compose  
 Clean and Build UI  
