@@ -35,6 +35,7 @@ docker exec tools_awx_1 awx-manage create_preload_data
 ## Ansible
 ansible --version  
 ansible [all | ungrouped | <group_name> | <host_name> | host_ip] --list-hosts  
+ansible-playbook playbooks/&lt;playbook&gt;.yml
 
 ## Docker
   docker inspect <image_name>  
