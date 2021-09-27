@@ -8,7 +8,7 @@ git clone -b x.y.z https://github.com/ansible/awx.git
 ```
 
 Configuration  
-In the <inventory file>, set your pg_password, broadcast_websocket_secret, secret_key, and any other settings you need for your deployment  
+In the "inventory file", set your pg_password, broadcast_websocket_secret, secret_key, and any other settings you need for your deployment  
 
 Build the image  
 make docker-compose-build  
