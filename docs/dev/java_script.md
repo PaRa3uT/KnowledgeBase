@@ -87,3 +87,56 @@ const person = {
 console.log(person.printName()); // returns 'Haseeb Anwar'
 console.log(persone.doesNotExist?.()); // returns undefined
 ```
+## Логическое преобразование с помощью оператора !!
+```js
+const greeting = 'Hello there!';
+console.log(!!greeting) // returns true
+
+const noGreeting = '';
+console.log(!!noGreeting); // returns false
+```
+## Преобразование между строками и числами
+Преобразовать строку в число можно с помощью унарного оператора +
+```js
+const stringNumer = '123';
+
+console.log(+stringNumer); // returns integer 123
+console.log(typeof +stringNumer); // returns 'number'
+```
+Обратное преобразование:
+```js
+const myString = 25 + '';
+
+console.log(myString); // returns '25'
+console.log(typeof myString); // returns 'string'
+```
+## Проверка ложных значений в массиве
+```js
+const myArray = [null, false, 'Hello', undefined, 0];
+
+// filter falsy values
+const filtered = myArray.filter(Boolean);
+console.log(filtered); // returns ['Hello']
+
+// check if at least one value is truthy
+const anyTruthy = myArray.some(Boolean);
+console.log(anyTruthy); // returns true
+
+// check if all values are truthy
+const allTruthy = myArray.every(Boolean);
+console.log(allTruthy); // returns false
+```
+## Уменьшение уровня вложенности в массиве массивов
+С помощью метода Array.prototype.flat можно создать единый массив, поднимая его содержимое на уровень родительского:
+```js
+const myArray = [{ id: 1 }, [{ id: 2 }], [{ id: 3 }]];
+
+const flattedArray = myArray.flat(); 
+// returns [ { id: 1 }, { id: 2 }, { id: 3 } ]
+```
+Также можно определить уровень глубины массива, для этого нужно передать в метод соответствующий параметр:
+```js
+const arr = [0, 1, 2, [[[3, 4]]]];
+
+console.log(arr.flat(2)); // returns [0, 1, 2, [3,4]]
+```
