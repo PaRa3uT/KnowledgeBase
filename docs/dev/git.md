@@ -1,7 +1,7 @@
 # Работа с GIT
 
 ## Описание команд
-git init  
+git init - создание нового репозитория  
 git init --bare  
 git clone &lt;remote&gt; - клонирование удаленного репозитория  
 ```
@@ -9,15 +9,18 @@ git add  // добавляет все новые, измененные, удал
 ```
 git add .  
 git add &lt;file_name&gt;  
+git rm &lt;file&gt; - удаление файла  
 git status - показывает состояние репозитория (отслеживаемые, измененные, новые файлы и так далее)  
 git diff  
 git checkout  
 git checkout -b <branch_name>  
 git branch - показывает список веток  
-git branch -D <branch_name> - delete branch  
+git branch &lt;branch&gt; - создание новой ветки  
+git branch -D <branch_name> - удаление ветки  
 git pull  
 git pull &lt;repo link&gt; - скачивание данных с сервера  
-git push 'remote_name' 'branch_name' - перенести все изменения, в удаленный репозиторий  
+git push &lt;remote_name&gt; &lt;branch_name&gt; - перенести все изменения, в удаленный репозиторий  
+git push &lt;remote&gt; :&lt;branch&gt; - удаление ветки на удаленном сервере  
 git fetch - связывается с удаленным репозиторием и забирает из него все изменения и сохраняет их локально  
 git merge <branch_name> - merge branch into current branch  
 git commit -m "Commit description" - сохраняет изменения в локальном репозитории  
@@ -27,7 +30,7 @@ git stash pop - ?
 git stash apply - ?
 git stash save  
 git stash drop  
-git log - выдает информацию о предыдущих коммитах  
+git log - просмотр истории коммитов  
 git config  
 git help  
 git reset -- hard - ОПАСНАЯ команда, которая отменяет все незавершенные изменения  
