@@ -1,6 +1,13 @@
 # Other
 ## AWX
+
+### Reset Ansible AWX Tower admin password
+```
+docker ps
+docker exec -it awx_web bash
 awx-manage changepassword admin  
+```
+
 ### Install (19.3.0) (https://github.com/ansible/awx/blob/devel/tools/docker-compose/README.md)  
 Check latest version on https://github.com/ansible/awx/releases/latest  
 ```
