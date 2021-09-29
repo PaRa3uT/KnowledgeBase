@@ -18,11 +18,18 @@ module.exports = {
                 {text: 'Linux', children: [
                     {text: 'Common', link: '/os/linux_common'}
                 ]},
-                {text: 'Windows', link: '/os/windows'},
-                {text: 'Windows Server', link: '/os/windows_server'},
-                {text: 'FreeBSD', link: '/os/freebsd'}
+                {text: 'Windows', children: [
+                    {text: 'Windows', link: '/os/windows'},
+                    {text: 'Windows Server', link: '/os/windows_server'},
+                ]},
+                {text: 'BSD', children: [
+                    {text: 'FreeBSD', link: '/os/freebsd'}
+                ]},
+                {text: 'Other', children: [
+                    {text: 'OpenWRT', link: ''}
+                ]},
             ]},
-            {text: 'Other', link: '/other'}
+            {text: 'Unsorted', link: '/other'}
         ]
     }
 }
