@@ -16,7 +16,8 @@ module.exports = {
             ]},
             {text: 'OS', children: [
                 {text: 'Linux', children: [
-                    {text: 'Common', link: '/os/linux_common'}
+                    {text: 'Common', link: '/os/linux_common'},
+                    {text: 'Common', link: '/os/linux_debian'}
                 ]},
                 {text: 'Windows', children: [
                     {text: 'Windows', link: '/os/windows'},
@@ -26,7 +27,7 @@ module.exports = {
                     {text: 'FreeBSD', link: '/os/freebsd'}
                 ]},
                 {text: 'Other', children: [
-                    {text: 'OpenWRT', link: ''}
+                    {text: 'OpenWRT', link: '/os/openwrt'}
                 ]},
             ]},
             {text: 'Unsorted', link: '/other'}
