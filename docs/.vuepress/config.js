@@ -17,7 +17,7 @@ module.exports = {
             {text: 'OS', children: [
                 {text: 'Linux', children: [
                     {text: 'Common', link: '/os/linux_common'},
-                    {text: 'Common', link: '/os/linux_debian'}
+                    {text: 'Debian', link: '/os/linux_debian'}
                 ]},
                 {text: 'Windows', children: [
                     {text: 'Windows', link: '/os/windows'},
