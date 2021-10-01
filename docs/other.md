@@ -13,19 +13,30 @@ awx-manage changepassword admin
 ```
 minikube delete
 rm -rf ~/.minikube
+```
+
+with proxy
+```
 export http_proxy=http://<proxy_ip>:<proxy_port>
 export https_proxy=http://<proxy_ip>:<proxy_port>
 unset no_proxy
 unset NO_PROXY
 export no_proxy=localhost,127.0.0.1
-```
-
-```
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 minikube start --docker-env HTTP_PROXY=$http_proxy --docker-env HTTPS_PROXY=$https_proxy --docker-env NO_PROXY=$no_proxy --addons=ingress --cni=flannel --install-addons=true --kubernetes-version=1.21.2
 export no_proxy=$no_proxy,$(minikube ip)
 export NO_PROXY=$no_proxy
+```
+
+without proxy
+```
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+minikube start --addons=ingress --cni=flannel --install-addons=true --kubernetes-version=1.21.2
+```
+
+```
 alias kubectl="minikube kubectl --"
 kubectl apply -f https://raw.githubusercontent.com/ansible/awx-operator/0.13.0/deploy/awx-operator.yaml
 ```
