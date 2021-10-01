@@ -8,7 +8,38 @@ docker exec -it awx_web bash
 awx-manage changepassword admin  
 ```
 
-### Install (19.3.0) (https://github.com/ansible/awx/blob/devel/tools/docker-compose/README.md)  
+### Install with AWX-operator
+#### Install minikube
+```
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+minikube start --addons=ingress --cpus=4 --cni=flannel --install-addons=true --kubernetes-version=stable --memory=6g
+alias kubectl="minikube kubectl --"
+kubectl apply -f https://raw.githubusercontent.com/ansible/awx-operator/0.13.0/deploy/awx-operator.yaml
+```
+
+Wait a few minutes and you should have the awx-operator running.
+```
+$ kubectl get pods
+NAME                            READY   STATUS    RESTARTS   AGE
+awx-operator-7dbf9db9d7-z9hqx   1/1     Running   0          50s
+```
+
+Then create a file named awx-demo.yml with the suggested content. The metadata.name you provide, will be the name of the resulting AWX deployment. If you deploy more than one AWX instance to the same namespace, be sure to use unique names.
+```
+---
+apiVersion: awx.ansible.com/v1beta1
+kind: AWX
+metadata:
+  name: awx-demo
+spec:
+  service_type: nodeport
+  ingress_type: none
+  hostname: awx-demo.example.com
+```
+kubectl apply -f awx-demo.yml
+
+### Install with docker (19.3.0) (https://github.com/ansible/awx/blob/devel/tools/docker-compose/README.md)  
 Check latest version on https://github.com/ansible/awx/releases/latest  
 ```
 git clone -b x.y.z https://github.com/ansible/awx.git
@@ -71,3 +102,8 @@ docker container ls -eq
 
 ### List Docker volumes
 docker volume ls  
+
+
+## Minikube
+    curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+    sudo install minikube-linux-amd64 /usr/local/bin/minikube
