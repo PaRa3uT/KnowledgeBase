@@ -135,6 +135,30 @@ docker container ls -eq
 docker volume ls  
 
 
+## Docker-Compose
+```
+services:
+  db_mariadb:
+    image: mariadb
+    command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
+    restart: always
+    volumes:
+      - /data/nextcloud_db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=#put some password here
+      - MYSQL_PASSWORD=#put some other password here
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+  app:
+    image: nextcloud
+    depends_on:
+      - db_mariadb
+    restart: always
+  nginx:
+    depends_on:
+      - app
+```
+
 ## Minikube
 ### Install
 ```
