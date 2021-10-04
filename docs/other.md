@@ -171,7 +171,7 @@ minikube stop
 minikube delete  
 minikube service list  
 minikube kubectl -- get pods  
-minikube dashboard
-minikube logs
-minikube version --components
+minikube dashboard  
+minikube logs  
+minikube version --components  
 kubectl version ()  
