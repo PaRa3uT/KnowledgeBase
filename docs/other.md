@@ -138,6 +138,24 @@ docker volume ls
 ## Docker-Compose
 ```
 services:
+  db_postgres:
+    image: postgres:11
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=test_db
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=pgadmin4@pgadmin.org
+      - PGADMIN_DEFAULT_PASSWORD=admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - db_postgres
   db_mariadb:
     image: mariadb
     command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
@@ -149,6 +167,15 @@ services:
       - MYSQL_PASSWORD=#put some other password here
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
+  web_app_1:
+    build: .
+    command: bash -c "uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db_postgres
   app:
     image: nextcloud
     depends_on:
