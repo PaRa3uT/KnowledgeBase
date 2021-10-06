@@ -12,6 +12,7 @@
 []()
 
 ## Online Tools
+[Explain PostgreSQL Анализ планов, нормализация запросов](https://explain.tensor.ru/)
 [NGINX Config Generator](https://nginxconfig.io/)  
 [MD5 Encrypt/Decrypt](https://www.md5online.org/)  
 [генератор случайных личностей](https://randus.org/)  
