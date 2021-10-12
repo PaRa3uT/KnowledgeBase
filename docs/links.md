@@ -19,6 +19,7 @@
 [regular expressions 101](https://regex101.com/)  
 [SSL Configuration Generator](https://ssl-config.mozilla.org/#server=nginx&server-version=1.17.0&config=modern)  
 [Punycode-конвертер](https://www.punycoder.com/)  
+[Набор online компиляторов (C++, Python, Rust, ...)](https://godbolt.org/)  
 
 ## Proxy
 [spys.one](http://spys.one/proxies/)  
