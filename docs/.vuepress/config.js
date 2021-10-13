@@ -29,9 +29,9 @@ module.exports = {
                 {text: 'Other', children: [
                     {text: 'OpenWRT', link: '/os/openwrt'}
                 ]},
-                {text: 'Заметки', link: '/notes'}
             ]},
-            {text: 'Unsorted', link: '/other'}
+            {text: 'Unsorted', link: '/other'},
+            {text: 'Заметки', link: '/notes'}
         ]
     }
 }
