@@ -1,5 +1,8 @@
 # Работа с GIT
 
+## Git Portable (Windows)
+1. Download MiniGIT from https://github.com/git-for-windows/git/releases  
+
 ## Описание команд
 git init - создание нового репозитория  
 git init --bare  
