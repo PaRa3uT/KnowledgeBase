@@ -55,3 +55,6 @@ git push origin feature/number
 pull request - если изменения приняты, переходим к следующему шагу  
 git checkout master  
 git pull origin master  
+
+## Остальное
+git config --global http.proxy http://proxyuser:proxypass@proxyaddress:8080  
