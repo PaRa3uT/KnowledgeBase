@@ -1,4 +1,15 @@
 #
+## Swap File
+/# 2GB
+dd if=/dev/zero of=/swapfile bs=1024 count=2097152
+chmod 600 /swapfile
+mkswap /swapfile (/sbin/mkswap - Devuan 4)
+swapon /swapfile (/sbin/swapon - Devuan 4)
+
+add an entry in the /etc/fstab file of every instance of Linux that will be using that swap space
+/# Swap file created on DATE
+/swapfile       none    swap    sw      0       0
+
 ## awk
 
 ## sed
