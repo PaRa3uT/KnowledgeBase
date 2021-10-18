@@ -1,11 +1,17 @@
 # Çàìåòêè
+## Наборы инструментов
+Обработка задач:  
+&ensp;Брокер очередей/задач (RabbitMQ, ActiveMQ)  
+&ensp;ранение статуса задачи (Redis)  
+&ensp;Воркеры (непосредственно выполняющие задачи)  
+
 ## OS
 ### Desktop
 Hardware:  
-    RAM:
-        >= 2GB (Plasma)
-        >= 512 (XFCE)
-        < 512 (WM)
+&ensp;RAM:  
+&ensp;&ensp;>= 2GB (Plasma)  
+&ensp;&ensp;>= 512 (XFCE)  
+&ensp;&ensp;< 512 (WM)  
 
 Devuan:  
     Plasma (Êðàñèâàÿ, ìíîãî æð¸ò îïåðàòèâû)  
