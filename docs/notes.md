@@ -1,9 +1,14 @@
 # Çàìåòêè
 ## Наборы инструментов
+Frontend:
+&ensp;&ensp;VueJS 2 + Vuetify  
+&ensp;&ensp;VueJS 3 + ?  
+Backend:  
+&ensp;&ensp;FastAPI  
 Обработка задач:  
-&ensp;Брокер очередей/задач (RabbitMQ, ActiveMQ)  
-&ensp;ранение статуса задачи (Redis)  
-&ensp;Воркеры (непосредственно выполняющие задачи)  
+&ensp;&ensp;Брокер очередей/задач (RabbitMQ, ActiveMQ)  
+&ensp;&ensp;ранение статуса задачи (Redis)  
+&ensp;&ensp;Воркеры (непосредственно выполняющие задачи)  
 
 ## OS
 ### Desktop
