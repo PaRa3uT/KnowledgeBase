@@ -18,7 +18,10 @@ module.exports = {
                 {text: 'Linux', children: [
                     {text: 'Common', link: '/os/linux_common'},
                     {text: 'Debian', link: '/os/linux_debian'},
-                    {text: 'Slax', link: '/os/linux_slax'}
+                    {text: 'Devuan', link: '/os/linux_devuan'},
+                    {text: 'Slackware', link: '/os/linux_slackware'},
+                    {text: 'Slax', link: '/os/linux_slax'},
+                    {text: 'Alpine', link: '/os/linux_alpine'},
                 ]},
                 {text: 'Windows', children: [
                     {text: 'Windows', link: '/os/windows'},
@@ -27,6 +30,7 @@ module.exports = {
                 ]},
                 {text: 'BSD', children: [
                     {text: 'FreeBSD', link: '/os/freebsd'},
+                    {text: 'OpenBSD', link: '/os/openbsd'},
                     {text: 'OPNsense', link: '/os/opnsense'},
                     {text: 'XigmaNAS', link: '/os/xigmanas'},
                 ]},
