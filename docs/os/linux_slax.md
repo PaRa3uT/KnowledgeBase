@@ -1,4 +1,4 @@
-# ![Slax] (www.slax.org)
+# [Slax](www.slax.org)
 ## Cheatcodes (Boot parameters)
 To use cheatcodes, press Esc key to activate boot menu during Slax startup as usual, and when you see the boot menu, press Tab. A command line will appear at the bottom of the screen, which you can edit or add new boot parameters at the end:
 Cheatcode | Meaning | Example
