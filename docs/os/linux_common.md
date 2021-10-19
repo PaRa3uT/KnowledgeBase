@@ -1,4 +1,17 @@
 #
+## ss
+```
+ss -s (общая информация)
+```
+
+## netstat
+```
+netstat -an | wc -l (кол-во всех соединений)
+netstat -an | grep ESTABLISHED (кол-во соединений в статусе ESTABLISHED)
+netstat -an | grep ESTABLISHED | awk -F: '{print $2}' | awk '{print $1}' | sort | uniq -c | sort -n | tail -n 10 (10 портов с наиболее большим кол-вом соединений)
+netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}' (статистика соединений по состоянию (SYNC_RECV; CLOSE_WAIT; ESTABLISHED; FIN_WAIT; TIME_WAIT))
+```
+
 ## Swap File
 /# 2GB
 dd if=/dev/zero of=/swapfile bs=1024 count=2097152
