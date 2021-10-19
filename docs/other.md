@@ -1,11 +1,16 @@
 # Other
+
+## QEMU
+qemu -m 512 -cdrom /путь/к_iso-образу/example.iso -boot d (Запуск Live CD из ISO-образа)
+qemu -smp threads=2 -m 1024 -cdrom /путь/к_iso-образу/example.iso -boot d
+
 ## AWX
 
 ### Reset Ansible AWX Tower admin password
 ```
 docker ps
 docker exec -it awx_web bash
-awx-manage changepassword admin  
+awx-manage changepassword admin
 ```
 
 ### Install with AWX-operator
