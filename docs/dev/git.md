@@ -39,6 +39,10 @@ git config
 git help  
 git reset -- hard - ОПАСНАЯ команда, которая отменяет все незавершенные изменения  
 git remote add "url or address" - добавляет новый удаленный адрес  
+git remote get-url <name>  
+git remote set-url <name> <newurl>  
+git remote rename <old> <new>  
+git remote remove <name>  
 git tag  
 git rebase - интегрирует изменения из одной ветки в другую  
 git config –global color.ui true - добавляет глобальную настройку в конфигурационный файл и делает вывод цветным для всех операций со всеми репозиториями  
