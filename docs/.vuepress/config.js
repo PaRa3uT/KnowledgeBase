@@ -17,14 +17,18 @@ module.exports = {
             {text: 'OS', children: [
                 {text: 'Linux', children: [
                     {text: 'Common', link: '/os/linux_common'},
-                    {text: 'Debian', link: '/os/linux_debian'}
+                    {text: 'Debian', link: '/os/linux_debian'},
+                    {text: 'Slax', link: '/os/linux_slax'}
                 ]},
                 {text: 'Windows', children: [
                     {text: 'Windows', link: '/os/windows'},
                     {text: 'Windows Server', link: '/os/windows_server'},
+                    {text: 'Software', link: '/os/windows_soft'},
                 ]},
                 {text: 'BSD', children: [
-                    {text: 'FreeBSD', link: '/os/freebsd'}
+                    {text: 'FreeBSD', link: '/os/freebsd'},
+                    {text: 'OPNsense', link: '/os/opnsense'},
+                    {text: 'XigmaNAS', link: '/os/xigmanas'},
                 ]},
                 {text: 'Other', children: [
                     {text: 'OpenWRT', link: '/os/openwrt'}
