@@ -31,3 +31,10 @@ sysctl kern.elf32.aslr.enable=1
 ```
 kern.randompid=1
 ```
+
+### Hide process running as other user or group
+/etc/sysctl.conf
+```
+security.bsd.see_other_uids=0
+security.bsd.see_other_gids=0
+```
