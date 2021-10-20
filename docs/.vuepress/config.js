@@ -42,6 +42,7 @@ module.exports = {
                 {text: 'TCP', link: '/network/tcp'},
             ]},
             {text: 'Unsorted', children: [
+                {text: 'AWX', link: '/unsorted/awx'},
                 {text: 'Остальное', link: '/unsorted/other'},
             ]},
             {text: 'Заметки', link: '/notes'}
