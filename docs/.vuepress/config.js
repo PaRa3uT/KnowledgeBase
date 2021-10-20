@@ -29,10 +29,10 @@ module.exports = {
                     {text: 'Software', link: '/os/windows_soft'},
                 ]},
                 {text: 'BSD', children: [
-                    {text: 'FreeBSD', link: '/os/freebsd'},
-                    {text: 'OpenBSD', link: '/os/openbsd'},
-                    {text: 'OPNsense', link: '/os/opnsense'},
-                    {text: 'XigmaNAS', link: '/os/xigmanas'},
+                    {text: 'FreeBSD', link: '/os/bsd_freebsd'},
+                    {text: 'OpenBSD', link: '/os/bsd_openbsd'},
+                    {text: 'OPNsense', link: '/os/bsd_opnsense'},
+                    {text: 'XigmaNAS', link: '/os/bsd_xigmanas'},
                 ]},
                 {text: 'Other', children: [
                     {text: 'OpenWRT', link: '/os/openwrt'}
