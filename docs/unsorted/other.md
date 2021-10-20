@@ -6,6 +6,7 @@ zfs snapshot -r name_of_the_pool@name_of_the_snapshot
 zfs send -R -c name_of_the_pool@name_of_the_snapshot > export_name
 zfs send -R -c name_of_the_pool@name_of_the_snapshot | ssh example.com cat > mybackupfile
 zfs send -R -c name_of_the_pool@name_of_the_snapshot | ssh example.com zfs receive storage/mybackup
+zfs send -c -i name_of_previous_snapshot name_of_the_pool@name_of_the_snapshot | ssh example.com zfs receive storage/mybackup
 ```
 
 ## QEMU
