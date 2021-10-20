@@ -27,6 +27,7 @@ git push &lt;remote_name&gt; &lt;branch_name&gt; - перенести все л�
 git push &lt;remote&gt; :&lt;branch&gt; - удаление ветки на удаленном сервере  
 git fetch - связывается с удаленным репозиторием и забирает из него все изменения и сохраняет их локально  
 git merge <branch_name> - merge branch into current branch  
+git commit --allow-empty-message -m ''
 git commit -m "Commit description" - сохраняет изменения в локальном репозитории  
 git commit --amend -m "updated latest commit message"  
 git stash - ?  
