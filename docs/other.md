@@ -3,6 +3,9 @@
 ## QEMU
 qemu -m 512 -cdrom /путь/к_iso-образу/example.iso -boot d (Запуск Live CD из ISO-образа)
 qemu -smp threads=2 -m 1024 -cdrom /путь/к_iso-образу/example.iso -boot d
+qemu-img create -f raw disk.img mysize (create disk image)
+qemu-system-i386.exe -smp threads=2 -hda myimage.img -m 1024 -cdrom /путь/к_iso-образу/example.iso -boot d
+qemu-img info disk.img
 
 ## AWX
 
