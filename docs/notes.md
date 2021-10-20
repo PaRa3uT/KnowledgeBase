@@ -1,4 +1,4 @@
-# Çàìåòêè
+# Заметки
 ## Наборы инструментов
 Frontend:
 &ensp;&ensp;VueJS 2 + Vuetify  
