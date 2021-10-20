@@ -38,6 +38,9 @@ module.exports = {
                     {text: 'OpenWRT', link: '/os/openwrt'}
                 ]},
             ]},
+            {text: 'Сети', children: [
+                {text: 'TCP', link: '/network/tcp'},
+            ]},
             {text: 'Unsorted', link: '/other'},
             {text: 'Заметки', link: '/notes'}
         ]
