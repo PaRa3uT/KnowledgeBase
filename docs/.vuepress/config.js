@@ -45,7 +45,11 @@ module.exports = {
                 {text: 'AWX', link: '/unsorted/awx'},
                 {text: 'Остальное', link: '/unsorted/other'},
             ]},
-            {text: 'Заметки', link: '/notes'}
+            {text: 'Заметки', link: '/notes'},
+            {text: 'Путешествия', children: [
+                {text: 'Москва', link: '/travel/moscow'},
+                {text: 'Челябинск', link: '/travel/chelyabinsk'},
+            ]}
         ]
     }
 }
