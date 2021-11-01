@@ -49,6 +49,9 @@ module.exports = {
             {text: 'Путешествия', children: [
                 {text: 'Москва', link: '/travel/moscow'},
                 {text: 'Челябинск', link: '/travel/chelyabinsk'},
+            ]}, 
+            {text: 'Финансы', children: [
+                {text: 'Инвестирование', link: '/finance/investing'}
             ]}
         ]
     }
