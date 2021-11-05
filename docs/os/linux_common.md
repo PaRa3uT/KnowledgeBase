@@ -15,6 +15,9 @@ tail (вывести 10 последних строк файла)
 rm (удаление файлов и папок)
 ```
 
+## Пользователи
+
+
 ## Директории
 ```
 / (Корневая директория)
@@ -54,11 +57,12 @@ netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}' (стати
 ```
 
 ## Swap File
-/# 2GB
-dd if=/dev/zero of=/swapfile bs=1024 count=2097152
-chmod 600 /swapfile
-mkswap /swapfile (/sbin/mkswap - Devuan 4)
-swapon /swapfile (/sbin/swapon - Devuan 4)
+/# 2GB  
+dd if=/dev/zero of=/swapfile bs=1024 count=2097152 (создать файл заполненый нулями)  
+chmod 600 /swapfile (выставить права)  
+mkswap /swapfile (/sbin/mkswap - Devuan 4) (создать формат подкачки в файле)  
+swapon /swapfile (/sbin/swapon - Devuan 4) (включить файл подкачки)  
+swapoff /swapfile (отключить файл подкачки)
 
 add an entry in the /etc/fstab file of every instance of Linux that will be using that swap space
 /# Swap file created on DATE
@@ -188,4 +192,23 @@ yum-plugin-verify (добавление команд yum verify-all, verify-mult
 proxy="http://server:3128" (Для всех пользователей: добавить в секцию [main] в /etc/yum.conf)
 proxy_proxy_username=user proxy_password=pass (при необходимости указать пароль, добавить)
 export http_proxy="http://server:3128" (указать прокси для отдельного пользователя)
+```
+
+## Работа с файловой системой
+
+### XFS
+```
+mkfs.xfs /dev/sdb1
+xfs_admin -U generate /dev/sdb6
+```
+
+### Mount: 
+```
+mount -o nouuid /dev/sdb7 disk-7
+```
+
+### fdisk: 
+```
+fdisk -l /dev/sda
+fdisk /dev/sda
 ```
