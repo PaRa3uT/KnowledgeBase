@@ -16,7 +16,10 @@ module.exports = {
             ]},
             {text: 'OS', children: [
                 {text: 'Linux', children: [
-                    {text: 'Common', link: '/os/linux_common'},
+                    {text: 'Common', children: [
+                        {text: 'Common', link: '/os/linux_common'},
+                        {text: 'YUM', link: '/os/linux/yum'},
+                    ]},
                     {text: 'Debian', link: '/os/linux_debian'},
                     {text: 'Devuan', link: '/os/linux_devuan'},
                     {text: 'Slackware', link: '/os/linux_slackware'},
