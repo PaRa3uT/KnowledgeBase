@@ -16,7 +16,11 @@ rm (удаление файлов и папок)
 ```
 
 ## Пользователи
-
+```
+useradd -m username  (-m create home directory)
+passwd <username> (Сменить пароль пользователя)
+usermod -aG sudo username
+```
 
 ## Директории
 ```
