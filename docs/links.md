@@ -20,6 +20,16 @@
 [SSL Configuration Generator](https://ssl-config.mozilla.org/#server=nginx&server-version=1.17.0&config=modern)  
 [Punycode-конвертер](https://www.punycoder.com/)  
 [Набор online компиляторов (C++, Python, Rust, ...)](https://godbolt.org/)  
+### скачивание видео
+[SaveFrom](https://ru.savefrom.net/)
+[TubeOffline](https://www.tubeoffline.com/)
+[9xbuddy](https://9xbuddy.com/)
+[Savevideo.me](https://savevideo.me/)
+[YooDownload](https://yoodownload.com/)
+[Catchvideo](https://catchvideo.net/)
+[GetVideo](https://getvideo.at/)
+[DistillVideo](https://distillvideo.com/)
+[Converto](https://www.converto.io/ru22/?)
 
 ## Проверить быстродействие сайта
 [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
