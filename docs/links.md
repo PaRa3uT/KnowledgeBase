@@ -21,6 +21,20 @@
 [Punycode-конвертер](https://www.punycoder.com/)  
 [Набор online компиляторов (C++, Python, Rust, ...)](https://godbolt.org/)  
 
+## Проверить быстродействие сайта
+[Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+[Pingdom Website Speed Test](https://tools.pingdom.com/)
+[WebPagetest](https://www.webpagetest.org/)
+[Keycdn Tool](https://tools.keycdn.com/speed)
+[GTmetrix](https://gtmetrix.com/)
+[Dareboost](https://www.dareboost.com/en)
+[Uptrends](https://www.uptrends.com/tools/website-speed-test)
+[Dotcom-monitor](https://www.dotcom-tools.com/website-speed-test)
+[Sucuri Loadtime Tester](https://performance.sucuri.net/)
+[Geekflare](https://gf.dev/)
+[Pagelocity](https://pagelocity.com/)
+[GiftOfSpeed](https://www.giftofspeed.com/)
+
 ## Proxy
 [spys.one](http://spys.one/proxies/)  
 [sockslist.net](https://sockslist.net/)  
