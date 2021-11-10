@@ -55,6 +55,9 @@ module.exports = {
             ]}, 
             {text: 'Финансы', children: [
                 {text: 'Инвестирование', link: '/finance/investing'}
+            ]},
+            {text: 'Hardware', children: [
+                {text: 'OrangePi PC', link: '/hardware/orangepi_pc'}
             ]}
         ]
     }
