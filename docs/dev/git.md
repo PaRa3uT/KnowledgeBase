@@ -2,6 +2,29 @@
 
 ## Git Portable (Windows)
 1. Download MiniGIT from https://github.com/git-for-windows/git/releases  
+2. env_git.cmd
+```
+@echo off
+SET PATH=%~dp0MinGit\cmd;%PATH%
+SET gitdir=%~dp0MinGit
+SET HOME=%gitdir%\home
+```
+3. Установка имени и электронной почты
+```
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+4. Параметры установки окончаний строк  
+```
+Для пользователей Unix/Mac:
+git config --global core.autocrlf input
+git config --global core.safecrlf warn
+
+Для пользователей Windows:
+git config --global core.autocrlf true
+git config --global core.safecrlf warn
+```
+
 
 ## Описание команд
 git init - создание нового репозитория  
