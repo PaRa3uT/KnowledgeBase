@@ -23,6 +23,7 @@ module.exports = {
                     {text: 'Slackware', link: '/os/linux_slackware'},
                     {text: 'Slax', link: '/os/linux_slax'},
                     {text: 'Alpine', link: '/os/linux_alpine'},
+                    {text: 'armbian', link: '/os/linux/armbian'},
                 ]},
                 {text: 'Windows', children: [
                     {text: 'Windows', link: '/os/windows'},
