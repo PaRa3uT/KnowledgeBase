@@ -37,6 +37,7 @@ git stash save
 git stash drop  
 git log - просмотр истории коммитов  
 git config  
+git config --list --show-origin (посмотреть все установленные настройки и узнать где именно они заданы)  
 git help  
 git reset -- hard - ОПАСНАЯ команда, которая отменяет все незавершенные изменения  
 git remote add "url or address" - добавляет новый удаленный адрес  
