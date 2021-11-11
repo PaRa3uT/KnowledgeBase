@@ -12,7 +12,7 @@ Allwinner H3 32bit 4core, 3 чистых/полноценных USB
 
 ## Soft
 [Видеонаблюдение Xeoma](https://felenasoft.com/xeoma/ru/download/)  
-Принтсервер CUPS  
+Принтсервер CUPS (+ foomatic-db foomatic-db-engin)  
 Облачный сервис NextCloud  
 qBittorent  
 Firefox Sync Server  
