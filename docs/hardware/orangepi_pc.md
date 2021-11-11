@@ -3,7 +3,8 @@ Allwinner H3 32bit 4core, 3 чистых/полноценных USB
 
 ## OS
 [armbian](https://www.armbian.com/orange-pi-pc/)  
-[OpenELEC](openelec.tv)  
+[DietPie](https://dietpi.com/)  
+[OpenELEC](http://openelec.tv)  
 [RetroPie](http://www.retrorangepi.org/)  
 
 ## Links
