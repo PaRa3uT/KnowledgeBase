@@ -12,3 +12,26 @@ Allwinner H3 32bit 4core, 3 чистых/полноценных USB
 
 ## Soft
 [Видеонаблюдение Xeoma](https://felenasoft.com/xeoma/ru/download/)  
+Принтсервер CUPS  
+Облачный сервис NextCloud  
+qBittorent  
+Firefox Sync Server  
+Aria2  
+Gogs/Gitea  
+UrBackup  
+MinIO  
+Syncthing  
+Portainer (Docker container management)  
+Pi-Hole / AdGuard Home / Unbound  
+Samba  
+InfluxDB  
+Grafana  
+Mosquitto  
+MPD + ympd / myMPD / Mopidy  
+phpSysInfo 
+RPi-Monitor  
+WebMin  
+Netdata  
+OpenVPN  
+LESP(Nginx+SQLite+PHP)  
+LASP(Apache+SQLite+PHP)  
