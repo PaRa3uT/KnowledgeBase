@@ -116,4 +116,25 @@ Listen 631
 </Location>
 ```
 
+## qBittorrent
+```
+adduser --system --group qbittorrent-nox
+apt-get install qbittorrent-nox
+qbittorrent-nox
+vim /etc/systemd/system/qbittorrent-nox.service
+[Unit]
+Description=qBittorrent Daemon Service
+After=network.target
+[Service]
+Type=forking
+User=qbittorrent-nox
+Group=qbittorrent-nox
+UMask=007
+ExecStart=/usr/bin/qbittorrent-nox -d --webui-port=8080
+[Install]
+WantedBy=multi-user.target
+```
+http://<server_ip>:8080/  
+admin:adminadmin  
+
 ## Zabbix
