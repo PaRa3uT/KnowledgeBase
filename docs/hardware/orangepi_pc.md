@@ -23,6 +23,12 @@ MinIO
 Syncthing  
 Portainer (Docker container management)  
 Pi-Hole / AdGuard Home / Unbound  
+```
+wget https://static.adguard.com/adguardhome/release/AdGuardHome_linux_armv7.tar.gz
+tar -zxvf AdGuardHome_linux_armv7.tar.gz
+cd AdGuardHome
+./AdGuardHome
+```
 Samba  
 InfluxDB  
 Grafana  
