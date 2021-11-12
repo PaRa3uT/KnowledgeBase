@@ -49,3 +49,28 @@ sudo apt upgrade --without-new-pkgs
 sudo apt dist-upgrade
 sudo apt autoremove
 ```
+
+
+## MariaDB
+```
+apt-get install mariadb-server
+apt-get install mariadb-client
+```
+
+## Apache2
+```
+apt-get install apache2
+systemctl status apache2
+```
+
+## Nginx
+```
+apt-get install nginx
+systemctl status nginx
+```
+
+## PHP
+## Samba
+## CUPS
+
+## Zabbix
