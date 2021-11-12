@@ -22,7 +22,8 @@ UrBackup
 MinIO  
 Syncthing  
 Portainer (Docker container management)  
-Pi-Hole / AdGuard Home / Unbound  
+Pi-Hole / Unbound  
+[AdGuard Home](https://github.com/AdguardTeam/AdguardHome)
 ```
 wget https://static.adguard.com/adguardhome/release/AdGuardHome_linux_armv7.tar.gz
 tar -zxvf AdGuardHome_linux_armv7.tar.gz
