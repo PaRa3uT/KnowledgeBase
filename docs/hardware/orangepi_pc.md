@@ -21,8 +21,18 @@ Gogs/Gitea
 UrBackup  
 MinIO  
 Syncthing  
-Portainer (Docker container management)  
+
+[Portainer (Docker container management)](https://docs.portainer.io/v/ce-2.9/start/install/server/docker/linux)  
+```
+docker volume create portainer_data
+docker run -d -p 9002:9000 --name=portainer --restart=always -v 
+/run/docker.sock:/var/run/docker.sock -v portainer_data:/data 
+portainer/portainer-ce
+http://<server_ip>:9002/
+```
+
 Pi-Hole / Unbound  
+
 [AdGuard Home](https://github.com/AdguardTeam/AdguardHome)
 ```
 wget https://static.adguard.com/adguardhome/release/AdGuardHome_linux_armv7.tar.gz
