@@ -82,6 +82,9 @@ apt-get install docker-ce docker-ce-cli containerd.io
 apt-get update
 apt-get install -y docker-ce docker-ce-cli containerd.io
 docker run hello-world
+
+systemctl status docker
+systemctl status containerd
 ```
 
 ## Samba
