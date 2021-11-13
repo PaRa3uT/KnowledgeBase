@@ -221,3 +221,13 @@ systemctl status
 ## [WebMin](https://webmin.com/)
 ## [Linux Dash](https://github.com/afaqurk/linux-dash/)
 ## Mosquitto
+## [MiniDLNA](http://itadept.ru/linux-dlna-server-minidlna/)
+```
+apt-get install minidlna
+systemctl status minidlna
+vim /etc/sysctl.conf
+#MiniDLNA warning fix
+fs.inotify.max_user_watches = 100000
+systemctl restart minidlna
+vim /etc/minidlna.conf
+```
