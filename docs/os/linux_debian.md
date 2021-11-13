@@ -220,3 +220,4 @@ systemctl status
 ## phpMyAdmin
 ## [WebMin](https://webmin.com/)
 ## [Linux Dash](https://github.com/afaqurk/linux-dash/)
+## Mosquitto
