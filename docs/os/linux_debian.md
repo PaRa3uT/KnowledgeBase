@@ -70,6 +70,13 @@ systemctl status nginx
 ```
 
 ## PHP
+```
+apt-get-install php
+echo '<?php phpinfo(); ?>' > /var/www/phpinfo.php
+curl -sSfL https://raw.githubusercontent.com/amnuts/opcache-gui/master/index.php -o /var/www/opcache.php
+curl -sSfL https://raw.githubusercontent.com/krakjoe/apcu/master/apc.php -o /var/www/apc.php
+```
+
 ## [Docker](https://docs.docker.com/engine/install/debian/)
 ```
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -170,15 +177,32 @@ http://<server_ip>:8080/
 admin:adminadmin  
 
 ## Redis
+```
 apt-get install redis
 systemctl status redis-server
+/etc/redis/redis.conf
+loglevel warning
+logfile ""
+syslog-enabled yes
+always-show-logo no
+```
 
 ## InfluxDB
+```
 apt-get install influxdb
 systemctl status influxdb
+```
 
 ## RabbitMQ
+```
 apt-get install rabbitmq-server
 systemctl status rabbitmq-server
+```
+
+## PostgreSQL
+```
+apt-get install 
+systemctl status 
+```
 
 ## Zabbix
