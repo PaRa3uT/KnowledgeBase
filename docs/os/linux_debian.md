@@ -206,3 +206,17 @@ systemctl status
 ```
 
 ## Zabbix
+
+## Node.js
+
+## [Home Assistant Core](https://www.home-assistant.io/installation/linux#install-home-assistant-core)
+
+## fail2ban
+
+## OpenVPN Server
+## WireGuard
+
+## [phpSysInfo](https://phpsysinfo.github.io/phpsysinfo/)
+## phpMyAdmin
+## [WebMin](https://webmin.com/)
+## [Linux Dash](https://github.com/afaqurk/linux-dash/)
