@@ -169,4 +169,16 @@ WantedBy=multi-user.target
 http://<server_ip>:8080/  
 admin:adminadmin  
 
+## Redis
+apt-get install redis
+systemctl status redis-server
+
+## InfluxDB
+apt-get install influxdb
+systemctl status influxdb
+
+## RabbitMQ
+apt-get install rabbitmq-server
+systemctl status rabbitmq-server
+
 ## Zabbix
