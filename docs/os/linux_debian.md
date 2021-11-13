@@ -85,6 +85,18 @@ docker run hello-world
 
 systemctl status docker
 systemctl status containerd
+
+apt-get install -y docker-compose
+vim /etc/docker/daemon.json
+{
+    "log-driver": "local",
+    "log-opts": {
+        "max-size": "10m",
+        "max-file":"3"
+    },
+    "userland-proxy": false
+}
+
 ```
 
 ## Samba
