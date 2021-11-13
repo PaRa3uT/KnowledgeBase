@@ -100,6 +100,23 @@ vim /etc/docker/daemon.json
 ```
 
 ## Samba
+```
+apt-get install samba samba-common-bin
+mkdir -m 1777 /share
+vim /etc/samba/smb.conf
+[share]
+comment = Pi shared folder
+path = /share
+browseable = yes
+writeable = Yes
+only guest = no
+create mask = 0777
+directory mask = 0777
+public = yes
+guest ok = yes
+smbpasswd -a <username>
+```
+
 ## CUPS
 ```
 apt-get install cups
