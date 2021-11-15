@@ -10,6 +10,7 @@ module.exports = {
             {text: 'Главная', link: '/'},
             {text: 'Ссылки', link: '/links'},
             {text: 'Dev', children: [
+                {text: 'Python', link: '/dev/python'},
                 {text: 'Git', link: '/dev/git'},
                 {text: 'JavaScript', link: '/dev/java_script'},
                 {text: 'SQL', link: '/dev/sql'},
