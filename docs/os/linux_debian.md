@@ -206,8 +206,38 @@ systemctl status
 ```
 
 ## Zabbix
-  [Install Apache](linux_debian#apache2)
-  [Install PHP](linux_debian#php)
+  [Install Apache](linux_debian#apache2)  
+  [Install PHP](linux_debian#php)  
+  Install Zabbix repository
+  ```
+  wget https://repo.zabbix.com/zabbix/5.0/debian/pool/main/z/zabbix-release/zabbix-release_5.0-2+debian11_all.deb
+  dpkg -i zabbix-release_5.0-2+debian11_all.deb
+  apt-get update
+  ```
+  
+  Install Zabbix server, frontend, agent
+  ```
+  apt install zabbix-server-mysql zabbix-frontend-php zabbix-nginx-conf zabbix-agent
+  apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-agent
+  ```
+  
+  Create initial database
+  ```
+  # mysql -uroot -p
+  password
+  mysql> create database zabbix character set utf8 collate utf8_bin;
+  mysql> create user zabbix@localhost identified by 'password';
+  mysql> grant all privileges on zabbix.* to zabbix@localhost;
+  mysql> quit;
+
+  # zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p zabbix
+  ```
+
+Configure Zabbix server database
+  ```
+  /etc/zabbix/zabbix_server.conf
+      DBPassword=<password>
+  ```
 
 ## Node.js
 
