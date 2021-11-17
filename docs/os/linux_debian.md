@@ -206,6 +206,8 @@ systemctl status
 ```
 
 ## Zabbix
+  [Install Apache](linux_debian#apache2)
+  [Install PHP](linux_debian#php)
 
 ## Node.js
 
