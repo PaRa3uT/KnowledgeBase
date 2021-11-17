@@ -54,7 +54,7 @@ sudo apt autoremove
 ## MariaDB
 ```
 apt-get install mariadb-server
-apt-get install mariadb-client
+mysql_secure_installation
 ```
 
 ## Apache2
@@ -208,6 +208,7 @@ systemctl status
 ## Zabbix
   [Install Apache](linux_debian#apache2)  
   [Install PHP](linux_debian#php)  
+  [Install MariaDB](linux_debian#mariadb)  
   Install Zabbix repository
   ```
   wget https://repo.zabbix.com/zabbix/5.0/debian/pool/main/z/zabbix-release/zabbix-release_5.0-2+debian11_all.deb
@@ -217,8 +218,11 @@ systemctl status
   
   Install Zabbix server, frontend, agent
   ```
-  apt install zabbix-server-mysql zabbix-frontend-php zabbix-nginx-conf zabbix-agent
-  apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-agent
+  apt-get install zabbix-server-mysql zabbix-frontend-php zabbix-agent
+  # If Apache2
+  apt-get install zabbix-apache-conf
+  # If Nginx
+  apt-get install zabbix-nginx-conf
   ```
   
   Create initial database
@@ -233,11 +237,13 @@ systemctl status
   # zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p zabbix
   ```
 
-Configure Zabbix server database
+  Configure Zabbix server database
   ```
   /etc/zabbix/zabbix_server.conf
       DBPassword=<password>
   ```
+  http://SERVER_IP/zabbix  
+  Admin:zabbix  
 
 ## Node.js
 
