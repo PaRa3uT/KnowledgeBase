@@ -47,3 +47,26 @@ rev = [18000, 25000, 20000, 45000, 32000]
 months = ['June', 'July', 'August', 'September', 'October']
 plt.plot(months, rev)
 ```
+## Pandas
+```
+import pandas as pd
+
+prices = [42.8, 102.03, 240.38, 80.9]
+s = pd.Series(prices)
+print(s.describe())
+
+data = {
+  'date': ['2021-06-10', '2021-06-11', '2021-06-12', '2021-06-13'],
+  'prices': [42.8, 102.03, 240.38, 80.9]
+}
+df = pd.DataFrame(data)
+print(df)
+```
+
+```
+import pandas as pd
+
+data = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
+df = data[0]
+print(df)
+```
