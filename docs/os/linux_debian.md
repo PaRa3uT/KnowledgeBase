@@ -205,7 +205,7 @@ apt-get install
 systemctl status 
 ```
 
-## Zabbix
+## [Zabbix](https://www.zabbix.com/)
   [Install Apache](linux_debian#apache2)  
   [Install PHP](linux_debian#php)  
   [Install MariaDB](linux_debian#mariadb)  
