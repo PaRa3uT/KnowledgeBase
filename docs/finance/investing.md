@@ -2,6 +2,7 @@
 [Сайт МосБиржи](https://www.moex.com/)  
 [investing.com](https://ru.investing.com)  
 [Индекс МосБиржи](https://www.moex.com/ru/index/IMOEX)  
+[Индекс РТС](https://www.moex.com/ru/index/RTSI/)  
 
 ## Облигации
 https://www.moex.com/s2644#/?qi='0'&amortization='0'  
