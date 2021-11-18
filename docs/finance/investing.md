@@ -3,6 +3,7 @@
 [investing.com](https://ru.investing.com)  
 [Индекс МосБиржи](https://www.moex.com/ru/index/IMOEX)  
 [Индекс РТС](https://www.moex.com/ru/index/RTSI/)  
+[Тинькофф каталог инструментов](https://www.tinkoff.ru/invest/recommendations/)  
 
 ## Облигации
 https://www.moex.com/s2644#/?qi='0'&amortization='0'  
