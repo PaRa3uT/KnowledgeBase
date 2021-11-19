@@ -49,6 +49,7 @@ module.exports = {
                 {text: 'AWX', link: '/unsorted/awx'},
                 {text: 'Остальное', link: '/unsorted/other'},
                 {text: 'Scylla DB', link: '/unsorted/scylladb'},
+                {text: 'Zabbix', link: '/unsorted/zabbix'},
             ]},
             {text: 'Заметки', link: '/notes'},
             {text: 'Путешествия', children: [
