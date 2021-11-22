@@ -50,6 +50,8 @@ module.exports = {
                 {text: 'Остальное', link: '/unsorted/other'},
                 {text: 'Scylla DB', link: '/unsorted/scylladb'},
                 {text: 'Zabbix', link: '/unsorted/zabbix'},
+                {text: 'SEO', link: '/unsorted/seo'},
+                {text: 'SMM', link: '/unsorted/smm'},
             ]},
             {text: 'Заметки', link: '/notes'},
             {text: 'Путешествия', children: [
