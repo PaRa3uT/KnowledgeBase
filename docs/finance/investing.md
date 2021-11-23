@@ -32,10 +32,11 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 
 
 ## Акции, дивидентные
-Abbvie (ABBV_SPB)
-Exxon Mobil (XOM_SPB)
-Altria (MO-RM)
-Philip Morris (PM_SPB)
-Chevron (CVX_SPB)
+Норникель ()  
+Abbvie (ABBV_SPB)  
+Exxon Mobil (XOM_SPB)  
+Altria (MO-RM)  
+Philip Morris (PM_SPB)  
+Chevron (CVX_SPB)  
 
 ## Облигации
