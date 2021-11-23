@@ -202,13 +202,14 @@ systemctl status rabbitmq-server
 ## PostgreSQL 13
 ```
 apt-get install postgresql-13
-systemctl status 
+systemctl status postgresql
 ```
 
 ## [TimescaleDB (PostgreSQL 13)](https://www.timescale.com/)
 ```
 sudo sh -c "echo 'deb [signed-by=/usr/share/keyrings/timescale.keyring] https://packagecloud.io/timescale/timescaledb/debian/ $(lsb_release -c -s) main' > /etc/apt/sources.list.d/timescaledb.list"
 wget --quiet -O - https://packagecloud.io/timescale/timescaledb/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/timescale.keyring
+wget --quiet -O - https://packagecloud.io/timescale/timescaledb/gpgkey | apt-key add -
 apt-get update
 apt-get install timescaledb-2-postgresql-13
 ```
