@@ -14,6 +14,7 @@ module.exports = {
                 {text: 'Git', link: '/dev/git'},
                 {text: 'JavaScript', link: '/dev/java_script'},
                 {text: 'SQL', link: '/dev/sql'},
+                {text: 'PHP', link: '/dev/php'},
             ]},
             {text: 'OS', children: [
                 {text: 'Linux', children: [
