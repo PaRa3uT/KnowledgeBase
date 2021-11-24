@@ -160,3 +160,10 @@ minikube dashboard
 minikube logs  
 minikube version --components  
 kubectl version ()  
+
+
+## Наборы технологий
+Backend: FastAPI (Python), Yii (PHP)
+Frontend: Vue (JavaScript), Next (SSR) (Javascript)
+Database: SQLite, MariaDB/MySQL, PostgreSQL, TimescaleDB, PostGIS
+Other: uvicorn (ASGI), nginx (HTTP Server, Balancer), Redis (Memory Cache)
