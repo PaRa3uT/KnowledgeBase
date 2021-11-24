@@ -1,5 +1,12 @@
 # Other
 
+## PostgreSQL
+```
+\l (listing databases)
+\c <database_name> (switching database)
+\dt (listing tables)
+```
+
 ## NodeJS 16
 1. Get node binary https://nodejs.org/dist/v16.13.0/node-v16.13.0-win-x86.zip
 2. Create the folder where node will reside and move node.exe, npx, npx.cmd, npm, npm.cmd, node_modules to it
