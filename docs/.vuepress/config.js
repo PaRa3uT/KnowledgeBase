@@ -53,6 +53,7 @@ module.exports = {
                 {text: 'Zabbix', link: '/unsorted/zabbix'},
                 {text: 'SEO', link: '/unsorted/seo'},
                 {text: 'SMM', link: '/unsorted/smm'},
+                {text: 'Mikrotik', link: '/unsorted/mikrotik'},
             ]},
             {text: 'Заметки', link: '/notes'},
             {text: 'Путешествия', children: [
