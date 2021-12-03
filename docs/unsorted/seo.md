@@ -199,4 +199,5 @@ Open Graph – это протокол, который позволяет кон
 https://ogp.me/
 
 ------------------
-[site control](https://losst.ru/proverka-pozitsij-sajta-besplatno-site-control)
+[site control](https://losst.ru/proverka-pozitsij-sajta-besplatno-site-control)  
+[Google Search Console](https://search.google.com/search-console/about)
