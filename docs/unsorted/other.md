@@ -1,5 +1,13 @@
 # Other
 
+## [Mosquitto](https://mosquitto.org/)
+```
+mosquitto
+mosquitto -v -c mosquitto.conf
+mosquitto_sub -t test/topic -v
+mosquitto_pub -t test/topic -m 'hello world'
+```
+
 ## PostgreSQL
 ```
 \l (listing databases)
