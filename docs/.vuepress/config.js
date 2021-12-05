@@ -54,6 +54,7 @@ module.exports = {
                 {text: 'SEO', link: '/unsorted/seo'},
                 {text: 'SMM', link: '/unsorted/smm'},
                 {text: 'Mikrotik', link: '/unsorted/mikrotik'},
+                {text: 'Электрокомпоненты', link: '/unsorted/electrocomponents'}
             ]},
             {text: 'Заметки', link: '/notes'},
             {text: 'Путешествия', children: [
