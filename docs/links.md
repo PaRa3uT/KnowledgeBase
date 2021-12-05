@@ -46,6 +46,7 @@
 [GiftOfSpeed](https://www.giftofspeed.com/)  
 
 ## Электроника
+[Калькулятор делителя напряжения](https://cxem.net/calc/divider_calc.php)  
 [wikihandbk.com](http://wikihandbk.com)  
 [arduinomaster.ru](https://arduinomaster.ru)  
 [arduino-diy.com](http://arduino-diy.com)  
