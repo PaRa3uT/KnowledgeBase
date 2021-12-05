@@ -54,7 +54,7 @@
 [kazus.ru](http://kazus.ru)  
 [radiokot.ru](http://radiokot.ru/)  
 [ab-log.ru/smart-house (умный дом)](http://ab-log.ru/smart-house)  
-[www.youtube.com/channel/UCXgs4exdtMpz4ccBZS3Yp4g/videos?flow=grid&view=0&sort=da](https://www.youtube.com/channel/UCXgs4exdtMpz4ccBZS3Yp4g/videos?flow=grid&view=0&sort=da)  
+[narod stream](https://www.youtube.com/channel/UCXgs4exdtMpz4ccBZS3Yp4g/videos?flow=grid&view=0&sort=da)  
 [electronix.ru](https://electronix.ru)  
 [arduinoplus.ru](https://arduinoplus.ru/)  
 [esp8266.ru](https://esp8266.ru/)  
@@ -63,11 +63,17 @@
 [Robot Class](http://robotclass.ru/tutorials/)  
 
 ### Arduino
+[RobotChip](https://robotchip.ru/category/arduino-projects/)  
+[Уроки программирования Ардуино](http://mypractic.ru/uroki-programmirovaniya-arduino-navigaciya-po-urokam)  
 ### AVR
 ### ESP8266
 ### STM32
 [Уроки STM32](http://mypractic.ru/uroki-stm32)  
-
+[Разработка под STM32. Часть 2. Создание проекта для STM32 в Eclipse. Библиотеки CMSIS и SPL](https://bovs.org/post/87/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%BF%D0%BE%D0%B4+STM32+%D1%81+%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E+Versaloon.+%D0%A7%D0%B0%D1%81%D1%82%D1%8C+2.+%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5+%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0+%D0%B4%D0%BB%D1%8F+STM32+%D0%B2+Eclipse.+CMSIS+++SPL)
+[Разработка под STM32. Часть 3. Отладка проекта STM32 в Eclipse](https://bovs.org/post/88/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%BF%D0%BE%D0%B4%20STM32.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%203.%20%D0%9E%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20STM32%20%D0%B2%20Eclipse)
+[Разработка под STM32. Часть 4. Что представляет собой CMSIS и SPL. Порты ввода-вывода и базовый таймер](https://bovs.org/post/89/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%BF%D0%BE%D0%B4%20STM32.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%204.%20%D0%A7%D1%82%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%20%D1%81%D0%BE%D0%B1%D0%BE%D0%B9%20CMSIS%20%D0%B8%20SPL.%20%D0%9F%D0%BE%D1%80%D1%82%D1%8B%20%D0%B2%D0%B2%D0%BE%D0%B4%D0%B0-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D0%B0%20%D0%B8%20%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%82%D0%B0%D0%B9%D0%BC%D0%B5%D1%80)
+[STM32 без HAL и SPL](https://itnan.ru/post.php?c=1&p=337622)
+[STM32H7 — настройка тактирования без HAL](https://habr.com/ru/post/427435/)
 ## Proxy
 [spys.one](http://spys.one/proxies/)  
 [sockslist.net](https://sockslist.net/)  
