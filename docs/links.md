@@ -46,6 +46,12 @@
 [GiftOfSpeed](https://www.giftofspeed.com/)  
 
 ## Электроника
+[3DiY База знаний](https://3d-diy.ru/wiki/)
+[Random Nerd Tutorials](https://randomnerdtutorials.com/)
+[Обучающие уроки и проекты для Arduino, ESP, Raspberry Pi](https://lesson.iarduino.ru/)
+[ArduinoMaster](https://arduinomaster.ru/)
+[Вольтик. Энциклопедия Arduino](https://voltiq.ru/wiki/)
+[Arduinka.Pro. Блог](https://arduinka.pro/blog/)
 [Калькулятор делителя напряжения](https://cxem.net/calc/divider_calc.php)  
 [wikihandbk.com](http://wikihandbk.com)  
 [arduinomaster.ru](https://arduinomaster.ru)  
