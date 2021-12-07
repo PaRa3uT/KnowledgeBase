@@ -70,3 +70,56 @@ data = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
 df = data[0]
 print(df)
 ```
+
+
+## Занимательные фигуры на Python в одну строку
+```
+# Квадрат
+print("\n".join("* " * 4 for i in range(4)))
+# ---
+print(*["* " * 4 for i in range(4)], sep='\n')
+
+# Прямоугольный треугольник
+print("\n".join("* " * i for i in range(7)))
+# ---
+print(*["* " * i for i in range(7)], sep='\n')
+
+# Перевёрнутый прямоугольный треугольник
+print("\n".join("* " * i for i in range(7, 0, -1)))
+# ---
+print(*["* " * i for i in range(7, 0, -1)], sep='\n')
+
+# Пирамида
+print("\n".join(('* ' * i + '*').rjust(7 * 2 + i) for i in range(7)))
+# ---
+print(*[" " * (8-i) + " *" * i for i in range(1, 8)], sep='\n')
+
+# Повёрнутый тупоугольный треугольник
+from itertools import chain
+print("\n".join(chain(("* " * i for i in range(7)), ("* " * i for i in range(7, 0, -1)))))
+# ---
+print(*["* " * i for i in range(7)], *["* " * i for i in range(7, 0, -1)], sep='\n')
+
+# Ромб
+from itertools import chain
+print("\n".join(chain((('* ' * i + '*').rjust(7 * 2 + i) for i in range(6)), (('* ' * i + '*').rjust(7 * 2 + i) for i in range(6, -1, -1)))))
+# ---
+print("\n".join(*[(*(('* ' * i + '*').rjust(7 * 2 + i) for i in range(6)), *(('* ' * i + '*').rjust(7 * 2 + i) for i in range(6, -1, -1)))]))
+# ---
+print(*[('* ' * i + '*').rjust(7 * 2 + i) for i in range(6)], *[('* ' * i + '*').rjust(7 * 2 + i) for i in range(6, -1, -1)], sep='\n')
+
+# Песочные часы
+from itertools import chain
+print("\n".join(chain((('* ' * i + '*').rjust(7 * 2 + i) for i in range(6, 0, -1)), (('* ' * i + '*').rjust(7 * 2 + i) for i in range(7)))))
+# ---
+print(*[('* ' * i + '*').rjust(7 * 2 + i) for i in range(6, 0, -1)], *[('* ' * i + '*').rjust(7 * 2 + i) for i in range(7)], sep='\n')
+
+# Ель
+from itertools import chain
+print("\n".join(chain((('* ' * i + '*').rjust(7 * 2 + i) for i in range(5)), (('* ' * i + '*').rjust(7 * 2 + i) for i in range(1, 7)), (('* ' * i + '*').rjust(7 * 2 + i) for i in range(1, 9)))))
+# ---
+print(*[('* ' * i + '*').rjust(7 * 2 + i) for i in range(5)], *[('* ' * i + '*').rjust(7 * 2 + i) for i in range(1, 7)], *[('* ' * i + '*').rjust(7 * 2 + i) for i in range(1, 9)], sep='\n')
+
+# Сердце
+print('\n'.join(' '.join(*zip(*row)) for row in ([["*" if row==0 and col%3!=0 or row==1 and col%3==0 or row-col==2 or row+col==8 else " " for col in range(7)] for row in range(6)])))
+```
