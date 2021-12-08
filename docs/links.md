@@ -12,6 +12,8 @@
 []()
 
 ## Online Tools
+[Оптимизация картинок](https://tinypng.com/)
+[Преобразование форматов изображений](https://cloudconvert.com/)
 [Explain PostgreSQL Анализ планов, нормализация запросов](https://explain.tensor.ru/)  
 [NGINX Config Generator](https://nginxconfig.io/)  
 [MD5 Encrypt/Decrypt](https://www.md5online.org/)  
