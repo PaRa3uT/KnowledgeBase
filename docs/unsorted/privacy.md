@@ -29,3 +29,24 @@
 ## Облачное хранилище
 [Mega](https://mega.io/)  
 [NextCloud](https://nextcloud.com/)  
+
+## Проверки
+### DNS Leak Test
+- [hidester.com](https://hidester.com/dns-leak-test/)
+- [dnsleak.com](http://dnsleak.com/)
+- [www.dnsleaktest.com](https://www.dnsleaktest.com/)
+
+### Browser security test
+- [Cloudflare](https://1.1.1.1/help)
+- [ESNI](https://www.cloudflare.com/ssl/encrypted-sni/)
+- [webkay.robinlinus](http://webkay.robinlinus.com)
+- [panopticlick](https://panopticlick.eff.org)
+- [coveryourtracks](https://coveryourtracks.eff.org)
+- [browserleaks](https://browserleaks.com/)
+- [WebRTC leak](https://diafygi.github.io/webrtc-ips/)
+- [ip-check.info](http://ip-check.info/?lang=en)
+- [whoer.net](https://whoer.net/ru#extended)
+- [ipleak.net](https://ipleak.net/)
+- [amiunique.org](https://amiunique.org/fp)
+- [www.browserleaks.com/fonts](http://www.browserleaks.com/fonts)
+- [http://net.ipcalf.com](http://net.ipcalf.com)
