@@ -1,4 +1,9 @@
 # Конфиденциальность
+- DNSCrypt
+- PGP
+- KeePass
+- VeraCrypt
+
 ## Браузеры
 [TOR](https://www.torproject.org/download/)  
 [Firefox](https://www.mozilla.org/ru/firefox/)  
