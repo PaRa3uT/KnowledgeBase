@@ -87,14 +87,21 @@ ansible-vault view host_vars/cdn-01.example.com/secret (Показать заш�
 
 ## Docker
   docker inspect <image_name>  
-  docker run <image_name> (запустить контейнер)
+  docker run <image_name> (запустить контейнер)  
   docker run <image_id>  
   docker container run <image_name>  
-  docker container run -it <image_name> /bin/bash
+  docker container run -it <image_name> /bin/bash  
   docker container run -d <image_name>  
   docker container run -d --name <my_container_name> <image_name>  
+  docker container run --rm nginx  
   docker container attach  
   docker stop <image_name>  
+  docker container run --name <my_custom_name> -d -p host_ip:host_port:container_port/protocol <image_name>  
+  docker container run --name <custom_container_name> -d -v host_src:container_dest:options  
+  docker container run --name <custom_container_name> -d -p 8080:80 -v $(pwd)/public_html:/usr/share/nginx/html <image_name>  
+  docker network create -d bridge <network_name> (create docker network)  
+  docker container run -d --network <network_name> <image_name> (run container in docker network)  
+  docker network list  
   
 ### List Docker CLI commands
 docker  
