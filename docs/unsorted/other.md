@@ -87,7 +87,15 @@ ansible-vault view host_vars/cdn-01.example.com/secret (Показать заш�
 
 ## Docker
   docker inspect <image_name>  
-
+  docker run <image_name> (запустить контейнер)
+  docker run <image_id>  
+  docker container run <image_name>  
+  docker container run -it <image_name> /bin/bash
+  docker container run -d <image_name>  
+  docker container run -d --name <my_container_name> <image_name>  
+  docker container attach  
+  docker stop <image_name>  
+  
 ### List Docker CLI commands
 docker  
 docker container --help  
@@ -103,6 +111,7 @@ docker image ls
 
 ### List Docker containers (running, all, all in quiet mode)
 docker container ls  
+docker container ls -a
 docker container ls -all  
 docker container ls -eq  
 
