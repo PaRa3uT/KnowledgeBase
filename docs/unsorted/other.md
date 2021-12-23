@@ -127,6 +127,13 @@ docker volume ls
 
 
 ## Docker-Compose
+docker-compose logs (посмотреть логи)  
+docker-compose pause  
+docker-compose unpause  
+docker-compose stop  
+docker-compose down  
+docker image rm name:tag  
+
 ```
 services:
   db_postgres:
@@ -223,5 +230,6 @@ kubectl version ()
 ## Наборы технологий
 Backend: FastAPI (Python), Yii (PHP)  
 Frontend: Vue (JavaScript), Next (SSR) (Javascript)  
-Database: SQLite, MariaDB/MySQL, PostgreSQL, TimescaleDB, PostGIS  
+Database: SQLite, MariaDB/MySQL, PostgreSQL, TimescaleDB, PostGIS
+Queue: RabbitMQ, Celery  
 Other: uvicorn (ASGI), nginx (HTTP Server, Balancer), Redis (Memory Cache)  
