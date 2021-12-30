@@ -32,12 +32,28 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 
 
 ## Акции, дивидентные
-Норникель ()  
-Abbvie (ABBV_SPB)  
-Exxon Mobil (XOM_SPB)  
-Altria (MO-RM)  
-Philip Morris (PM_SPB)  
-Chevron (CVX_SPB)  
+ :grey_question:«Газпрома»  
+:grey_question:ВТБ  
+:grey_question:Норникель ()  
+:grey_question:Сбербанк «преф» (SBERP)  
+:grey_question:Globaltrans (GLTR)  
+:grey_question:«Энел Россия» (ENRU)  
+:grey_question:МТС (MTSS)  
+:grey_question:«Ленэнерго» (LSNGP)  
+:grey_question:«Детский мир»  
+:grey_question:«ФосАгро»  
+
+
+:grey_question:Phillips 66 (PSX)  
+:grey_question:Lockheed Martin (LMT)  
+:grey_question:Pfizer (PFE)  
+:grey_question:Merck (MRK)  
+:grey_question:3M Company (MMM)  
+:grey_question:Abbvie (ABBV_SPB)  
+:grey_question:Exxon Mobil (XOM_SPB)  
+:grey_question:Altria (MO-RM)  
+:grey_question:Philip Morris (PM_SPB)  
+:grey_question:Chevron (CVX_SPB)  
 
 ## Облигации
 ### Надёжные
@@ -98,7 +114,21 @@ Chevron (CVX_SPB)
 :grey_question:ОФЗ 26238 (2041.05.15)  
 :grey_question:ОФЗ 26231 (2044.07.20)  
 ### Доходные
-
+:grey_question:Российский национальный коммерческий банк, выпуск 01 ISIN: RU000A101FK0  
+:grey_question:ГК «Пионер», выпуск 001P-05 ISIN: RU000A102KG6  
+:grey_question:ГК «Самолет», выпуск 001P-04 ISIN: RU000A0ZZZZ2  
+:grey_question:Якутская топливно-энергетическая компания, выпуск 001P-02 ISIN: RU000A102ZH2  
+:grey_question:«Дом.РФ», БО-10 ISIN: RU000A0ZYFN3  
+:grey_question:Государственная транспортная лизинговая компания (ГТЛК), выпуск 001P-10 ISIN: RU000A0ZZ984  
+:grey_question:«РЕСО-Лизинг», выпуск БО-05 ISIN: RU000A0JWVT5  
+:grey_question:ХКФ Банк, выпуск БО-04 ISIN: RU000A103760  
+:grey_question:Международный банк экономического сотрудничества, выпуск 001P-01 ISIN: RU000A101RJ7  
+:grey_question:ХК «Новотранс», выпуск 001P-02 ISIN: RU000A103133  
+:grey_question:«ДелоПортс» 1P1  
+:grey_question:ЛСР БО 1Р3  
+:grey_question:О'КЕЙ Б1Р2  
+:grey_question:«РУСАЛ Братск» Б1P1  
+:grey_question:«СИНХ-Финанс» БО1P1  
 
 ## ИИС 
 ИИС выгоднее использовать если есть официальный доход и счёт планируется использовать для долгосрочных инвестиций и накоплений.
