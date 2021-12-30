@@ -229,7 +229,7 @@ kubectl version ()
 
 ## Наборы технологий
 Backend: FastAPI (Python), Yii (PHP)  
-Frontend: Vue (JavaScript), Next (SSR) (Javascript)  
+Frontend: Vue (JavaScript), Next (SSR) (Javascript), [vis.js](https://visjs.org/)  
 Database: SQLite, MariaDB/MySQL, PostgreSQL, TimescaleDB, PostGIS
 Queue: RabbitMQ, Celery  
 Other: uvicorn (ASGI), nginx (HTTP Server, Balancer), Redis (Memory Cache)  
