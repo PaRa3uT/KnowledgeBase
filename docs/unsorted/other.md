@@ -233,3 +233,4 @@ Frontend: Vue (JavaScript), Next (SSR) (Javascript)
 Database: SQLite, MariaDB/MySQL, PostgreSQL, TimescaleDB, PostGIS
 Queue: RabbitMQ, Celery  
 Other: uvicorn (ASGI), nginx (HTTP Server, Balancer), Redis (Memory Cache)  
+Work: Fluentbit (отправка логов), Logstash/Fluentd(Graylog, Sentry), ClickHouse, Grafana, Prometheus, JSON, Jaeger, Kibana, gRPC, Docker, Docker Compose, Hadoop, Python 2.7 Golang Visual Studio Code, Git, Oracle Enterprise Linux 7 Free, PostgreSQL 12.5, Kubernetes, Kafka, VueJS, Nginx, React, Jenkins, Ansible, Rabbit MQ, Python 3, DBeaver
