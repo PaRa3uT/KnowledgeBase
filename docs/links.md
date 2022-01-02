@@ -88,7 +88,7 @@
 
 ## Onion
 ### Torrents
-[rutracker.org](http://rutrackerripnext.onion/forum/index.php)  
+[rutracker.org](http://torrentsru5dbmqszbdinnz7cjiubxsjngq52qij6ih3fmp3gn7hwqqd.onion/)  
 [rutor.org](http://rutorc6mqdinc4cz.onion)  
 [зеркало The Pirate Bay](http://uj3wazyk5u4hnvtk.onion)  
 [Схоронил](http://jtm5j25w7fq5tubs.onion)  
