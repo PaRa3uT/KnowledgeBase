@@ -4,18 +4,22 @@
 - KeePass
 - VeraCrypt
 
-## Браузеры
-### [TOR](https://www.torproject.org/download/)
+## [TOR](https://www.torproject.org/download/)
 mirror - https://tor.eff.org  
 Если сайт Torproject.org заблокирован, можно отправить письмо с пустой темой на адрес bridges@Torproject.org, написав в теле сообщения строку
 get transport obfs4.
 Важный момент: письмо нужно отправлять исключительно с Gmail или  Riseup, иначе оно будет проигнорировано. В ответ специально обученный бот пришлет вам адреса мостов, которые вы сможете прописать в настройках Tor Browser.  
-
 Для получения мостов Tor можно теперь использовать бот Telegram
 1. Подключаемся к боту @GetBridgesBot в Telegram.
 2. Вбиваем /bridges
 3. Копируем всю строку полностью.
- 
+
+## I2P
+### [i2p](https://geti2p.net/ru/)
+http://i2p-projekt.i2p/en/  
+### [i2pd](https://github.com/PurpleI2P/i2pd)
+
+## Браузеры
 [Firefox](https://www.mozilla.org/ru/firefox/)  
 
 ## Поисковики
