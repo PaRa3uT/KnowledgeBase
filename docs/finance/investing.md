@@ -31,12 +31,12 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 Если свеча является бычьей, то цена открытия всегда будет находиться снизу, а цена закрытия – сверху. Если свеча является медвежьей, то цена открытия всегда будет находиться сверху, а цена закрытия – снизу.  
 
 ## Фонды
++Сбербанк «Индекс S&P 500» SBSP  
++ВТБ «Фонд Акций американских компаний» VTBA  
++ВТБ «Индекс МосБиржи» VTBX  
 :grey_question:индекс Мосбиржи  
 :grey_question:индекс S&P 500  
-:grey_question:Сбербанк «Индекс S&P 500» SBSP  
-:grey_question:ВТБ «Фонд Акций американских компаний» VTBA  
-:grey_question:ВТБ «Индекс МосБиржи» VTBX  
-:grey_question::grey_question:Тинькофф «Индекс МосБиржи» TMOS  
+:grey_question:Тинькофф «Индекс МосБиржи» TMOS  
 :grey_question:Сбербанк «Индекс МосБиржи полной доходности «брутто» SBMX  
 :grey_question:ETF KWEB  
 :grey_question:TPAS (Tinkoff PanAsia)  
