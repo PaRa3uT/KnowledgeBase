@@ -30,9 +30,40 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 Цвет тела свечи указывает на ее тип: бычья (растущая) или медвежья (падающая)  
 Если свеча является бычьей, то цена открытия всегда будет находиться снизу, а цена закрытия – сверху. Если свеча является медвежьей, то цена открытия всегда будет находиться сверху, а цена закрытия – снизу.  
 
+## Фонды
+:grey_question:индекс Мосбиржи  
+:grey_question:индекс S&P 500  
+:grey_question:Сбербанк «Индекс S&P 500» SBSP  
+:grey_question:ВТБ «Фонд Акций американских компаний» VTBA  
+:grey_question:ВТБ «Индекс МосБиржи» VTBX  
+:grey_question::grey_question:Тинькофф «Индекс МосБиржи» TMOS  
+:grey_question:Сбербанк «Индекс МосБиржи полной доходности «брутто» SBMX  
+:grey_question:ETF KWEB  
+:grey_question:TPAS (Tinkoff PanAsia)  
+:grey_question:TEMS (Tinkoff emerging markets)  
+:grey_question:FinEx China (MOEX: FXCN)  
+:grey_question:Emerging Markets Internet & Ecommerce (NYSE Arca: EMQQ)  
+:grey_question:FinEx «Акции / Казахстан» FXKZ  
+:grey_question:ВТБ «Акции развивающихся стран» VTBE  
+:grey_question:Альфа-Капитал «Китайские акции» AKCH  
+:grey_question:FinEx «Акции / Китай» FXCN  
+:grey_question:«Альфа-Капитал Управляемые облигации» AKMB  
+:grey_question:FinEx «Еврооблигации российских эмитентов с рублевым хеджем» FXRB  
+:grey_question:FinEx «Краткосрочные гособлигации США с рублевым хеджем» FXMM  
+:grey_question:ВТБ «Американский корпоративный долг» VTBH  
+:grey_question:Сбербанк «Индекс Мосбиржи рублевых корпоративных облигаций» SBR  
+:grey_question:Renewable Energy Producers от Global X (NASDAQ: RNRG)  
+:grey_question:ETF на золото  
+:grey_question:ETF Commodites: кофе, хлопок и, возможно, нефть  
+:grey_question:FinEx «Золото» (FXGD)  
+:grey_question:FinEx Gold ETF FXGD  
+:grey_question:«ВТБ — Фонд Золото. Биржевой» VTBG  
+:grey_question:«Тинькофф Золото» TGLD  
+:grey_question:«АТОН — Золотодобытчики» AMGM  
+:grey_question:«Альфа-Капитал Золото» AKGD
 
 ## Акции, дивидентные
- :grey_question:«Газпрома»  
+:grey_question:«Газпрома»  
 :grey_question:ВТБ  
 :grey_question:Норникель ()  
 :grey_question:Сбербанк «преф» (SBERP)  
