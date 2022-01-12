@@ -36,6 +36,9 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 +ВТБ «Индекс МосБиржи» VTBX  
 *ВТБ «Акции развивающихся стран» VTBE  
 *«ВТБ — Фонд Золото. Биржевой» VTBG  
+*FinEx «Акции / Казахстан» FXKZ  
+*FinEx «Акции / Китай» FXCN  
+*FinEx «Золото» (FXGD)  
 -ВТБ «Американский корпоративный долг» VTBH  
 :grey_question:индекс Мосбиржи  
 :grey_question:индекс S&P 500  
@@ -46,9 +49,6 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 :grey_question:TEMS (Tinkoff emerging markets)  
 :grey_question:FinEx China (MOEX: FXCN)  
 :grey_question:Emerging Markets Internet & Ecommerce (NYSE Arca: EMQQ)  
-:grey_question:FinEx «Акции / Казахстан» FXKZ  
-:grey_question:Альфа-Капитал «Китайские акции» AKCH  
-:grey_question:FinEx «Акции / Китай» FXCN  
 :grey_question:«Альфа-Капитал Управляемые облигации» AKMB  
 :grey_question:FinEx «Еврооблигации российских эмитентов с рублевым хеджем» FXRB  
 :grey_question:FinEx «Краткосрочные гособлигации США с рублевым хеджем» FXMM  
@@ -56,8 +56,6 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 :grey_question:Renewable Energy Producers от Global X (NASDAQ: RNRG)  
 :grey_question:ETF на золото  
 :grey_question:ETF Commodites: кофе, хлопок и, возможно, нефть  
-:grey_question:FinEx «Золото» (FXGD)  
-:grey_question:FinEx Gold ETF FXGD  
 :grey_question:«Тинькофф Золото» TGLD  
 :grey_question:«АТОН — Золотодобытчики» AMGM  
 :grey_question:«Альфа-Капитал Золото» AKGD
