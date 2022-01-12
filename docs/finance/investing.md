@@ -43,22 +43,22 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 :grey_question:индекс Мосбиржи  
 :grey_question:индекс S&P 500  
 :grey_question:Тинькофф «Индекс МосБиржи» TMOS  
-:grey_question:Сбербанк «Индекс МосБиржи полной доходности «брутто» SBMX  
-:grey_question:ETF KWEB  
 :grey_question:TPAS (Tinkoff PanAsia)  
 :grey_question:TEMS (Tinkoff emerging markets)  
+:grey_question:«Тинькофф Золото» TGLD  
+:grey_question:Сбербанк «Индекс МосБиржи полной доходности «брутто» SBMX  
+:grey_question:Сбербанк «Индекс Мосбиржи рублевых корпоративных облигаций» SBR  
 :grey_question:FinEx China (MOEX: FXCN)  
-:grey_question:Emerging Markets Internet & Ecommerce (NYSE Arca: EMQQ)  
-:grey_question:«Альфа-Капитал Управляемые облигации» AKMB  
 :grey_question:FinEx «Еврооблигации российских эмитентов с рублевым хеджем» FXRB  
 :grey_question:FinEx «Краткосрочные гособлигации США с рублевым хеджем» FXMM  
-:grey_question:Сбербанк «Индекс Мосбиржи рублевых корпоративных облигаций» SBR  
+:grey_question:ETF KWEB  
+:grey_question:Emerging Markets Internet & Ecommerce (NYSE Arca: EMQQ)  
+:grey_question:«Альфа-Капитал Управляемые облигации» AKMB  
+:grey_question:«Альфа-Капитал Золото» AKGD
 :grey_question:Renewable Energy Producers от Global X (NASDAQ: RNRG)  
 :grey_question:ETF на золото  
 :grey_question:ETF Commodites: кофе, хлопок и, возможно, нефть  
-:grey_question:«Тинькофф Золото» TGLD  
 :grey_question:«АТОН — Золотодобытчики» AMGM  
-:grey_question:«Альфа-Капитал Золото» AKGD
 
 ## Акции, дивидентные
 :grey_question:«Газпрома»  
