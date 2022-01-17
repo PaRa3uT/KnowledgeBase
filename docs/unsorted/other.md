@@ -1,5 +1,10 @@
 # Other
 
+## [ClickHouse](https://clickhouse.com/)
+```
+clickhouse-client --host=... --port=... --user=... --password=...
+```
+
 ## [Mosquitto](https://mosquitto.org/)
 1.6.9 (default) bind websockets port on windows
 2.0.14 (default) don't bind websocket port on Windows
