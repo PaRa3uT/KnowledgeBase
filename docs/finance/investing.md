@@ -32,14 +32,14 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 
 ## Фонды
 :heavy_check_mark:Сбербанк «Индекс S&P 500» SBSP  
-:heavy_plus_sign:ВТБ «Фонд Акций американских компаний» VTBA  
-+ВТБ «Индекс МосБиржи» VTBX  
+:heavy_check_mark:ВТБ «Фонд Акций американских компаний» VTBA  
+:heavy_check_mark:ВТБ «Индекс МосБиржи» VTBX  
 :interrobang:ВТБ «Акции развивающихся стран» VTBE  
-*«ВТБ — Фонд Золото. Биржевой» VTBG  
-*FinEx «Акции / Казахстан» FXKZ  
-*FinEx «Акции / Китай» FXCN  
-*FinEx «Золото» (FXGD)  
--ВТБ «Американский корпоративный долг» VTBH  
+:interrobang:«ВТБ — Фонд Золото. Биржевой» VTBG  
+:interrobang:FinEx «Акции / Казахстан» FXKZ  
+:interrobang:FinEx «Акции / Китай» FXCN  
+:interrobang:FinEx «Золото» (FXGD)  
+:heavy_minus_sign:ВТБ «Американский корпоративный долг» VTBH  
 :grey_question:индекс Мосбиржи  
 :grey_question:индекс S&P 500  
 :grey_question:Тинькофф «Индекс МосБиржи» TMOS  
