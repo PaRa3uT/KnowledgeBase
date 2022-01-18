@@ -33,10 +33,14 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 ## Фонды
 :heavy_check_mark:Сбербанк «Индекс S&P 500» SBSP  
 :heavy_check_mark:ВТБ «Фонд Акций американских компаний»(?S&P 500) (VTBA)  
-:heavy_check_mark:ВТБ - индекс Мосбиржи (VTBX)
-:heavy_check_mark:FinEx - индекс Мосбиржи FXRL
-:heavy_check_mark:Сбербанк - индекс Мосбиржи SBMX
-:heavy_check_mark:Тинькофф - «Индекс МосБиржи» TMOS
+:heavy_check_mark:ВТБ - индекс Мосбиржи (VTBX)  
+:heavy_check_mark:FinEx - индекс Мосбиржи FXRL  
+:heavy_check_mark:Сбербанк - индекс Мосбиржи SBMX  
+:heavy_check_mark:Тинькофф - «Индекс МосБиржи» TMOS  
+:heavy_check_mark:FinEx «Еврооблигации российских эмитентов с рублевым хеджем» FXRB  
+:heavy_check_mark:FinEx «Краткосрочные гособлигации США с рублевым хеджем» FXMM  
+:heavy_check_mark:«Альфа-Капитал Управляемые облигации» AKMB  
+:interrobang:Сбербанк «Индекс Мосбиржи рублевых корпоративных облигаций» SBRB  
 :interrobang:ВТБ «Акции развивающихся стран» VTBE  
 :interrobang:«ВТБ — Фонд Золото. Биржевой» VTBG  
 :interrobang:FinEx «Акции / Казахстан» FXKZ  
@@ -45,22 +49,13 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 :interrobang:TPAS (Tinkoff PanAsia)  
 :interrobang:TEMS (Tinkoff emerging markets)  
 :interrobang:«Тинькофф Золото» TGLD  
-
+:interrobang:*«Альфа-Капитал Золото» AKGD
 :heavy_minus_sign:ВТБ «Американский корпоративный долг» VTBH  
----
-
-*Сбербанк «Индекс Мосбиржи рублевых корпоративных облигаций» SBR  
-:grey_question:FinEx China (MOEX: FXCN)  
-:grey_question:FinEx «Еврооблигации российских эмитентов с рублевым хеджем» FXRB  
-:grey_question:FinEx «Краткосрочные гособлигации США с рублевым хеджем» FXMM  
-:grey_question:ETF KWEB  
-:grey_question:Emerging Markets Internet & Ecommerce (NYSE Arca: EMQQ)  
-:grey_question:«Альфа-Капитал Управляемые облигации» AKMB  
-:grey_question:«Альфа-Капитал Золото» AKGD
-:grey_question:Renewable Energy Producers от Global X (NASDAQ: RNRG)  
-:grey_question:ETF на золото  
+:heavy_minus_sign:ETF KWEB (не торгуется на российских биржах)  
+:heavy_minus_sign:Emerging Markets Internet & Ecommerce (NYSE Arca: EMQQ)(не торгуется на российских биржах)  
+:heavy_minus_sign:Renewable Energy Producers от Global X (NASDAQ: RNRG)(не торгуется на российских биржах)  
+:heavy_minus_sign:«АТОН — Золотодобытчики» AMGM  
 :grey_question:ETF Commodites: кофе, хлопок и, возможно, нефть  
-:grey_question:«АТОН — Золотодобытчики» AMGM  
 
 ## Акции, дивидентные
 :grey_question:«Газпрома»  
