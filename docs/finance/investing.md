@@ -32,8 +32,9 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 
 ## Фонды
 :heavy_check_mark:Сбербанк «Индекс S&P 500» SBSP  
-:heavy_check_mark:ВТБ «Фонд Акций американских компаний»(?S&P 500) (VTBA)  
+:heavy_check_mark:ВТБ - Американские акции (?S&P 500) (VTBA)  
 :heavy_check_mark:ВТБ - индекс Мосбиржи (VTBX)  
+:heavy_check_mark:ВТБ - Ликвидность (VTBM)  
 :heavy_check_mark:FinEx - индекс Мосбиржи FXRL  
 :heavy_check_mark:Сбербанк - индекс Мосбиржи SBMX  
 :heavy_check_mark:Тинькофф - «Индекс МосБиржи» TMOS  
@@ -41,8 +42,8 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 :heavy_check_mark:FinEx «Краткосрочные гособлигации США с рублевым хеджем» FXMM  
 :heavy_check_mark:«Альфа-Капитал Управляемые облигации» AKMB  
 :interrobang:Сбербанк «Индекс Мосбиржи рублевых корпоративных облигаций» SBRB  
-:interrobang:ВТБ «Акции развивающихся стран» VTBE  
-:interrobang:«ВТБ — Фонд Золото. Биржевой» VTBG  
+:interrobang:ВТБ - Акции развивающихся стран (VTBE)  
+:interrobang:ВТБ - Фонд Золото. Биржевой (VTBG)  
 :interrobang:FinEx «Акции / Казахстан» FXKZ  
 :interrobang:FinEx «Акции / Китай» FXCN  
 :interrobang:FinEx «Золото» (FXGD)  
@@ -58,17 +59,32 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 :grey_question:ETF Commodites: кофе, хлопок и, возможно, нефть  
 
 ## Акции, дивидентные
-:grey_question:«Газпрома»  
-:grey_question:ВТБ  
-:grey_question:Норникель ()  
-:grey_question:Сбербанк «преф» (SBERP)  
-:grey_question:Globaltrans (GLTR)  
+:heavy_check_mark:НЛМК (NLMK)(~11.3)(~205.30)  
+:heavy_check_mark:Северсталь (CHMF)(~10.9)(~1482.4)  
+:heavy_check_mark:Ленэнерго-П (LSNGP)(~9.05)(~160.5)  
+:heavy_check_mark:Норникель (GMKN)(~8.94)(~21212)  
+:heavy_check_mark:МТС (MTSS)(~8.69)(~278.45)  
+:heavy_check_mark:Алроса (ALRS)(~8.5)(~111.75)  
+:heavy_check_mark:Детский мир (DSKY)(~7.93)(~114.66)  
+:heavy_check_mark:Сбербанк «преф» (SBERP)(~7.74)(~244.87)  
+:heavy_check_mark:Магнит (MGNT)(~7.66)(~5004.5)  
+:heavy_check_mark:«ФосАгро» (PHOR)(~7.47)(~5705)  
+:heavy_check_mark:Газпром нефть (SIBN)(~7.23)(~516.05)  
+:heavy_check_mark:Сбербанк (SBER)(~7.2%)  
+:heavy_check_mark:Татнефть (TATN)(~7.17)  
+:grey_question:МосБиржа (MOEX)(~6.55)  
+:grey_question:Газпром (GAZP)(~6.37)  
+:grey_question:Лукойл (LKOH)(~5.9)  
+:grey_question:X5 (FIVE)(~5.19)  
+:grey_question:Роснефть (ROSN)(~4.54)  
+:grey_question:Polymetal (POLY)(~4.5)  
+:grey_question:Полюс (PLZL)(~3.84)  
+:grey_question:ВТБ (VTBR)(~3.7)  
+:grey_question:Новатэк (NVTK)(~2.29)  
+:grey_question:Сургутнефтегаз (SNGS)(~2.08)  
 :grey_question:«Энел Россия» (ENRU)  
-:grey_question:МТС (MTSS)  
-:grey_question:«Ленэнерго» (LSNGP)  
-:grey_question:«Детский мир»  
-:grey_question:«ФосАгро»  
-
+:grey_question:Globaltrans (GLTR) (~1.2$)  
+:grey_question:Тинькофф (TCSG)(~0.8$)  
 
 :grey_question:Phillips 66 (PSX)  
 :grey_question:Lockheed Martin (LMT)  
