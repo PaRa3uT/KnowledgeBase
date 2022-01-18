@@ -32,22 +32,24 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 
 ## Фонды
 :heavy_check_mark:Сбербанк «Индекс S&P 500» SBSP  
-:heavy_check_mark:ВТБ «Фонд Акций американских компаний» VTBA  
-:heavy_check_mark:ВТБ «Индекс МосБиржи» VTBX  
+:heavy_check_mark:ВТБ «Фонд Акций американских компаний»(?S&P 500) (VTBA)  
+:heavy_check_mark:ВТБ - индекс Мосбиржи (VTBX)
+:heavy_check_mark:FinEx - индекс Мосбиржи FXRL
+:heavy_check_mark:Сбербанк - индекс Мосбиржи SBMX
+:heavy_check_mark:Тинькофф - «Индекс МосБиржи» TMOS
 :interrobang:ВТБ «Акции развивающихся стран» VTBE  
 :interrobang:«ВТБ — Фонд Золото. Биржевой» VTBG  
 :interrobang:FinEx «Акции / Казахстан» FXKZ  
 :interrobang:FinEx «Акции / Китай» FXCN  
 :interrobang:FinEx «Золото» (FXGD)  
+:interrobang:TPAS (Tinkoff PanAsia)  
+:interrobang:TEMS (Tinkoff emerging markets)  
+:interrobang:«Тинькофф Золото» TGLD  
+
 :heavy_minus_sign:ВТБ «Американский корпоративный долг» VTBH  
-:grey_question:индекс Мосбиржи  
-:grey_question:индекс S&P 500  
-:grey_question:Тинькофф «Индекс МосБиржи» TMOS  
-:grey_question:TPAS (Tinkoff PanAsia)  
-:grey_question:TEMS (Tinkoff emerging markets)  
-:grey_question:«Тинькофф Золото» TGLD  
-:grey_question:Сбербанк «Индекс МосБиржи полной доходности «брутто» SBMX  
-:grey_question:Сбербанк «Индекс Мосбиржи рублевых корпоративных облигаций» SBR  
+---
+
+*Сбербанк «Индекс Мосбиржи рублевых корпоративных облигаций» SBR  
 :grey_question:FinEx China (MOEX: FXCN)  
 :grey_question:FinEx «Еврооблигации российских эмитентов с рублевым хеджем» FXRB  
 :grey_question:FinEx «Краткосрочные гособлигации США с рублевым хеджем» FXMM  
