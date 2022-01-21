@@ -94,6 +94,15 @@
 [Схоронил](http://jtm5j25w7fq5tubs.onion)  
 
 ## Dev
+[2021 JavaScript Rising Stars](https://risingstars.js.org/2021/en)
+[Grid](https://grid.malven.co/) - web page that aggregates complete detailed examples for each property used in defining the CSS3 grid system for a website
+[CSS Grid Cheat Sheet](https://alialaa.github.io/css-grid-cheat-sheet/) - website that helps you create grid system
+[CSS3 Animation Cheat Sheet](http://www.justinaguilar.com/animations/) - collection of CSS3 animations for your web project
+[Rico’s cheatsheets](https://devhints.io/) - almost complete aggregation cheatsheet for web developers such as React, Vue, ES6, Vim, Kotlin. Also you can find common keyboard shortcuts for code editors such as Visual Studio Code, Atom, Sublime Text
+[HTML CheatSheet](https://htmlcheatsheet.com/) - website that synthesizes useful examples and tools for web development to help us reduce the time and effort in web development such as choosing colors, creating links, creating images, create tables
+[GitSheet](https://gitsheet.wtf/) - aggregator of commands that you often use with Git
+[OverAPI.com](https://overapi.com/javascript) - website that aggregates cheat sheets for many popular web programming languages such as Javascript, NodeJS, PHP, Python, CSS
+[Awesome-Cheatsheets](https://lecoupa.github.io/awesome-cheatsheets/) - collection of popular web programming language cheatsheet
 [Page Speed Insight](https://pagespeed.web.dev/) - Анализирует контент веб-страницы на мобильных устройствах и компьютерах и советует, как ускорить ее загрузку
 [Color Palette Generator](https://colors.muz.li/) - Ищете лучшие цветовые палитры для использования в проектах веб-разработки? Найдете их на сайте Color Palette Generator. Для удобства на сайте есть поиск по цвету, по палитрам, а также шаблоны для вдохновения
 [Color Hunt](https://colorhunt.co/) - Инструмент для формирования цветовой палитры  
