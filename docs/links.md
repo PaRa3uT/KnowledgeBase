@@ -94,30 +94,30 @@
 [Схоронил](http://jtm5j25w7fq5tubs.onion)  
 
 ## Dev
-[2021 JavaScript Rising Stars](https://risingstars.js.org/2021/en)
-[Grid](https://grid.malven.co/) - web page that aggregates complete detailed examples for each property used in defining the CSS3 grid system for a website
-[CSS Grid Cheat Sheet](https://alialaa.github.io/css-grid-cheat-sheet/) - website that helps you create grid system
-[CSS3 Animation Cheat Sheet](http://www.justinaguilar.com/animations/) - collection of CSS3 animations for your web project
-[Rico’s cheatsheets](https://devhints.io/) - almost complete aggregation cheatsheet for web developers such as React, Vue, ES6, Vim, Kotlin. Also you can find common keyboard shortcuts for code editors such as Visual Studio Code, Atom, Sublime Text
-[HTML CheatSheet](https://htmlcheatsheet.com/) - website that synthesizes useful examples and tools for web development to help us reduce the time and effort in web development such as choosing colors, creating links, creating images, create tables
-[GitSheet](https://gitsheet.wtf/) - aggregator of commands that you often use with Git
-[OverAPI.com](https://overapi.com/javascript) - website that aggregates cheat sheets for many popular web programming languages such as Javascript, NodeJS, PHP, Python, CSS
-[Awesome-Cheatsheets](https://lecoupa.github.io/awesome-cheatsheets/) - collection of popular web programming language cheatsheet
-[Page Speed Insight](https://pagespeed.web.dev/) - Анализирует контент веб-страницы на мобильных устройствах и компьютерах и советует, как ускорить ее загрузку
-[Color Palette Generator](https://colors.muz.li/) - Ищете лучшие цветовые палитры для использования в проектах веб-разработки? Найдете их на сайте Color Palette Generator. Для удобства на сайте есть поиск по цвету, по палитрам, а также шаблоны для вдохновения
+[2021 JavaScript Rising Stars](https://risingstars.js.org/2021/en)  
+[Grid](https://grid.malven.co/) - web page that aggregates complete detailed examples for each property used in defining the CSS3 grid system for a website  
+[CSS Grid Cheat Sheet](https://alialaa.github.io/css-grid-cheat-sheet/) - website that helps you create grid system  
+[CSS3 Animation Cheat Sheet](http://www.justinaguilar.com/animations/) - collection of CSS3 animations for your web project  
+[Rico’s cheatsheets](https://devhints.io/) - almost complete aggregation cheatsheet for web developers such as React, Vue, ES6, Vim, Kotlin. Also you can find common keyboard shortcuts for code editors such as Visual Studio Code, Atom, Sublime Text  
+[HTML CheatSheet](https://htmlcheatsheet.com/) - website that synthesizes useful examples and tools for web development to help us reduce the time and effort in web development such as choosing colors, creating links, creating images, create tables  
+[GitSheet](https://gitsheet.wtf/) - aggregator of commands that you often use with Git  
+[OverAPI.com](https://overapi.com/javascript) - website that aggregates cheat sheets for many popular web programming languages such as Javascript, NodeJS, PHP, Python, CSS  
+[Awesome-Cheatsheets](https://lecoupa.github.io/awesome-cheatsheets/) - collection of popular web programming language cheatsheet  
+[Page Speed Insight](https://pagespeed.web.dev/) - Анализирует контент веб-страницы на мобильных устройствах и компьютерах и советует, как ускорить ее загрузку  
+[Color Palette Generator](https://colors.muz.li/) - Ищете лучшие цветовые палитры для использования в проектах веб-разработки? Найдете их на сайте Color Palette Generator. Для удобства на сайте есть поиск по цвету, по палитрам, а также шаблоны для вдохновения  
 [Color Hunt](https://colorhunt.co/) - Инструмент для формирования цветовой палитры  
-[Web Gradients](https://webgradients.com/) - На Web Gradients собрано 180 линейных градиентов, которые можно использовать на сайте в качестве фона для контента. Нужно только скопировать и вставить кроссбраузерный код CSS3. Также есть PNG-версия каждого градиента и пакеты для Sketch и Photoshop
-[Can I Use](https://caniuse.com/) - С помощью Can I Use можно узнать, что поддерживают браузеры и какие таблицы совместимости доступны для мобильных и десктопных браузеров. Инструмент тестирует 17 различных версий браузеров на поддержку свойств CSS, API DOM и тегов HTML
-[FrontEnd Checklist](https://frontendchecklist.io/) - Сайт для создания списка задач для фронтенда, чтобы выполнять их последовательно
-[Visual Type Scale](https://type-scale.com/) - Инструмент позволяет увидеть разницу между цветом шрифта, размером и значениями rem (размер шрифта корневого элемента).
-[CodeMyUI](https://codemyui.com/) - Сайт со сниппетами веб-дизайна и UI-сниппетами, которые можно свободно использовать в проектах
+[Web Gradients](https://webgradients.com/) - На Web Gradients собрано 180 линейных градиентов, которые можно использовать на сайте в качестве фона для контента. Нужно только скопировать и вставить кроссбраузерный код CSS3. Также есть PNG-версия каждого градиента и пакеты для Sketch и Photoshop  
+[Can I Use](https://caniuse.com/) - С помощью Can I Use можно узнать, что поддерживают браузеры и какие таблицы совместимости доступны для мобильных и десктопных браузеров. Инструмент тестирует 17 различных версий браузеров на поддержку свойств CSS, API DOM и тегов HTML  
+[FrontEnd Checklist](https://frontendchecklist.io/) - Сайт для создания списка задач для фронтенда, чтобы выполнять их последовательно  
+[Visual Type Scale](https://type-scale.com/) - Инструмент позволяет увидеть разницу между цветом шрифта, размером и значениями rem (размер шрифта корневого элемента).  
+[CodeMyUI](https://codemyui.com/) - Сайт со сниппетами веб-дизайна и UI-сниппетами, которые можно свободно использовать в проектах  
 [DevDocs](https://devdocs.io/) - Ресурс с документацией практически по каждой технологии, используемой в веб-разработке. Для удобства есть функция поиска. Любой файл можно скачать для чтения офлайн.  
-[Bundlephobia](https://bundlephobia.com/) - С помощью Bundlephobia можно проверить размер зависимостей до добавления их в проект.
+[Bundlephobia](https://bundlephobia.com/) - С помощью Bundlephobia можно проверить размер зависимостей до добавления их в проект.  
 
 
 ## Unsorted
-[Image Upscaler](https://imgupscaler.com/) - Бесплатный инструмент для улучшения качества изображения на основе последних разработок в области искусственного интеллекта. Поддерживает пакетную обработку.
-[Hiddentools.dev](https://www.hiddentools.dev/) - Сайт с инструментами для разработчиков и дизайнеров от сообщества айтишников. Коллекция постоянно пополняется
+[Image Upscaler](https://imgupscaler.com/) - Бесплатный инструмент для улучшения качества изображения на основе последних разработок в области искусственного интеллекта. Поддерживает пакетную обработку  
+[Hiddentools.dev](https://www.hiddentools.dev/) - Сайт с инструментами для разработчиков и дизайнеров от сообщества айтишников. Коллекция постоянно пополняется  
 [roadmap.sh](https://roadmap.sh/)  - Сайт с дорожными картами и образовательными материалами по разным технологиям  
 [SmartMockups](https://smartmockups.com/) - Позволяет создавать макеты высокого разрешения прямо в браузере и на различных устройствах с помощью единого интерфейса. Самый быстрый из доступных веб-инструментов для создания макетов, не требует предварительного опыта. Библиотека профессиональных макетов постоянно пополняется.  
 [overAPI](https://overapi.com/) - Собраны шпаргалки по самым популярным языкам программирования.  
