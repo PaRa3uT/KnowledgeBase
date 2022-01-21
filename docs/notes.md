@@ -1,14 +1,20 @@
 # Заметки
 ## Наборы инструментов
 Frontend:
-&ensp;&ensp;VueJS 2 + Vuetify  
-&ensp;&ensp;VueJS 3 + ?  
-Backend:  
-&ensp;&ensp;FastAPI  
-Обработка задач:  
-&ensp;&ensp;Брокер очередей/задач (RabbitMQ, ActiveMQ)  
-&ensp;&ensp;ранение статуса задачи (Redis)  
-&ensp;&ensp;Воркеры (непосредственно выполняющие задачи)  
+- VueJS 2 + Vuetify
+- Vite + VueJS 3 + Tailwind CSS
+
+Backend:
+- FastAPI
+
+Data Storage:
+- PostgreSQL
+- SQLite
+
+Обработка задач:
+- Брокер очередей/задач (RabbitMQ, ActiveMQ)
+- Хранение статуса задачи (Redis)
+- Воркеры (непосредственно выполняющие задачи)
 
 ## OS
 ### Desktop
@@ -24,5 +30,5 @@ Devuan:
     XFCE
 
 ### Server
-FreeBSD
-Debian
+FreeBSD  
+Debian  
