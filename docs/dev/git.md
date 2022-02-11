@@ -24,7 +24,9 @@ git config --global core.safecrlf warn
 git config --global core.autocrlf true
 git config --global core.safecrlf warn
 ```
-
+```
+git config http.sslVerify=false  // Disable SSL Verification
+```
 
 ## Описание команд
 git init - создание нового репозитория  
