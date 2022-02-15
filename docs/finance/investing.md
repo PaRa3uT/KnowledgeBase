@@ -85,7 +85,10 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 :grey_question:«Энел Россия» (ENRU)  
 :grey_question:Globaltrans (GLTR) (~1.2$)  
 :grey_question:Тинькофф (TCSG)(~0.8$)  
-
+Башнефть-п
+Аэрофлот
+Русагро
+Ozon
 
 
 :grey_question:Phillips 66 (PSX)  
@@ -98,6 +101,8 @@ https://www.moex.com/s2644#/?qi='0'&amortization='0'
 :grey_question:Altria (MO-RM)  
 :grey_question:Philip Morris (PM_SPB)  
 :grey_question:Chevron (CVX_SPB)  
+TSMC(TSM)  
+Mondelez(MDLZ)
 
 ## Облигации
 ### Надёжные
