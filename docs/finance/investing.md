@@ -216,6 +216,6 @@ ROS - Чистая рентабельность
 Эмитент - Лицо, выпускающее ценные бумаги  
 
 ## Крипта
-Bitcoin
-Cordano
-Ethereum
+Bitcoin (BTC)
+Cardano (ADA)
+Ethereum (ETH)
