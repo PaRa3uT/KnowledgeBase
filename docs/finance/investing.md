@@ -216,6 +216,14 @@ ROS - Чистая рентабельность
 Эмитент - Лицо, выпускающее ценные бумаги  
 
 ## Крипта
-Bitcoin (BTC)
-Cardano (ADA)
-Ethereum (ETH)
+Multicoin Wallet
+- Coinbase Wallet
+- Coinomi Wallet
+### [Bitcoin](https://bitcoin.org/ru/)
+Тикер - BTC
+
+### [Cardano](https://cardano.org/)
+Тикер - ADA
+
+### [Ethereum](https://ethereum.org/en/)
+ETH
