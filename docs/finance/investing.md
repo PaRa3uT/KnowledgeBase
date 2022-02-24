@@ -105,8 +105,8 @@ Ozon
 :grey_question:Chevron (CVX_SPB)  
 TSMC(TSM)  
 Mondelez(MDLZ)  
-Microsoft  
-Broadcom  
+Microsoft (MSFT-RM; MSFT_SPB) (~2$; ~1%)  
+Broadcom (AVGO-RM; AVGO_SPB) (~13%; ~4%)  
 
 ## Облигации
 ### Надёжные
