@@ -87,10 +87,10 @@ https://www.moex.com/s2644#/?qi='0'&coupon_percent%5B%5D=8.01,20&listname%5B%5D=
 :grey_question:«Энел Россия» (ENRU)  
 :grey_question:Globaltrans (GLTR) (~1.2$)  
 :grey_question:Тинькофф (TCSG)(~0.8$)  
-Башнефть-п
-Аэрофлот
-Русагро
-Ozon
+Башнефть-п  
+Аэрофлот  
+Русагро  
+Ozon  
 
 
 :grey_question:Phillips 66 (PSX)  
@@ -104,7 +104,9 @@ Ozon
 :grey_question:Philip Morris (PM_SPB)  
 :grey_question:Chevron (CVX_SPB)  
 TSMC(TSM)  
-Mondelez(MDLZ)
+Mondelez(MDLZ)  
+Microsoft  
+Broadcom  
 
 ## Облигации
 ### Надёжные
