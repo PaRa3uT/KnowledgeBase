@@ -55,11 +55,10 @@ git merge <branch_name> - merge branch into current branch
 git commit --allow-empty-message -m ''
 git commit -m "Commit description" - сохраняет изменения в локальном репозитории  
 git commit --amend -m "updated latest commit message"  
-git stash - ?  
-git stash pop - ?  
-git stash apply - ?
-git stash save  
-git stash drop  
+git stash - Припрятывание незавершённых наработок  
+git stash pop stash_name - применить и удалить припрятанное изменение  
+git stash apply <stash_name> - применить одно из предыдущих припрятанных изменений, если не указать имя то git попытается восстановить самое последнее припрятанное изменение  
+git stash drop stash_name - удалить припрятанное изменение  
 git log - просмотр истории коммитов  
 git config  
 git config --list --show-origin (посмотреть все установленные настройки и узнать где именно они заданы)  
