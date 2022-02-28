@@ -222,6 +222,7 @@ ROS - Чистая рентабельность
 Эмитент - Лицо, выпускающее ценные бумаги  
 
 ## Крипта
+?bestchange.ru  
 Multicoin Wallet
 - Coinbase Wallet
 - Coinomi Wallet
