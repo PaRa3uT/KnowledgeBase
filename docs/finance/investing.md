@@ -223,6 +223,7 @@ ROS - Чистая рентабельность
 
 ## Крипта
 ?bestchange.ru  
+:heavy_minus_sign:BTC Alpha (Криптобиржа) (Изьяли активы клиентов из России)  
 Multicoin Wallet
 - Coinbase Wallet
 - Coinomi Wallet
