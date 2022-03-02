@@ -223,25 +223,33 @@ ROS - Чистая рентабельность
 
 ## Крипта
 ?bestchange.ru  
-binance.com  
-https://ftx.com/  
-:heavy_minus_sign:BTC Alpha (Криптобиржа) (Изьяли активы клиентов из России)  
 Multicoin Wallet
 - Coinbase Wallet
 - Coinomi Wallet
 ### [Bitcoin](https://bitcoin.org/ru/)
 Тикер - BTC
-[Electrum](https://electrum.org/) (PC Portable Wallet)  
-[Mycelium](https://wallet.mycelium.com/) (Android)  
+Wallets:
+- [Electrum](https://electrum.org/) (PC Portable Wallet)  
+- [Mycelium](https://wallet.mycelium.com/) (Android)  
+- https://www.bitcoinarmory.com/
 
 ### [Cardano](https://cardano.org/)
 Тикер - ADA
 
 ### [Ethereum](https://ethereum.org/en/)
 ETH
+Wallets:
+- [WallETH](https://walleth.org/) (Android) 
+- www.myetherwallet.com
 
 ### Обменники
 ?
 
 ### Биржи
-?
+[Binance](https://binance.com/)  
+[FTX](https://ftx.com/)  
+:heavy_minus_sign:BTC Alpha (Криптобиржа) (Изьяли активы клиентов из России)  
+
+### Словарь
+DEX - ?
+NFT - ?
