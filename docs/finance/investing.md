@@ -231,9 +231,17 @@ Multicoin Wallet
 - Coinomi Wallet
 ### [Bitcoin](https://bitcoin.org/ru/)
 Тикер - BTC
+[Electrum](https://electrum.org/) (PC Portable Wallet)  
+[Mycelium](https://wallet.mycelium.com/) (Android)  
 
 ### [Cardano](https://cardano.org/)
 Тикер - ADA
 
 ### [Ethereum](https://ethereum.org/en/)
 ETH
+
+### Обменники
+?
+
+### Биржи
+?
