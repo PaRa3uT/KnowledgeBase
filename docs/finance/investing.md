@@ -223,6 +223,23 @@ ROS - Чистая рентабельность
 
 ## Крипта
 ?bestchange.ru  
+?[CoinEx](https://www.coinex.com)  
+?[Raptoreum](https://raptoreum.com/)  
+?[CoinBase](https://www.coinbase.com)  
+?https://coinmarketcap.com/
+?https://crypto.com  
+?https://www.coingecko.com  
+?https://www.livecoinwatch.com  
+?https://coinpaprika.com  
+?https://delta.app  
+?https://tradeogre.com
+?https://main.southxchange.com
+?https://dex-trade.com
+?https://polarity.exchange
+?https://trade.koinbazar.com
+?https://graviex.net/
+?https://qtrade.io
+
 Multicoin Wallet
 - Coinbase Wallet
 - Coinomi Wallet
