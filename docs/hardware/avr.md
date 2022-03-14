@@ -37,7 +37,7 @@
     Interupts (32):
 
 ## Отладочные платы
-* Arduino Pro Micro (Arduino Leonardo);
+### Arduino Pro Micro (Arduino Leonardo);
     * **Microcontroller**: ATmega32u4
     * **Clock Speed**: 16MHz
     * **Flash**: 32KB
@@ -59,11 +59,11 @@
         https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/troubleshooting-and-faq#ts-reset
         Press reset twice, quickly to enter bootloader mode.
 
-Arduino Pro Mini:
+### Arduino Pro Mini:
     Ports:
         Serial (UART): 2
 
-Arduino Nano (ATmega168):
+### Arduino Nano (ATmega168):
     Microcontroller: ATmega168
     Clock Speed: 16MHz
     Flash: 16KB
@@ -75,20 +75,20 @@ Arduino Nano (ATmega168):
         Digital: 14
         PWM: 6
 
-Arduino Nano (ATmega328):
-    Microcontroller: ATmega328
-    Clock Speed: 16MHz
-    Flash: 32KB
-    SRAM: 2KB
-    EEPROM: 1KB
-    Ports:
+### Arduino Nano (ATmega328):
+    **Microcontroller**: ATmega328
+    **Clock Speed**: 16MHz
+    **Flash**: 32KB
+    **SRAM**: 2KB
+    **EEPROM**: 1KB
+    * **Ports**:
         max 40mA per PIN
-        ADC (10-bit) (8шт.): A0..A7
-        Digital: 14
-        PWM (8-bit) (6шт.): 3, 5, 6, 9, 10, 11
-        I2C: A4 (SDA), A5 (SCL)
-        SPI: 10 (SS), 11 (MOSI), 12 (MISO), 13 (SCK)
-        LED: 13
+        * ADC (10-bit) (8шт.): A0..A7
+        * Digital: 14
+        * PWM (8-bit) (6шт.): 3, 5, 6, 9, 10, 11
+        * I2C: A4 (SDA), A5 (SCL)
+        * SPI: 10 (SS), 11 (MOSI), 12 (MISO), 13 (SCK)
+        * LED: 13
         Other:
             AREF. Опорное напряжение для аналоговых входов. Используется с функцией analogReference().
             Reset. Низкий уровень сигнала на выводе перезагружает микроконтроллер. Обычно применяется для подключения кнопки перезагрузки на плате расширения, закрывающей доступ к кнопке на самой плате Arduino.
