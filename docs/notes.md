@@ -5,16 +5,59 @@ Frontend:
 - Vite + VueJS 3 + Tailwind CSS
 
 Backend:
-- FastAPI
+- FastAPI (Python)
+- Yii (PHP)
 
 Data Storage:
 - PostgreSQL
 - SQLite
+- MariaDB/MySQL
+- PostgreSQL
+- TimescaleDB
+- PostGIS
 
 Обработка задач:
-- Брокер очередей/задач (RabbitMQ, ActiveMQ)
+- Брокер очередей/задач (Celery, RabbitMQ, ActiveMQ)
 - Хранение статуса задачи (Redis)
 - Воркеры (непосредственно выполняющие задачи)
+
+Остальное:
+- [MinIO](https://min.io) - AWS S3 compatible object storage
+- Next (SSR) (Javascript)
+- [vis.js](https://visjs.org/)
+
+Work:
+- Fluentbit (отправка логов), 
+- Logstash/Fluentd(Graylog, Sentry)
+- ClickHouse
+- Grafana
+- Prometheus
+- JSON
+- Jaeger
+- Kibana
+- gRPC
+- Docker
+- Docker Compose
+- Hadoop
+- Python 2.7
+- Golang
+- Visual Studio Code
+- Git
+- Oracle Enterprise Linux 7 Free
+- PostgreSQL 12.5
+- Kubernetes
+- Kafka
+- VueJS
+- Nginx
+- React
+- Jenkins
+- Ansible
+- Rabbit MQ
+- Python 3
+- DBeaver
+- uvicorn (ASGI)
+- nginx (HTTP Server, Balancer)
+- Redis (Memory Cache)
 
 ## OS
 ### Desktop
