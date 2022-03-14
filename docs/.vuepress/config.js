@@ -41,7 +41,7 @@ module.exports = {
                     {text: 'XigmaNAS', link: '/os/bsd_xigmanas'},
                 ]},
                 {text: 'Other', children: [
-                    {text: 'OpenWRT', link: '/os/openwrt'}
+                    {text: 'OpenWRT', link: '/os/openwrt'},
                     {text: 'Android', link: '/os/android'}
                 ]},
             ]},
