@@ -257,11 +257,3 @@ kubectl version ()
 
   Для проверки платежного метода, мы требуем фото банковской карты (с видимой лицевой стороной, но закрытым CVV) или скриншот оплаты из PayPal, где видно, что оплата была совершена на нашем сайте. Этот пункт уже привычен многим.
 ```
-
-## Наборы технологий
-Backend: FastAPI (Python), Yii (PHP)  
-Frontend: Vue (JavaScript), Next (SSR) (Javascript), [vis.js](https://visjs.org/)  
-Database: SQLite, MariaDB/MySQL, PostgreSQL, TimescaleDB, PostGIS
-Queue: RabbitMQ, Celery  
-Other: uvicorn (ASGI), nginx (HTTP Server, Balancer), Redis (Memory Cache)  
-Work: Fluentbit (отправка логов), Logstash/Fluentd(Graylog, Sentry), ClickHouse, Grafana, Prometheus, JSON, Jaeger, Kibana, gRPC, Docker, Docker Compose, Hadoop, Python 2.7 Golang Visual Studio Code, Git, Oracle Enterprise Linux 7 Free, PostgreSQL 12.5, Kubernetes, Kafka, VueJS, Nginx, React, Jenkins, Ansible, Rabbit MQ, Python 3, DBeaver
