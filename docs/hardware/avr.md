@@ -37,13 +37,13 @@ ATmega 2560:
     Interupts (32):
 
 ## Отладочные платы
-*Arduino Pro Micro (Arduino Leonardo);
-    *Microcontroller: ATmega32u4
-    *Clock Speed: 16MHz
-    *Flash: 32KB
-    *SRAM: 2,5KB
-    *EEPROM: 1KB
-    *Ports:
+* Arduino Pro Micro (Arduino Leonardo);
+    * **Microcontroller**: ATmega32u4
+    * **Clock Speed**: 16MHz
+    * **Flash**: 32KB
+    * SRAM: 2,5KB
+    * EEPROM: 1KB
+    * Ports:
         max 40mA per PIN
         ADC (10-bit) (4шт.): (A0, A1, A2, A3)
         Digital: 12шт.
