@@ -1,5 +1,25 @@
 # [Deabian](https://www.debian.org)
-## Upgrade Debian 9 to 10
+
+## Debian 6 (squeeze) -> 7 (wheezy):
+    !!!Не обновляется
+    sudo apt-get update
+    sudo apt-get upgrade
+    sed -i 's/squeeze/wheezy/g' /etc/apt/sources.list
+    apt-get update
+    apt-get upgrade
+    apt-get dist-upgrade
+    reboot
+
+## Debian 9 (stretch) -> 10 (buster):
+    sudo apt-get update
+    sudo apt-get upgrade
+    sed -i 's/stretch/buster/g' /etc/apt/sources.list
+    apt-get update
+    apt-get upgrade
+    apt-get dist-upgrade
+    reboot
+
+## Upgrade Debian 9 (stretch) to 10 (buster)
 Обновление существующей системы
 ```
 sudo apt update
@@ -178,7 +198,7 @@ admin:adminadmin
 
 ## Redis
 ```
-apt-get install redis
+apt-get install redis (?redis-server)
 systemctl status redis-server
 /etc/redis/redis.conf
 loglevel warning
