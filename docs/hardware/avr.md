@@ -1,34 +1,34 @@
 ﻿# AVR
 ## Микроконтроллеры
-ATtiny 85:
-    Clock Speed =
-    Flash = 
-    SRAM = 
-    EEPROM = 
+### ATtiny 85:
+    **Clock Speed** =
+    **Flash** = 
+    **SRAM** = 
+    **EEPROM** = 
     Ports ():
     Interupts:
-ATmega 32u4:
+### ATmega 32u4:
     Clock Speed = 0...16MHz (4.5...5.5V)
     Flash = 32
     SRAM = 2.5KB
     EEPROM = 1KB
     Ports ():
     Interupts:
-ATmega 168P:
+### ATmega 168P:
     Clock Speed = 0...20MHz (4.5...5.5V)
     Flash = 16KB
     SRAM = 1
     EEPROM = 512
     Ports ():
     Interupts:
-ATmega 328P:
+### ATmega 328P:
     Clock Speed = 0...20MHz (4.5...5.5V)
     Flash = 32KB
     SRAM = 2KB
     EEPROM = 1KB
     Ports ():
     Interupts:
-ATmega 2560:
+### ATmega 2560:
     Clock Speed = 0...16MHz (4.5...5.5V)
     Flash = 256KB
     SRAM = 8KB
