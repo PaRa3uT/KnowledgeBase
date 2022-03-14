@@ -42,6 +42,7 @@ module.exports = {
                 ]},
                 {text: 'Other', children: [
                     {text: 'OpenWRT', link: '/os/openwrt'}
+                    {text: 'Android', link: '/os/android'}
                 ]},
             ]},
             {text: 'Сети', children: [
@@ -66,7 +67,10 @@ module.exports = {
                 {text: 'Инвестирование', link: '/finance/investing'}
             ]},
             {text: 'Hardware', children: [
-                {text: 'OrangePi PC', link: '/hardware/orangepi_pc'}
+                {text: 'OrangePi PC', link: '/hardware/orangepi_pc'},
+                {text: 'AVR', link: '/hardware/avr'},
+                {text: 'STM', link: '/hardware/stm'}
+                {text: 'ESP', link: '/hardware/esp'}
             ]}
         ]
     }
