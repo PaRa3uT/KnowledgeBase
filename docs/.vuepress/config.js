@@ -69,8 +69,8 @@ module.exports = {
             {text: 'Hardware', children: [
                 {text: 'OrangePi PC', link: '/hardware/orangepi_pc'},
                 {text: 'AVR', link: '/hardware/avr'},
-                {text: 'STM', link: '/hardware/stm'}
-                {text: 'ESP', link: '/hardware/esp'}
+                {text: 'STM', link: '/hardware/stm'},
+                {text: 'ESP', link: '/hardware/esp'},
             ]}
         ]
     }
