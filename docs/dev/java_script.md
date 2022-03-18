@@ -1,4 +1,9 @@
 # JavaScript
+## Node Blaclist Packages
+- colors
+- faker
+- node-ipc > 9.2.1
+
 ## Добавление свойства в объект по условию
 ```js
 const condition = true;
