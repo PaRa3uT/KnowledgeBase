@@ -56,38 +56,39 @@ nnCron
     Avast Business Managed Antivirus - 20 PC = 12304 / 1 year
     Kaspersky Small Office Security - 5x4 PC = 3900x4 = 15600 / 1 year
 
-## Антивирусные сканеры:
-* + Zemana.AntiMalware.Portable (Устарела, 3 версия перестала выпускаться в портативном режиме)
-* + Kaspersky Virus Removal Tool (https://www.kaspersky.ru/downloads/thank-you/free-virus-removal-tool)
-* + ESET Online Scanner (https://www.esetnod32.ru/home/products/online-scanner/) (Подвисает, подглючивает, вылетел на win7 1GB RAM)
-* + cureit (не смог определить криптор, НОД и каспер находили) (https://free.drweb.ru/download+cureit+free/)
-* * avz4
-* * ClamAV (Надо настраивать)
-* * ClamWinPortable
-* * Malwarebytes AdwCleaner (https://ru.malwarebytes.com/adwcleaner/)
-* - Norton Power Eraser (https://us.norton.com/support/tools/npe.html) (Не работает на Windows Server)
-* Norman Malware Cleaner
-* McAfee Avert Stinger
-* HitmanPro (Для удаления угроз нужно активировать, можно активировать триал на 30 дней)
-* 9-lab Removal Tool
-* Malwarebytes Anti-Rootkit
-* BitDefender Rootkit Remover
-* avast! Virus Cleaner
-* Sophos Anti-Virus for Win32 Command Line Interface
-* Avira EU-Cleaner
-* Emsisoft Emergency Kit
-* Comodo Cleaning Essentials
-* Microsoft Safety Scanner
-* Vba32Check
-* Sophos Virus Removal Tool
-* - Panda Free commandline scanner (Давно не обновлялся)
-* - PandaCloudCleaner (может повесить систему) (http://acs.pandasoftware.com/pandacloudcleaner/installers/activescan/PandaCloudCleaner.exe)
-* - Bitdefender Adware Removal Tool (Пропускает угрозы, вылетел при удалении)
-* - F-SecureOnlineScanner (Пропускает угрозы)
-* - McAfee Stinger (Пропускает угрозы)
-* - Emsisoft Commandline Scanner (Нужна лицензия)
-* - Avira PC Cleaner (Ненашёл на сайте)
-
+## Антивирусные сканеры, антишпионы и т.д.:
+```
++ Zemana.AntiMalware.Portable (Устарела, 3 версия перестала выпускаться в портативном режиме)
++ Kaspersky Virus Removal Tool (https://www.kaspersky.ru/downloads/thank-you/free-virus-removal-tool)
++ ESET Online Scanner (https://www.esetnod32.ru/home/products/online-scanner/) (Подвисает, подглючивает, вылетел на win7 1GB RAM)
++ cureit (не смог определить криптор, НОД и каспер находили) (https://free.drweb.ru/download+cureit+free/)
+* avz4
+* ClamAV (Надо настраивать)
+* ClamWinPortable
+* Malwarebytes AdwCleaner (https://ru.malwarebytes.com/adwcleaner/)
+- Norton Power Eraser (https://us.norton.com/support/tools/npe.html) (Не работает на Windows Server)
+Norman Malware Cleaner
+McAfee Avert Stinger
+HitmanPro (Для удаления угроз нужно активировать, можно активировать триал на 30 дней)
+9-lab Removal Tool
+Malwarebytes Anti-Rootkit
+BitDefender Rootkit Remover
+avast! Virus Cleaner
+Sophos Anti-Virus for Win32 Command Line Interface
+Avira EU-Cleaner
+Emsisoft Emergency Kit
+Comodo Cleaning Essentials
+Microsoft Safety Scanner
+Vba32Check
+Sophos Virus Removal Tool
+- Panda Free commandline scanner (Давно не обновлялся)
+- PandaCloudCleaner (может повесить систему) (http://acs.pandasoftware.com/pandacloudcleaner/installers/activescan/PandaCloudCleaner.exe)
+- Bitdefender Adware Removal Tool (Пропускает угрозы, вылетел при удалении)
+- F-SecureOnlineScanner (Пропускает угрозы)
+- McAfee Stinger (Пропускает угрозы)
+- Emsisoft Commandline Scanner (Нужна лицензия)
+- Avira PC Cleaner (Ненашёл на сайте)
+```
 
 ## Partition Editors:
     AOMEI Partition Assistant Standart (Была ошибка при изменении NTFS раздела в большую сторону)
@@ -128,10 +129,11 @@ nnCron
     + Palemoon:
         CipherFox
         FoxyProxy Standard
-    Opera
-    Vivaldi
-    Google chrome
-    Sputnik
+    * Brave
+    Opera (Chromium)
+    Vivaldi (Chromium)
+    Google chrome (Chromium)
+    - Sputnik (Остались только платные версии)
     Cyberfox
     Tor Browser
     Iridium Browser
