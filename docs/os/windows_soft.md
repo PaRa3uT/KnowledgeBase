@@ -66,6 +66,7 @@ nnCron
 * ClamAV (Надо настраивать)
 * ClamWinPortable
 * Malwarebytes AdwCleaner (https://ru.malwarebytes.com/adwcleaner/)
+* Emsisoft Online Scanner
 - Norton Power Eraser (https://us.norton.com/support/tools/npe.html) (Не работает на Windows Server)
 Norman Malware Cleaner
 McAfee Avert Stinger
