@@ -20,6 +20,8 @@ module.exports = {
             ]},
             {text: 'OS', children: [
                 {text: 'Linux', children: [
+                    {text: 'Astra', link: '/os/linux/astra'},
+                    {text: 'РЕД ОС', link: '/os/linux/red_os'},
                     {text: 'Common', link: '/os/linux/common'},
                     {text: 'Common YUM', link: '/os/linux/yum'},
                     {text: 'Debian', link: '/os/linux/debian'},
