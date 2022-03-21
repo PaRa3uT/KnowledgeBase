@@ -5,9 +5,15 @@ https://spyware.neocities.org/articles/index.html
 https://spyware.neocities.org/articles/browsers.html
 https://www.falkon.org/
 
-## Приватность
-## Анонимность
+## Приватность и Анонимность
+- VPN
+- TOR
+- Firefox Private Window / Chrome Incognito Mode
 
 ## Windows
-## Android
 ## Linux
+## Android
+## Firefox
+- Private Window
+- Exstensions:
+- - qwe
