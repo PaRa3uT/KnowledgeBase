@@ -6,9 +6,12 @@ https://spyware.neocities.org/articles/browsers.html
 https://www.falkon.org/
 
 ## Приватность и Анонимность
+- Leak test
+  - https://browserleaks.com/
+  - https://www.iplocation.net/
+  - https://mybrowserinfo.com/
 - VPN
 - TOR
-- Firefox Private Window / Chrome Incognito Mode
 
 ## Windows
 ## Linux
@@ -16,4 +19,4 @@ https://www.falkon.org/
 ## Firefox
 - Private Window
 - Exstensions:
-- - qwe
+  - Canvas Fingerprint Defender
