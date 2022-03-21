@@ -7,3 +7,7 @@ https://www.falkon.org/
 
 ## Приватность
 ## Анонимность
+
+## Windows
+## Android
+## Linux
