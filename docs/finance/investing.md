@@ -9,6 +9,7 @@
 https://www.moex.com/s2644#/?qi='0'&amortization='0'  
 https://www.moex.com/s2644#/?qi='0'&coupon_percent%5B%5D=8.01,20&listname%5B%5D='1','2'&faceunit%5B%5D='rub'&amortization='0'  
 https://www.moex.com/s2644#/?qi='0'&coupon_percent%5B%5D=8.01,20&listname%5B%5D='1'&faceunit%5B%5D='rub'&amortization='0'  
+https://smart-lab.ru/q/ofz/order_by_yield/desc/  
 
 ## Перспективные для диведентной доходности акции
 
