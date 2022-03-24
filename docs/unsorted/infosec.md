@@ -54,6 +54,8 @@ https://www.falkon.org/
   - Otter (?)
   - Brave (Android)
   - Firefox Focus (Android)
+- [DNSCrypt-client](https://github.com/DNSCrypt/dnscrypt-proxy/wiki)
+- [DNS Proxy](https://github.com/AdguardTeam/dnsproxy)
 
 
 ## Windows
