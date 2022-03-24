@@ -36,8 +36,12 @@ https://www.falkon.org/
   - ?Element
   - Jabber (+OTR)
 - Browsers:
-  - Ungoogled Chromium (Windows, ?Linux)
-  - (?Android)
+  - Ungoogled Chromium (Windows)
+  - Firefox (with tweaks) (Windows)
+  - Falkon (Windows)
+  - Otter (?)
+  - Brave (Android)
+  - Firefox Focus (Android)
 
 
 ## Windows
@@ -63,8 +67,17 @@ https://www.falkon.org/
   - Set a PIN or Password to Lock Your Screen
   - Encrypt the device to protect the data stored on it: Settings > Security > Encrypt phone/tablet
 
-## Firefox
+## Browser Firefox
+- https://github.com/arkenfox/user.js/blob/98.0/user.js
+- https://github.com/arkenfox/user.js/wiki/4.1-Extensions
 - Private Window
 - Exstensions:
   - Canvas Fingerprint Defender
   - uBlock Origin
+## Browser Falkon
+```
+Portable mode:
+falkon.conf:
+[Config]
+Portable=true
+```
