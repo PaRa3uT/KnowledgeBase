@@ -1,6 +1,8 @@
 # Online Privacy (Anonymity)
 * https://restoreprivacy.com
 * https://choosetoencrypt.com/
+* https://www.privacytools.io/#addons
+* https://openrunet.org/#select - Способы обхода блокировок
 
 https://cyber-x.ru/%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b4%d0%b8%d1%81%d1%82%d1%80%d0%b8%d0%b1%d1%83%d1%82%d0%b8%d0%b2%d0%b0-linux-devuan/
 https://cyber-x.ru/%D0%BF%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B0%D0%BD%D0%BE%D0%BD%D0%B8%D0%BC%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86/
@@ -11,11 +13,21 @@ https://www.falkon.org/
 
 ## Приватность и Анонимность
 - Leak test
+  - https://www.cloudflare.com/ssl/encrypted-sni/#results
+  - https://ipleak.net/
+  - https://yandex.ru/internet
+  - https://2ip.ru/
   - https://browserleaks.com/
   - https://www.iplocation.net/
   - https://mybrowserinfo.com/
   - https://clienttest.ssllabs.com:8443/ssltest/viewMyClient.html
   - https://badssl.com/dashboard/
+  - https://coveryourtracks.eff.org/
+  - https://amiunique.org/fp
+  - https://mullvad.net/en/check/
+  - http://www.ip-ping.ru/
+  - http://www.whatsmyip.org/
+  - https://diafygi.github.io/webrtc-ips/
 - Search:
   - DuckDuckGo
   - https://www.searchencrypt.com/home
@@ -72,8 +84,12 @@ https://www.falkon.org/
 - https://github.com/arkenfox/user.js/wiki/4.1-Extensions
 - Private Window
 - Exstensions:
-  - Canvas Fingerprint Defender
-  - uBlock Origin
+  - +[uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+    
+  - ?Canvas Fingerprint Defender
+- Settings:
+  - 
+
 ## Browser Falkon
 ```
 Portable mode:
