@@ -1,10 +1,6 @@
 # Other
 
-## VPN
-- Malwarebytes Privacy VPN
-- Surfshark VPN
-- NordVPN
-- ProtonVPN (Free)
+## [IPFS](ipfs.io)
 
 
 ## [Redis](https://redis.io/)
