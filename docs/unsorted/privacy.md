@@ -69,3 +69,14 @@ http://i2p-projekt.i2p/en/
 - [amiunique.org](https://amiunique.org/fp)
 - [www.browserleaks.com/fonts](http://www.browserleaks.com/fonts)
 - [http://net.ipcalf.com](http://net.ipcalf.com)
+
+## VPN
+- Malwarebytes Privacy VPN
+- Surfshark VPN
+- NordVPN
+- ProtonVPN (Free)
+
+## Web Proxy
+- https://www.croxyproxy.com/
+- https://www.4everproxy.com/
+- https://kproxy.com/
