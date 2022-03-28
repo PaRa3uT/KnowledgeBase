@@ -6,6 +6,7 @@
 - [ROSA](https://www.rosalinux.ru/)
 - [Ред ОС](https://redos.red-soft.ru/)
 - [Эльбрус Linux](http://mcst.ru/programmnoe-obespechenie-elbrus)
+- [Simply Linux](https://www.basealt.ru/simplylinux/description)
 
 ## Офисный пакет
 - [МойОфис](https://myoffice.ru/)
