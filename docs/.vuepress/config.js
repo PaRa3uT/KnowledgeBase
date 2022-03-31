@@ -13,6 +13,7 @@ module.exports = {
                 {text: 'Python', link: '/dev/python'},
                 {text: 'Git', link: '/dev/git'},
                 {text: 'JavaScript', link: '/dev/java_script'},
+                {text: 'JS. Vue 3', link: '/dev/js_vue_3'},
                 {text: 'SQL', link: '/dev/sql'},
                 {text: 'PHP', link: '/dev/php'},
                 {text: 'Tailwind CSS', link: '/dev/tailwind'},
