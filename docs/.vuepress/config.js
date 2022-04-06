@@ -42,8 +42,8 @@ module.exports = {
                 {text: 'BSD', children: [
                     {text: 'FreeBSD', link: '/os/bsd/freebsd'},
                     {text: 'OpenBSD', link: '/os/bsd/openbsd'},
-                    {text: 'OPNsense', link: '/os/bsd_opnsense'},
-                    {text: 'XigmaNAS', link: '/os/bsd_xigmanas'},
+                    {text: 'OPNsense', link: '/os/bsd/opnsense'},
+                    {text: 'XigmaNAS', link: '/os/bsd/xigmanas'},
                 ]},
                 {text: 'Other', children: [
                     {text: 'OpenWRT', link: '/os/openwrt'},
