@@ -4,6 +4,13 @@
 - faker
 - node-ipc > 9.2.1
 
+## DEEP COPY
+```
+const deepCopy = (obj) => { 
+  JSON.parse(JSON.stringify(obj)) 
+};
+```
+
 ## Добавление свойства в объект по условию
 ```js
 const condition = true;
