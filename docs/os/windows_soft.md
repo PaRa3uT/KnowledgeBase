@@ -60,6 +60,7 @@ nnCron
 ```
 + Zemana.AntiMalware.Portable (Устарела, 3 версия перестала выпускаться в портативном режиме)
 + Kaspersky Virus Removal Tool (https://www.kaspersky.ru/downloads/thank-you/free-virus-removal-tool)
++ Kaspersky Virus Removal Tool 2015 (For windows 7) (https://kas.pr/kvrt2015) (https://devbuilds.s.kaspersky-labs.com/kvrt/2015/full/kvrt.exe)
 + ESET Online Scanner (https://www.esetnod32.ru/home/products/online-scanner/) (Подвисает, подглючивает, вылетел на win7 1GB RAM)
 + cureit (не смог определить криптор, НОД и каспер находили) (https://free.drweb.ru/download+cureit+free/)
 * avz4
