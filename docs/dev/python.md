@@ -19,6 +19,7 @@ ClickHouse:
 - [clickhouse-driver](https://github.com/mymarilyn/clickhouse-driver)
 PostgreSQL:
 - asyncpg
+- [Psycopg 3](https://www.psycopg.org/psycopg3/docs/index.html)
 SQLite:
 Firebird:
 - fdb
