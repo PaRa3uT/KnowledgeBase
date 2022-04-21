@@ -30,3 +30,12 @@ https://github.com/vzlinux/vzdeploy
 ```
 https://github.com/oracle/centos2ol
 ```
+
+## RabbitMQ
+```
+```
+
+## Redis
+```
+sudo yum install redis
+```
