@@ -13,6 +13,7 @@ MySQL / MariaDB:
 
 Redis:
 - Redis
+- aioredis
 
 ClickHouse:
 - [asynch](https://github.com/long2ice/asynch)
