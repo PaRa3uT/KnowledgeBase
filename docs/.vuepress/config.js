@@ -1,10 +1,15 @@
 const { defaultTheme } = require('vuepress')
+const { searchPlugin } = require('@vuepress/plugin-search')
+const { activeHeaderLinksPlugin } = require('@vuepress/plugin-active-header-links')
+const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
 
 module.exports = {
     base: "/KnowledgeBase/",
 
     plugins: [
-        '@vuepress/plugin-search',
+        searchPlugin(),
+        activeHeaderLinksPlugin(),
+        backToTopPlugin(),
     ],
 
     theme: defaultTheme({
