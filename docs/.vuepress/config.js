@@ -1,3 +1,5 @@
+const { defaultTheme } = require('vuepress')
+
 module.exports = {
     base: "/KnowledgeBase/",
 
@@ -5,7 +7,7 @@ module.exports = {
         '@vuepress/plugin-search',
     ],
 
-    themeConfig: {
+    theme: defaultTheme({
         navbar: [
             {text: 'Главная', link: '/'},
             {text: 'Ссылки', link: '/links'},
@@ -78,5 +80,5 @@ module.exports = {
                 {text: 'ESP', link: '/hardware/esp'},
             ]}
         ]
-    }
+    })
 }
