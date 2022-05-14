@@ -1,5 +1,5 @@
 # JavaScript
-## Node Blaclist Packages
+## Node Blacklist Packages
 - colors
 - faker
 - node-ipc > 9.2.1
