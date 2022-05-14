@@ -1,5 +1,17 @@
 # Python
 
+## pip blacklist packages^
+- importantpackage
+- important-package
+- pptest
+- ipboards 
+- owlmoon 
+- DiscordSafety 
+- yiffparty 
+- trrfab 
+- 10Cent10 
+- yandex-yt
+
 ```
 Максимально избегайте переопределений, наследований и неявных трюков, 
 демонстрирующих ваш ум. Пишите чистые функции, их проще объяснить. Любая
