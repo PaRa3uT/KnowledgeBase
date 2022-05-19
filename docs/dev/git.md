@@ -56,6 +56,7 @@ git commit --allow-empty-message -m ''
 git commit -m "Commit description" - сохраняет изменения в локальном репозитории  
 git commit --amend -m "updated latest commit message"  
 git stash - Припрятывание незавершённых наработок  
+git stash list - Список припрятанных изменений
 git stash pop stash_name - применить и удалить припрятанное изменение  
 git stash apply <stash_name> - применить одно из предыдущих припрятанных изменений, если не указать имя то git попытается восстановить самое последнее припрятанное изменение  
 git stash drop stash_name - удалить припрятанное изменение  
