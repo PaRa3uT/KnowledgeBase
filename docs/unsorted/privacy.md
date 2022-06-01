@@ -23,7 +23,7 @@ http://i2p-projekt.i2p/en/
 [Firefox](https://www.mozilla.org/ru/firefox/)  
 
 ## Поисковики
-[duckduckgo](https://duckduckgo.com/)  
+[duckduckgo](https://duckduckgo.com/) - не блокируются трекеры Microsoft (LinkedIn, Bing, ...), заключена сделка с Microsoft  
 [swisscows](https://swisscows.com)  
 [startpage](https://www.startpage.com/)  
 
