@@ -1,6 +1,6 @@
 # Windows Software
 
-[2GIS](https://info.2gis.ru/chelyabinsk/products/download)
+[2GIS](https://info.2gis.ru/chelyabinsk/products/download)  
 [Mozilla Firefox](https://ftp.mozilla.org/pub/firefox/releases/)  
 [WinRAR](https://www.win-rar.com/download.html?&L=0)  
 [AIMP](https://www.aimp.ru/?do=download&os=windows)  
