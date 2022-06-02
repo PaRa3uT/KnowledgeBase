@@ -1,6 +1,6 @@
-﻿# Windows Software
+# Windows Software
 
-Mozilla Firefox  
+[Mozilla Firefox](https://ftp.mozilla.org/pub/firefox/releases/)  
 7Zip  
 WinRAR  
 AIMP  
