@@ -1,9 +1,10 @@
 # Windows Software
 
+[2GIS](https://info.2gis.ru/chelyabinsk/products/download)
 [Mozilla Firefox](https://ftp.mozilla.org/pub/firefox/releases/)  
-7Zip  
 [WinRAR](https://www.win-rar.com/download.html?&L=0)  
-AIMP  
+[AIMP](https://www.aimp.ru/?do=download&os=windows)  
+7Zip  
 Eset Nod Anti-Virus  
 Kaspersky Free Anti-Virus  
 Microsoft Office  
