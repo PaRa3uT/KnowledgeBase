@@ -2,17 +2,19 @@
 
 [2GIS](https://info.2gis.ru/chelyabinsk/products/download)  
 [Mozilla Firefox](https://ftp.mozilla.org/pub/firefox/releases/)  
+[Mozilla Thunderbird](https://www.thunderbird.net/en-US/thunderbird/all/#R)  
 [WinRAR](https://www.win-rar.com/download.html?&L=0)  
 [AIMP](https://www.aimp.ru/?do=download&os=windows)  
 [K-Lite Codec Pack Mega](https://codecguide.com/download_k-lite_codec_pack_mega.htm)  
 [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer)  
+[Telegram](https://telegram.org/apps)  
+[Apache OpenOffice](https://www.openoffice.org/download/index.html)  
+
 7Zip  
 Eset Nod Anti-Virus  
 Kaspersky Free Anti-Virus  
 Microsoft Office  
 LibreOffice  
-Apache OpenOffice  
-  
   
 Total Commander  
 AnyBurn  
