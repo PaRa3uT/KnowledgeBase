@@ -2,7 +2,7 @@
 
 [Mozilla Firefox](https://ftp.mozilla.org/pub/firefox/releases/)  
 7Zip  
-WinRAR  
+[WinRAR](https://www.win-rar.com/download.html?&L=0)  
 AIMP  
 Eset Nod Anti-Virus  
 Kaspersky Free Anti-Virus  
