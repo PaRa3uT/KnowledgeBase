@@ -4,6 +4,8 @@
 [Mozilla Firefox](https://ftp.mozilla.org/pub/firefox/releases/)  
 [WinRAR](https://www.win-rar.com/download.html?&L=0)  
 [AIMP](https://www.aimp.ru/?do=download&os=windows)  
+[K-Lite Codec Pack Mega](https://codecguide.com/download_k-lite_codec_pack_mega.htm)  
+[SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer)  
 7Zip  
 Eset Nod Anti-Virus  
 Kaspersky Free Anti-Virus  
