@@ -23,10 +23,12 @@ nnCron
 
 
 ## Remote Admin
-* AnyDesk
-* https://toster.ru/q/542885
-* Team Viewer
-* AmmyAdmin
+- AnyDesk  
+- [RustDesk](https://rustdesk.com/)  
+- [Aspia](https://aspia.org/doku.php)  
+- Team Viewer  
+- AmmyAdmin  
+
 
 ## Антивирусы
     + Bitdefender Antivirus Free Edition (Хорошая замена авасту, блокирует файлы даже с выключенными мониторами) (https://www.bitdefender.com/solutions/free.html)
