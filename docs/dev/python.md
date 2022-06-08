@@ -44,6 +44,7 @@ Firebird:
 
 ## Интересные пакеты
 - [Google OR-Tools](https://developers.google.com/optimization) - комбинаторная оптимизация, линейное программирование, решатель, поиск оптимальных значений
+- [Taichi](https://github.com/taichi-dev/taichi) - 
 
 ## Numpy
 ## Numpy Finance
