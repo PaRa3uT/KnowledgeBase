@@ -9,6 +9,7 @@
 [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer)  
 [Telegram](https://telegram.org/apps)  
 [Apache OpenOffice](https://www.openoffice.org/download/index.html)  
+[drawio](https://github.com/jgraph/drawio-desktop/releases)
 
 7Zip  
 Eset Nod Anti-Virus  
