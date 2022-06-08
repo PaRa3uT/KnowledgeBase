@@ -42,6 +42,9 @@ SQLite:
 Firebird:
 - fdb
 
+## Интересные пакеты
+- [Google OR-Tools](https://developers.google.com/optimization) - комбинаторная оптимизация, линейное программирование, решатель, поиск оптимальных значений
+
 ## Numpy
 ## Numpy Finance
 ```
