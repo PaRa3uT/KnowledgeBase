@@ -9,6 +9,7 @@
 [winitpro](http://winitpro.ru)  
 [Tproger](https://tproger.ru)  
 [daily.dev](https://app.daily.dev/) - Агрегатор новостей из мира IT. Собирает лучшие статьи с разных платформ и публикует в ленте.
+[RealPython](https://realpython.com/)  
 []()
 
 ## Online Tools
