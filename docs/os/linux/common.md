@@ -14,6 +14,20 @@ echo (вывод данных на экран)
 grep (поиск строк)
 tail (вывести 10 последних строк файла)
 rm (удаление файлов и папок)
+find . -name \*.py | xargs wc -l (кол-во строк в файлах)
+sudo blkid /dev/sda3
+ionice [-c class] [-n classdata] [-t] COMMAND [ARG]...
+    -c class Класс планирования. 0 ни для кого, 1 — для реального времени, 2 — для получения оптимального усилия, 3 — для «холостого хода» т.е idle.
+    -p pid
+```
+
+## S.M.A.R.T.
+```
+sudo apt-get install smartmontools
+sudo smartctl --scan
+sudo smartctl -i /dev/sda
+sudo smartctl -H /dev/sda
+sudo smartctl -A /dev/sda
 ```
 
 ## Пользователи
@@ -30,6 +44,20 @@ usermod -aG sudo username
 /boot (Файлы необходимые для запуска)
 /bin (Испольняемые файлы)
 /var (Различные файлы, используемые системой и установленными в ней программами)
+```
+
+## Мониторинг
+```
+iotop -a (нагрузка диска) (--only; -o -a)
+iostat [опции] интервал повторения
+iostat -dx 10 360
+```
+
+## Работа с сетью
+```
+netstat -an -> ss -an
+ss -ltn (-l listen; -t tcp; -n port numeric)
+ss --summary (ss -s)
 ```
 
 ## Работа с файлами
@@ -70,6 +98,14 @@ find . -xdev -ls | sort -n -k 7 | tail -5
 
 #Находит все файлы меньше 100 Мб и отображает их читабельный размер.
 find / -size +100M -exec du -h {} ;
+```
+
+## systemd
+```
+systemctl start|restart|status|stop service_name
+systemctl enable service_name (включение автозапуска сервиса)
+systemctl daemon-reload
+journalctl -aemx
 ```
 
 ## at
