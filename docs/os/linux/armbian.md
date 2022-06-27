@@ -5,3 +5,14 @@ armbian-config
 armbianmonitor -m
 ```
 arecord -f dat -d 60 | lame - -V2 -b 256 > record.mp3 (Запись звука через встроенный микрофон OrangePi PC, перед этим выкрутите ползунки в alsamixer на максимум и снимите мут)
+
+## Update
+```
+apt update
+apt upgrade
+```
+
+## NextCloud
+```
+wget https://raw.githubusercontent.com/nextcloud/nextcloudpi/master/install.sh
+```
