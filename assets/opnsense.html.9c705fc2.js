@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1d897e8a","path":"/os/bsd/opnsense.html","title":"OPNsense","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1649273575000,"contributors":[{"name":"Tarasov Artur","email":"para3ut.74@gmail.com","commits":2}]},"filePathRelative":"os/bsd/opnsense.md"}');export{e as data};

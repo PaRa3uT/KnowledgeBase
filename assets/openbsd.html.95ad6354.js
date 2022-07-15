@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-326ae344","path":"/os/bsd/openbsd.html","title":"OpenBSD","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1647284140000,"contributors":[{"name":"PaRa3uT","email":"PaRa3uT.74@gmail.com","commits":1}]},"filePathRelative":"os/bsd/openbsd.md"}');export{e as data};

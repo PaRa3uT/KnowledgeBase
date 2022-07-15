@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-4532c403","path":"/unsorted/zabbix.html","title":"Zabbix","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1637302066000,"contributors":[{"name":"Tarasov Artur","email":"para3ut.74@gmail.com","commits":1}]},"filePathRelative":"unsorted/zabbix.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-8cd7078c","path":"/os/linux/red_os.html","title":"\u0420\u0415\u0414 \u041E\u0421","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1647802488000,"contributors":[{"name":"Tarasov Artur","email":"para3ut.74@gmail.com","commits":1}]},"filePathRelative":"os/linux/red_os.md"}');export{t as data};

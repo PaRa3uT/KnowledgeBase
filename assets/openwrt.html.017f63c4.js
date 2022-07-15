@@ -1,0 +1,1 @@
+import{_ as t,o as r,c as a,a as e,b as o}from"./app.11ae776d.js";const n={},c=e("h1",{id:"openwrt",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#openwrt","aria-hidden":"true"},"#"),o(" OpenWRT")],-1),s=[c];function _(d,i){return r(),a("div",null,s)}var l=t(n,[["render",_],["__file","openwrt.html.vue"]]);export{l as default};

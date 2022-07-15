@@ -1,0 +1,7 @@
+import{_ as a,r,o as i,c as t,a as e,d as l,b as s,e as o}from"./app.11ae776d.js";const d={},c={id:"opnsense",tabindex:"-1"},_=e("a",{class:"header-anchor",href:"#opnsense","aria-hidden":"true"},"#",-1),p=s(),v={href:"https://opnsense.org",target:"_blank",rel:"noopener noreferrer"},u=s("OPNsense"),h=o(`<p>(FreeBSD) (Firewall, OpenVPN Server)<br> Install</p><ul><li>-RAM 256 MB (Install error)</li><li>+RAM 512 MB (\u041D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u043E \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442)</li><li>-HDD 2 GB (\u041C\u0430\u043B\u043E, \u043D\u0435\u0445\u0432\u0430\u0442\u0438\u043B\u043E \u0434\u043B\u044F \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0439)</li><li>?HDD 4 GB</li></ul><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>Resize partition:
+    sysctl kern.geom.debugflags=16
+    gpart show ada0
+    gpart resize -i 1 ada0
+    gpart resize -i 1 ada0s1
+    growfs -y /dev/ufs/OPNsense
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,3);function m(b,f){const n=r("ExternalLinkIcon");return i(),t("div",null,[e("h1",c,[_,p,e("a",v,[u,l(n)])]),h])}var x=a(d,[["render",m],["__file","opnsense.html.vue"]]);export{x as default};

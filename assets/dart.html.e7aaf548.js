@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-bc5cf632","path":"/dev/dart.html","title":"Dart","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Flutter","slug":"flutter","children":[]}],"git":{"updatedTime":1641800753000,"contributors":[{"name":"Tarasov Artur","email":"para3ut.74@gmail.com","commits":1}]},"filePathRelative":"dev/dart.md"}');export{t as data};

@@ -1,0 +1,1 @@
+import{_ as a,o,c as s,a as e,b as t}from"./app.11ae776d.js";const n={},r=e("h1",{id:"openbsd",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#openbsd","aria-hidden":"true"},"#"),t(" OpenBSD")],-1),c=[r];function d(_,i){return o(),s("div",null,c)}var l=a(n,[["render",d],["__file","openbsd.html.vue"]]);export{l as default};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-44d21f16","path":"/os/linux/astra.html","title":"Astra Linux","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1647797613000,"contributors":[{"name":"Tarasov Artur","email":"para3ut.74@gmail.com","commits":1}]},"filePathRelative":"os/linux/astra.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-79ff8f83","path":"/travel/moscow.html","title":"\u041C\u043E\u0441\u043A\u0432\u0430","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1635321305000,"contributors":[{"name":"Tarasov Artur","email":"para3ut.74@gmail.com","commits":2}]},"filePathRelative":"travel/moscow.md"}');export{t as data};

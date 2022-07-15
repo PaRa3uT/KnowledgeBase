@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-1fea3cce","path":"/os/linux/slackware.html","title":"Slackware","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1647284140000,"contributors":[{"name":"PaRa3uT","email":"PaRa3uT.74@gmail.com","commits":1}]},"filePathRelative":"os/linux/slackware.md"}');export{a as data};

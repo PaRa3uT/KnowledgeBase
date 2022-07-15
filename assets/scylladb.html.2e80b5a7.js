@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-8a58defa","path":"/unsorted/scylladb.html","title":"Scylla","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1635856436000,"contributors":[{"name":"Tarasov Artur","email":"para3ut.74@gmail.com","commits":2}]},"filePathRelative":"unsorted/scylladb.md"}');export{a as data};
