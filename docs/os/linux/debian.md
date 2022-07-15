@@ -322,7 +322,7 @@ apt-get install timescaledb-2-postgresql-13
 ## phpMyAdmin
 ## [WebMin](https://webmin.com/)
 ## [Linux Dash](https://github.com/afaqurk/linux-dash/)
-## Mosquitto
+## [Mosquitto](https://mosquitto.org/blog/2013/01/mosquitto-debian-repository/)
 ```
 1:
     sudo apt-get update
@@ -331,7 +331,7 @@ apt-get install timescaledb-2-postgresql-13
     sudo wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
     sudo apt-key add mosquitto-repo.gpg.key
     cd /etc/apt/sources.list.d/
-    sudo wget http://repo.mosquitto.org/debian/mosquitto-jessie.list
+    sudo wget http://repo.mosquitto.org/debian/mosquitto-bullseye.list
     sudo apt-get update
 3:
     sudo apt-get install mosquitto
