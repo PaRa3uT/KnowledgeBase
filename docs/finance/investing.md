@@ -115,6 +115,7 @@ Microsoft (MSFT-RM; MSFT_SPB) (~2$; ~1%)
 Broadcom (AVGO-RM; AVGO_SPB) (~13%; ~4%)  
 
 ## Облигации
+РСХБ 08Т1 (К:14.25%)  
 ### Надёжные
 :grey_question:ОФЗ 26209 (2022.07.20)(К:7.60%)  
 :heavy_minus_sign:ОФЗ 24020 (2022.07.27)(П)  
