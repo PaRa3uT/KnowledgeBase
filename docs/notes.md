@@ -2,7 +2,7 @@
 ## Наборы инструментов
 Frontend:
 - Vite + VueJS 2 + Vuetify
-- Vite + VueJS 3 + ?
+- Vite + VueJS 3 + UI (?) + Pinia + Router
 - Vite + VueJS 3 + Tailwind CSS
 
 
@@ -13,7 +13,7 @@ Backend:
 - *(Erlang)
 
 Data Storage:
-- PostgreSQL
+- PostgreSQL + pgBouncer
 - SQLite
 - MariaDB/MySQL
 - PostgreSQL
