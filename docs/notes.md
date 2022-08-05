@@ -1,12 +1,16 @@
 # Заметки
 ## Наборы инструментов
 Frontend:
-- VueJS 2 + Vuetify
+- Vite + VueJS 2 + Vuetify
+- Vite + VueJS 3 + ?
 - Vite + VueJS 3 + Tailwind CSS
+
 
 Backend:
 - FastAPI (Python)
 - Yii (PHP)
+- *(Go)
+- *(Erlang)
 
 Data Storage:
 - PostgreSQL
