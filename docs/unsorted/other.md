@@ -73,7 +73,7 @@ npm install <package_name>@latest --save (Обновить до полседне
 npm install <package_name>@latest --save --force
 ```
 
-## RabbitMQ
+## [RabbitMQ](https://www.rabbitmq.com)
 ```
 rabbitmqctl list_queues name messages_ready messages_unacknowledged
 rabbitmqctl delete_queue <queue_name>
