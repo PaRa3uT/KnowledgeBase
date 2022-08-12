@@ -87,6 +87,31 @@ pull request - если изменения приняты, переходим к
 git checkout master  
 git pull origin master  
 
+### Создание новой ветки (из мастера)
+```
+git checkout master
+git cheackout -b feature/xxx
+```
+
+### Слить изменения из мастера в свою ветку
+```
+git checkout feature/xxx
+git pull --rebase origin master
+```
+
+### История изменений
+```
+git log --graph
+git log --graph --oneline
+git log --graph --oneline -5
+```
+
+### Удалить последнее изменение (использовал для отмены слияния master в ветку feature)
+```
+git checkout feature/xxx
+git reset --hard HEAD~1
+```
+
 ## Остальное
 git config --global http.proxy http://proxyuser:proxypass@proxyaddress:8080  
 
