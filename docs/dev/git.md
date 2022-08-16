@@ -112,6 +112,15 @@ git checkout feature/xxx
 git reset --hard HEAD~1
 ```
 
+### Добавить удалённый репозиторий (пустой) в существующую папку
+```
+git init
+git add .
+git commit -m "Initial commit"
+git add origin <remote_origin_url>
+git push origin master
+```
+
 ## Остальное
 git config --global http.proxy http://proxyuser:proxypass@proxyaddress:8080  
 
