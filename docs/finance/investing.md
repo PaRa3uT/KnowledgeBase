@@ -43,18 +43,18 @@ https://smart-lab.ru/q/ofz/order_by_yield/desc/
 :heavy_check_mark:ВТБ - Американские акции (?S&P 500) (VTBA)  
 :heavy_check_mark:ВТБ - индекс Мосбиржи (VTBX)  
 :heavy_check_mark:ВТБ - Ликвидность (VTBM)  
-:heavy_check_mark:FinEx - индекс Мосбиржи FXRL  
+:heavy_minus_sign:FinEx - индекс Мосбиржи FXRL  
 :heavy_check_mark:Сбербанк - индекс Мосбиржи SBMX  
 :heavy_check_mark:Тинькофф - «Индекс МосБиржи» TMOS  
-:heavy_check_mark:FinEx «Еврооблигации российских эмитентов с рублевым хеджем» FXRB  
-:heavy_check_mark:FinEx «Краткосрочные гособлигации США с рублевым хеджем» FXMM  
+:heavy_minus_sign:FinEx «Еврооблигации российских эмитентов с рублевым хеджем» FXRB  
+:heavy_minus_sign:FinEx «Краткосрочные гособлигации США с рублевым хеджем» FXMM  
 :heavy_check_mark:«Альфа-Капитал Управляемые облигации» AKMB  
 :interrobang:Сбербанк «Индекс Мосбиржи рублевых корпоративных облигаций» SBRB  
 :interrobang:ВТБ - Акции развивающихся стран (VTBE)  
 :interrobang:ВТБ - Фонд Золото. Биржевой (VTBG)  
-:interrobang:FinEx «Акции / Казахстан» FXKZ  
-:interrobang:FinEx «Акции / Китай» FXCN  
-:interrobang:FinEx «Золото» (FXGD)  
+:heavy_minus_sign:FinEx «Акции / Казахстан» FXKZ  
+:heavy_minus_sign:FinEx «Акции / Китай» FXCN  
+:heavy_minus_sign:FinEx «Золото» (FXGD)  
 :interrobang:TPAS (Tinkoff PanAsia)  
 :interrobang:TEMS (Tinkoff emerging markets)  
 :interrobang:«Тинькофф Золото» TGLD  
