@@ -208,3 +208,14 @@ mount -o nouuid /dev/sdb7 disk-7
 fdisk -l /dev/sda
 fdisk /dev/sda
 ```
+
+### lsblk:
+```
+lsblk
+lsblk -f
+lsblk -o +FSTYPE,UUID,MODEL,SERIAL
+lsblk -o +FSTYPE,UUID,MODEL,SERIAL -J
+lsblk /dev/sda /dev/sdb
+lsblk -l
+lsblk -p
+```
