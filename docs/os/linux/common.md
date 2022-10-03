@@ -198,18 +198,18 @@ mkfs.xfs /dev/sdb1
 xfs_admin -U generate /dev/sdb6
 ```
 
-### Mount: 
+### Mount
 ```
 mount -o nouuid /dev/sdb7 disk-7
 ```
 
-### fdisk: 
+### fdisk
 ```
 fdisk -l /dev/sda
 fdisk /dev/sda
 ```
 
-### lsblk:
+### lsblk
 ```
 lsblk
 lsblk -f
