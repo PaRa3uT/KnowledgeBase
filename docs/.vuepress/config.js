@@ -1,7 +1,7 @@
-const { defaultTheme } = require('vuepress')
-const { searchPlugin } = require('@vuepress/plugin-search')
-const { activeHeaderLinksPlugin } = require('@vuepress/plugin-active-header-links')
-const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
+import { defaultTheme } from 'vuepress';
+import { searchPlugin } from '@vuepress/plugin-search';
+import { activeHeaderLinksPlugin } from '@vuepress/plugin-active-header-links';
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top';
 
 module.exports = {
     base: "/KnowledgeBase/",
