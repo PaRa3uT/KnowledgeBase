@@ -1,7 +1,7 @@
-import { defaultTheme } from 'vuepress';
-import { searchPlugin } from '@vuepress/plugin-search';
-import { activeHeaderLinksPlugin } from '@vuepress/plugin-active-header-links';
-import { backToTopPlugin } from '@vuepress/plugin-back-to-top';
+import { defaultTheme } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { activeHeaderLinksPlugin } from '@vuepress/plugin-active-header-links'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 
 module.exports = {
     base: "/KnowledgeBase/",
