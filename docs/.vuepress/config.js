@@ -3,7 +3,7 @@ import { searchPlugin } from '@vuepress/plugin-search'
 import { activeHeaderLinksPlugin } from '@vuepress/plugin-active-header-links'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 
-module.exports = {
+export default {
     base: "/KnowledgeBase/",
 
     plugins: [
