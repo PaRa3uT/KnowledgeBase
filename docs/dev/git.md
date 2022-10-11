@@ -121,6 +121,12 @@ git add origin <remote_origin_url>
 git push origin master
 ```
 
+### Залить изменения из своей ветки в master
+```
+git push origin <branch_name>:master
+```
+
+
 ## Остальное
 git config --global http.proxy http://proxyuser:proxypass@proxyaddress:8080  
 
