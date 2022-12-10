@@ -219,3 +219,17 @@ lsblk /dev/sda /dev/sdb
 lsblk -l
 lsblk -p
 ```
+
+### fstab
+```
+Автомонтирование дисков
+
+Раздел NTFS
+UUID=5F573D4D2CFD981F /media/5F573D4D2CFD981F ntfs-3g rw,users,locale=ru_RU.UTF-8 0 0
+
+Раздел FAT и FAT32
+UUID=номер_UUID /media/Patition-FAT32 vfat shortname=mixed,codepage=850,umask=002,uid=1000,gid=100,noauto,user 0 0
+
+Раздел Ext4
+UUID=номер_UUID /media/Ubuntu20 ext4 rw,users 0 0
+```
