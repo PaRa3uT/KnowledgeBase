@@ -45,7 +45,7 @@ export default {
                 {text: 'Windows', children: [
                     {text: 'Windows', link: '/os/windows'},
                     {text: 'Windows Server', link: '/os/windows/server'},
-                    {text: 'Software', link: '/os/windows_soft'},
+                    {text: 'Software', link: '/os/windows/soft'},
                 ]},
                 {text: 'BSD', children: [
                     {text: 'FreeBSD', link: '/os/bsd/freebsd'},

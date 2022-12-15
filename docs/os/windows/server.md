@@ -14,3 +14,8 @@
         Прошло успешно
 
 # Server 2016
+
+# Server 2019
+    Upgrade to 2022:
+
+# Server 2022
