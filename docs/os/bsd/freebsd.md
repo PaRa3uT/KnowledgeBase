@@ -1,11 +1,4 @@
 # [FreeBSD](https://www.freebsd.org)
-
-FreeBSD security patches may be downloaded and installed using these commands:
-```
-freebsd-update fetch
-freebsd-update install
-```
-
 For pkg updates and system updates:
 ```
 pkg update
@@ -15,6 +8,38 @@ pkg upgrade
 When using some production tools, it is also sensible to check if they do not have known vulnerabilities using:
 ```
 pkg audit
+```
+
+## Binary Updates
+```
+freebsd-update fetch
+freebsd-update install
+```
+
+## Major and Minor Upgrade
+```
+freebsd-update -r 9.1-RELEASE upgrade
+```
+### Upgrade 12.2 to 12.3
+```
+freebsd-update -r 12.3-RELEASE upgrade
+freebsd-update install
+shutdown -r now
+freebsd-update install
+```
+
+### Upgrade 12.3 to 12.4
+```
+freebsd-update -r 12.4-RELEASE upgrade
+freebsd-update install
+shutdown -r now
+freebsd-update install
+```
+
+##  Upgrading Packages After a Major Version Upgrade
+```
+pkg-static upgrade -f
+freebsd-update install
 ```
 
 ## Settings
