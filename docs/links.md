@@ -34,6 +34,47 @@
 [DistillVideo](https://distillvideo.com/)  
 [Converto](https://www.converto.io/ru22/?)  
 
+## Онлайновые AI-сервисы для обработки изображений
+### Раскрашивание чёрно-белых фотографий
+[Colorize](https://colorize.cc/)
+[Palette](https://palette.fm/)
+[MyHeritage In Color](https://www.myheritage.com/incolor)
+[Image Colorizer](https://imagecolorizer.com/colorize.html)
+### Удаление водяных знаков с изображений
+[Watermark Remover](https://www.watermarkremover.io/)
+### Удаление фона на фотографиях
+[Remove.bg](https://www.remove.bg/)
+[Erase.bg](https://www.erase.bg/)
+[BGremover](https://bgremover.vanceai.com/)
+[ClipDrop Remove Background](https://clipdrop.co/remove-background)
+[Background Eraser Tool](https://bgeraser.com/)
+### Удаление объектов с изображений
+[Magic Eraser Tool](https://bgeraser.com/)
+[ClipDrop Cleanup](https://clipdrop.co/cleanup)
+[JpgRM](https://jpgrm.com/)
+### Увеличение разрешения изображений без потери качества
+[Let’s Enhance](https://letsenhance.io/)
+[Upscale.media](https://www.upscale.media/)
+[AI Image Enlarger](https://imglarger.com/)
+[Waifu2x](http://waifu2x.udp.jp/index.ru.html)
+### Коррекция освещения на изображениях
+[ClipDrop Relight](https://clipdrop.co/relight)
+### Реставрация старых фотографий
+[AI Restoration](https://colorize.cc/gallery/)
+[GFP-GAN](https://app.baseten.co/apps/QPp4nPE/operator_views/RqgOnqV)
+[MyHeritage Photo Enhancer](https://www.myheritage.com/photo-enhancer)
+### Улучшение изображений
+[AI Image Sharpener](https://imglarger.com/Sharpener)
+[Deep Image](https://deep-image.ai/)
+### «Оживление» портретных снимков
+[MyHeritage Deep Nostalgia](https://www.myheritage.com/deep-nostalgia)
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+
 ## Проверить быстродействие сайта
 [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)  
 [Pingdom Website Speed Test](https://tools.pingdom.com/)  

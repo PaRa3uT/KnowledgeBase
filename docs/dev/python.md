@@ -19,6 +19,13 @@
 конструкция кода, имеющая другую задачу, должна отличаться именем
 ```
 
+## GUI
+PyQt5  
+kivy  
+tkinter  
+WxPython  
+Pyforms  
+
 ## DB Drivers
 MySQL / MariaDB:
 - [PyMySQL](https://github.com/PyMySQL/PyMySQL/)

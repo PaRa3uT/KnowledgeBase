@@ -190,3 +190,16 @@ Sophos Virus Removal Tool
     ?nnCron
     +f.lux (https://justgetflux.com/)
 
+## Viber
+Не запускался на Windows 10 LTSC, иногда даже окно не прорисовывалось
+В файле c:\Users\Администратор\AppData\Local\Viber\gpu_blacklist.json
+В записи {
+           "id": 5,
+           "description": "Some AMD/ATI GPU has insufficient support of OpenGL",
+           "vendor_id": "0x1002",
+           "device_id": [ "0x5975", "0x68BE", "0x68F9", "0x7145", "0x718A", "0x7196", "0x71DE", "0x791F",  "0x7942", "0x9480", "0x9874"],
+           "features": [
+               "disable_desktopgl"
+           ]
+       },
+в ключе "device_id" добавил значение "0x9874" (Видеоадаптер -> AMD Radeon R5 Graphics)
