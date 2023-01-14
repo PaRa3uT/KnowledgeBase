@@ -11,6 +11,7 @@
 - trrfab 
 - 10Cent10 
 - yandex-yt
+- baeutifulsoup4, beautifulsup4, cloorama, cryptograpyh, crpytography, djangoo, hello-world-exampl, hello-world-example, ipyhton, mail-validator, mysql-connector-pyhton, notebok, pyautogiu, pygaem, pytorhc, python-dateuti, python-flask, python3-flask, pyyalm, rqeuests, slenium, sqlachemy, sqlalcemy, tkniter, urlllib
 
 ```
 Максимально избегайте переопределений, наследований и неявных трюков, 
@@ -20,7 +21,7 @@
 ```
 
 ## GUI
-PyQt5  
+PyQt5 + [Qt Designer](https://build-system.fman.io/qt-designer-download)  
 kivy  
 tkinter  
 WxPython  
