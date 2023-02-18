@@ -49,6 +49,9 @@ export default {
                     {text: 'Windows Server', link: '/os/windows/server'},
                     {text: 'Software', link: '/os/windows/soft'},
                     {text: 'WSL', link: '/os/windows/WSL'},
+                    {text: 'CMD', link: '/os/windows/cmd'},
+                    {text: 'PoweShell', link: '/os/windows/powershell'},
+                    {text: 'Services', link: '/os/windows/services'},
                 ]},
                 {text: 'BSD', children: [
                     {text: 'FreeBSD', link: '/os/bsd/freebsd'},
