@@ -27,6 +27,7 @@ export default {
                 {text: 'CMD', link: '/dev/cmd'},
             ]},
             {text: 'OS', children: [
+                {text: 'Storages', link: '/os/storage'},
                 {text: 'Linux', children: [
                     {text: 'Astra', link: '/os/linux/astra'},
                     {text: 'РЕД ОС', link: '/os/linux/red_os'},
@@ -41,6 +42,7 @@ export default {
                     {text: 'armbian', link: '/os/linux/armbian'},
                     {text: 'CentOS', link: '/os/linux/centos'},
                     {text: 'LFS', link: '/os/linux/lfs'},
+                    {text: 'Software', link: '/os/linux/software'},
                 ]},
                 {text: 'Windows', children: [
                     {text: 'Windows', link: '/os/windows'},
