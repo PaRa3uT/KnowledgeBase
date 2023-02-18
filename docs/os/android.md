@@ -1,23 +1,23 @@
-# Android
+п»ї# Android
 
-## Приложения
-F-Droid (Онлайн-репозиторий открытого и бесплатного ПО для андроида. Есть фильтр по наличию рекламы, слежке, необходимости рута. Так же можно добавлять свои репозитории.)  
+## РџСЂРёР»РѕР¶РµРЅРёСЏ
+F-Droid (РћРЅР»Р°Р№РЅ-СЂРµРїРѕР·РёС‚РѕСЂРёР№ РѕС‚РєСЂС‹С‚РѕРіРѕ Рё Р±РµСЃРїР»Р°С‚РЅРѕРіРѕ РџРћ РґР»СЏ Р°РЅРґСЂРѕРёРґР°. Р•СЃС‚СЊ С„РёР»СЊС‚СЂ РїРѕ РЅР°Р»РёС‡РёСЋ СЂРµРєР»Р°РјС‹, СЃР»РµР¶РєРµ, РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё СЂСѓС‚Р°. РўР°Рє Р¶Рµ РјРѕР¶РЅРѕ РґРѕР±Р°РІР»СЏС‚СЊ СЃРІРѕРё СЂРµРїРѕР·РёС‚РѕСЂРёРё.)  
 K-9 Mail (F-Droid) - is a mail client that integrates with APG to allow you easily send and receive GnuPG encrypted emails  
-Silence (F-Droid) - Fork TextSecure. Шифрованная отправка SMS/MMS  
+Silence (F-Droid) - Fork TextSecure. РЁРёС„СЂРѕРІР°РЅРЅР°СЏ РѕС‚РїСЂР°РІРєР° SMS/MMS  
 FreeOTP+ (F-Droid)  
-Hacker’s Keyboard (F-Droid)  
+HackerвЂ™s Keyboard (F-Droid)  
 OpenVPN for Android (F-Droid)  
 KeePassDroid (F-Droid) - is a secure and easy-to-use password management tool which will store your passwords in an encrypted database on your phone.  
 Fennec (F-Droid) - Firefox  
 Nova launcher  
-Telegram - малопопулярный, но идеальный мессенджер. К сожалению, убогие вайберы и прочие вотсапы заняли эту нишу.  
+Telegram - РјР°Р»РѕРїРѕРїСѓР»СЏСЂРЅС‹Р№, РЅРѕ РёРґРµР°Р»СЊРЅС‹Р№ РјРµСЃСЃРµРЅРґР¶РµСЂ. Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ, СѓР±РѕРіРёРµ РІР°Р№Р±РµСЂС‹ Рё РїСЂРѕС‡РёРµ РІРѕС‚СЃР°РїС‹ Р·Р°РЅСЏР»Рё СЌС‚Сѓ РЅРёС€Сѓ.  
 X-Plore File Manager  
-AIMP - аудио проигрыватель  
+AIMP - Р°СѓРґРёРѕ РїСЂРѕРёРіСЂС‹РІР°С‚РµР»СЊ  
 Viber  
-QuickPic — Лучшая на сегодня галерея. Быстрая, функциональная, удобная. А также сбалансированная во всех отношениях.  
+QuickPic вЂ” Р›СѓС‡С€Р°СЏ РЅР° СЃРµРіРѕРґРЅСЏ РіР°Р»РµСЂРµСЏ. Р‘С‹СЃС‚СЂР°СЏ, С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅР°СЏ, СѓРґРѕР±РЅР°СЏ. Рђ С‚Р°РєР¶Рµ СЃР±Р°Р»Р°РЅСЃРёСЂРѕРІР°РЅРЅР°СЏ РІРѕ РІСЃРµС… РѕС‚РЅРѕС€РµРЅРёСЏС….  
 Remote Windows - RDP  
 android-vnc-viewer - VNC  
-SD Maid - Clean Master нормального человека.  
+SD Maid - Clean Master РЅРѕСЂРјР°Р»СЊРЅРѕРіРѕ С‡РµР»РѕРІРµРєР°.  
 ConnectBot - SSH  
 Syncthing  
 Open Camera  
