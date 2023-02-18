@@ -1,27 +1,31 @@
 # Заметки
 ## Наборы инструментов
 Frontend:
-- Vite + VueJS 2 + Vuetify
-- Vite + VueJS 3 + UI (?) + Pinia + Router
+- Vite + VueJS 2 + Vuetify 2
+- Vite + VueJS 3 + UI (NaiveUI/ElementUI/Element plus/Ant Design/PrimeVue/Buefy/Quasar) + Pinia + Router
 - Vite + VueJS 3 + Tailwind CSS
-
 
 Backend:
 - FastAPI (Python)
+- Blacksheep (Python)
 - Yii (PHP)
 - *(Go)
 - *(Erlang)
 
 Data Storage:
-- PostgreSQL + pgBouncer
 - SQLite
+- PostgreSQL ( + pgBouncer)
+- Redis (Key-Value)
+- MongoDB (Document DB)
+- InfluxDB (Time Series)
 - MariaDB/MySQL
-- PostgreSQL
-- TimescaleDB
+- TimescaleDB (Time Series)
 - PostGIS
+- Neo4j (Graph DB)
+- Cassandra (Column DB)
 
 Обработка задач:
-- Брокер очередей/задач (Celery, RabbitMQ, ActiveMQ)
+- Брокер очередей/задач (Celery, RabbitMQ, ActiveMQ, arq)
 - Хранение статуса задачи (Redis)
 - Воркеры (непосредственно выполняющие задачи)
 
@@ -31,7 +35,9 @@ Data Storage:
 - [vis.js](https://visjs.org/)
 
 Work:
-- Fluentbit (отправка логов), 
+- Python 2.7
+- Python 3
+- Fluentbit (отправка логов) 
 - Logstash/Fluentd(Graylog, Sentry)
 - ClickHouse
 - Grafana
@@ -43,7 +49,6 @@ Work:
 - Docker
 - Docker Compose
 - Hadoop
-- Python 2.7
 - Golang
 - Visual Studio Code
 - Git
@@ -57,7 +62,6 @@ Work:
 - Jenkins
 - Ansible
 - Rabbit MQ
-- Python 3
 - DBeaver
 - uvicorn (ASGI)
 - nginx (HTTP Server, Balancer)

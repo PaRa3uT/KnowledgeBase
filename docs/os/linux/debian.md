@@ -1,5 +1,13 @@
 # [Deabian](https://www.debian.org)
 
+## Настройка сети
+```
+ip -c address (ip a)
+ifup <interface> (/sbin/ifup)
+/etc/network/interfaces
+
+```
+
 ## Установка на OrangePI
 ```
 Записываем образ через WIN32DiskImager, Etcher(https://etcher.io/)

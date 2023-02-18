@@ -29,11 +29,10 @@ export default {
             {text: 'OS', children: [
                 {text: 'Storages', link: '/os/storage'},
                 {text: 'Linux', children: [
-                    {text: 'Astra', link: '/os/linux/astra'},
-                    {text: 'РЕД ОС', link: '/os/linux/red_os'},
                     {text: 'Common', link: '/os/linux/common'},
                     {text: 'Common DEB', link: '/os/linux/deb'},
                     {text: 'Common RPM', link: '/os/linux/rpm'},
+                    {text: 'Software', link: '/os/linux/software'},
                     {text: 'Debian', link: '/os/linux/debian'},
                     {text: 'Devuan', link: '/os/linux/devuan'},
                     {text: 'Slackware', link: '/os/linux/slackware'},
@@ -42,7 +41,9 @@ export default {
                     {text: 'armbian', link: '/os/linux/armbian'},
                     {text: 'CentOS', link: '/os/linux/centos'},
                     {text: 'LFS', link: '/os/linux/lfs'},
-                    {text: 'Software', link: '/os/linux/software'},
+                    {text: 'Void', link: '/os/linux/void'},
+                    {text: 'Astra', link: '/os/linux/astra'},
+                    {text: 'РЕД ОС', link: '/os/linux/red_os'},
                 ]},
                 {text: 'Windows', children: [
                     {text: 'Windows', link: '/os/windows'},

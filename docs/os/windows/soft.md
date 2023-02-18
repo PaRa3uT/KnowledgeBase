@@ -51,7 +51,7 @@ nnCron
             https://my-trial.ru/
     ?Symantec Endpoint Protection
     - Avira Free Antivirus (Сливает пароли. Видно на чью учетку зареган на видном месте) (https://www.avira.com/en/free-antivirus-windows)
-    Panda Free Antivirus (https://www.pandasecurity.com/en-us/homeusers/solutions/free-antivirus/)
+    - Panda Free Antivirus (Обновление через VPN) (https://www.pandasecurity.com/en-us/homeusers/solutions/free-antivirus/)
 
 ## Антивирусы бизнес версии
     Win 10:
@@ -104,8 +104,13 @@ Sophos Virus Removal Tool
 ```
 
 ## Partition Editors:
+    
     AOMEI Partition Assistant Standart (Была ошибка при изменении NTFS раздела в большую сторону)
     EaseUS Partition Master Free Edition (Есть реклама)
+    Paragon Partition Manager Community Edition
+    IM-Magic Partition Resizer Free
+    MiniTool Partition Wizard (При запуске вылезла реклама с галочкой больше не показывать)
+    WD Align (Выравнивание разделов, только для дисков WD)
 
 ## Обновление драйверов:
     + Drivers Easy (Нашёл 10 драйверов, позволяет скачаить драйвера без регистрации и установки, после скачивания открывает папку с драйвером, по факту обновились только 2, ещё 3 под вопросом, Не самы свежие драйвера)
