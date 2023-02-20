@@ -1,4 +1,4 @@
-﻿Подсистема Windows для Linux
+﻿# WSL (Подсистема Windows для Linux)
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 Ubuntu 16.04 → https://aka.ms/wsl-ubuntu-1604
