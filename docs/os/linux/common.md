@@ -19,6 +19,9 @@ sudo blkid /dev/sda3
 ionice [-c class] [-n classdata] [-t] COMMAND [ARG]...
     -c class Класс планирования. 0 ни для кого, 1 — для реального времени, 2 — для получения оптимального усилия, 3 — для «холостого хода» т.е idle.
     -p pid
+diff file_1 file_2
+diff -c file_1 file_2
+diff -u file_1 file_2
 ```
 
 ## S.M.A.R.T.

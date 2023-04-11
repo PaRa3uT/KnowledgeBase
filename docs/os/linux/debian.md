@@ -1,5 +1,12 @@
 # [Deabian](https://www.debian.org)
 
+## Удаление устаревших ядер
+```
+uname -r (узнаём какое ядро сейчас задействовано)
+dpkg --list | egrep -i --color 'linux-image|linux-headers' (список установленных ядер)
+sudo apt --purge remove linux-image-5.19.0-1-amd64 (удаляем устаревшее/ненужное ядро)
+```
+
 ## Настройка сети
 ```
 ip -c address (ip a)
@@ -316,6 +323,29 @@ apt-get install timescaledb-2-postgresql-13
   ```
   http://SERVER_IP/zabbix  
   Admin:zabbix  
+
+### Upgrade Zabbix 5.0 LTS to 6.0 LTS
+    systemctl stop zabbix-server
+
+    mkdir /opt/zabbix-backup/
+    cp /etc/zabbix/zabbix_server.conf /opt/zabbix-backup/
+    cp /etc/apache2/conf-enabled/zabbix.conf /opt/zabbix-backup/
+    cp -R /usr/share/zabbix/ /opt/zabbix-backup/
+    cp -R /usr/share/doc/zabbix-* /opt/zabbix-backup/
+
+    rm -Rf /etc/apt/sources.list.d/zabbix.list
+    wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-1+debian11_all.deb
+    dpkg -i zabbix-release_6.0-1+debian11_all.deb
+    apt-get update
+    apt-get install --only-upgrade zabbix-server-mysql zabbix-frontend-php zabbix-agent
+    apt-get install zabbix-apache-conf
+
+    vim /etc/zabbix/zabbix_server.conf:
+        DBPassword=
+        ValueCacheSize=32M
+    vim /etc/zabbix/apache.conf
+
+    systemctl start zabbix-server
 
 ## Node.js
 
