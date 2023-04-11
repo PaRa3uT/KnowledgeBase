@@ -6,7 +6,7 @@ Frontend:
 - Vite + VueJS 3 + Tailwind CSS
 
 Backend:
-- FastAPI (Python)
+- FastAPI (Python) + Pydantic (attrs/Dataclasses)
 - Blacksheep (Python)
 - Yii (PHP)
 - *(Go)

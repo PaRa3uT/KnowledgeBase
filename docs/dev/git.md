@@ -190,7 +190,11 @@ git add origin <remote_origin_url>
 git push origin master
 ```
 
-
+### Перенести изменения из другого коммита с помощью cherry pick
+```
+git switch <target_branch>
+git cherry-pick <commit-hash>
+```
 
 ## Остальное
 git config --global http.proxy http://proxyuser:proxypass@proxyaddress:8080  

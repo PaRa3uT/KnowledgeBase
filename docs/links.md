@@ -1,6 +1,8 @@
 # Links
 
 ## Sites
+[XDA](https://www.xda-developers.com/)  
+[DNS Клуб новости](https://club.dns-shop.ru/digest)  
 [3dnews](http://3dnews.ru)  
 [ixbt](http://ixbt.com)  
 [anti-malware news](https://www.anti-malware.ru/news)  
@@ -13,6 +15,7 @@
 []()
 
 ## Online Tools
+[Проверка блокировки рекламы](https://checkadblock.ru/)
 [Оптимизация картинок](https://tinypng.com/)
 [Преобразование форматов изображений](https://cloudconvert.com/)
 [Explain PostgreSQL Анализ планов, нормализация запросов](https://explain.tensor.ru/)  
@@ -156,6 +159,9 @@
 [DevDocs](https://devdocs.io/) - Ресурс с документацией практически по каждой технологии, используемой в веб-разработке. Для удобства есть функция поиска. Любой файл можно скачать для чтения офлайн.  
 [Bundlephobia](https://bundlephobia.com/) - С помощью Bundlephobia можно проверить размер зависимостей до добавления их в проект.  
 
+## Torrents
+[nnm](https://www.nnmclub.to)
+[RuTor](http://6tor.org)
 
 ## Unsorted
 [Image Upscaler](https://imgupscaler.com/) - Бесплатный инструмент для улучшения качества изображения на основе последних разработок в области искусственного интеллекта. Поддерживает пакетную обработку  
