@@ -137,6 +137,7 @@ Sophos Virus Removal Tool
 ## Browser:
     + Firefox ESR
     + Firefox:
+        + uBlock
         Policy Control
         Privacy Settings
         HTTPS Everywhere
@@ -151,7 +152,6 @@ Sophos Virus Removal Tool
     Opera (Chromium)
     Vivaldi (Chromium)
     Google chrome (Chromium)
-    - Sputnik (Остались только платные версии)
     Cyberfox
     Tor Browser
     Iridium Browser
@@ -159,6 +159,7 @@ Sophos Virus Removal Tool
     Spark
     UC
     - Yandex (Слишком умный, агрессивная политика распространения)
+    - Sputnik (Остались только платные версии)
 
 ## Просмотрщики изображений:
     IrfanView (Eng)

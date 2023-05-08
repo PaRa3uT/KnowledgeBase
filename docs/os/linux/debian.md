@@ -15,6 +15,15 @@ ifup <interface> (/sbin/ifup)
 
 ```
 
+## Sudo
+```
+su
+apt install sudo
+vi /etc/sudoers
+%sudo ALL=(ALL:ALL) ALL
+usermod -aG sudo sergiy
+```
+
 ## Установка на OrangePI
 ```
 Записываем образ через WIN32DiskImager, Etcher(https://etcher.io/)
@@ -99,8 +108,8 @@ sudo apt autoremove
 
 Замена репозиториев
 ```
-sed -i 's/buster/bullseye/g' /etc/apt/sources.list
 sed -i 's/buster\/updates/bullseye-security/g' /etc/apt/sources.list
+sed -i 's/buster/bullseye/g' /etc/apt/sources.list
 sudo apt update
 ```
 
@@ -111,7 +120,7 @@ sudo apt upgrade --without-new-pkgs
 
 Полное обновление
 ```
-sudo apt dist-upgrade
+sudo apt full-upgrade
 sudo apt autoremove
 ```
 
@@ -144,16 +153,21 @@ curl -sSfL https://raw.githubusercontent.com/krakjoe/apcu/master/apc.php -o /var
 
 ## [Docker](https://docs.docker.com/engine/install/debian/)
 ```
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
 echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
-  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
+  "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 apt-get update
-apt-get install docker-ce docker-ce-cli containerd.io
-apt-get update
-apt-get install -y docker-ce docker-ce-cli containerd.io
-docker run hello-world
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo docker run hello-world
 
 systemctl status docker
 systemctl status containerd

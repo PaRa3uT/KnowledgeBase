@@ -44,6 +44,9 @@ export default {
                     {text: 'Void', link: '/os/linux/void'},
                     {text: 'Astra', link: '/os/linux/astra'},
                     {text: 'РЕД ОС', link: '/os/linux/red_os'},
+                    {text: 'AlmaLinux', link: '/os/linux/alma_linux'},
+                    {text: 'Fedora Server', link: '/os/linux/fedora_server'},
+                    {text: 'Ubuntu Server', link: '/os/linux/ubuntu_server'},
                 ]},
                 {text: 'Windows', children: [
                     {text: 'Windows', link: '/os/windows'},
