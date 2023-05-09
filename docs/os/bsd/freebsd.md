@@ -1,15 +1,4 @@
 # [FreeBSD](https://www.freebsd.org)
-For pkg updates and system updates:
-```
-pkg update
-pkg upgrade
-```
-
-When using some production tools, it is also sensible to check if they do not have known vulnerabilities using:
-```
-pkg audit
-```
-
 ## Binary Updates
 ```
 freebsd-update fetch
@@ -42,7 +31,39 @@ pkg-static upgrade -f
 freebsd-update install
 ```
 
+## Install application
+### Ports (source and packages)
+```
+portsnap fetch
+portsnap extract (только в первый раз, либо надо получить чистое дерево портов, удаляет существующее дерево портов)
+portsnap update
+```
+
+### Packages (binaries)
+```
+pkg search <name>
+pkg install <name>
+pkg info <name>
+pkg info
+```
+
+For pkg updates and system updates:
+```
+pkg update
+pkg upgrade
+```
+
+When using some production tools, it is also sensible to check if they do not have known vulnerabilities using:
+```
+pkg audit
+```
+
 ## Settings
+
+### User managment
+```
+    adduser
+```
 
 ### Enabling ASLR:
 Add this entries to /boot/loader.conf to enable them on the startup
