@@ -21,10 +21,12 @@ export default {
                 {text: 'Git', link: '/dev/git'},
                 {text: 'JavaScript', link: '/dev/java_script'},
                 {text: 'JS. Vue 3', link: '/dev/js_vue_3'},
+                {text: 'GO', link: '/dev/go'},
                 {text: 'SQL', link: '/dev/sql'},
                 {text: 'PHP', link: '/dev/php'},
                 {text: 'Tailwind CSS', link: '/dev/tailwind'},
                 {text: 'CMD', link: '/dev/cmd'},
+                {text: 'RT-Thread', link: '/dev/rt-thread'},
             ]},
             {text: 'OS', children: [
                 {text: 'Storages', link: '/os/storage'},
@@ -46,6 +48,8 @@ export default {
                     {text: 'РЕД ОС', link: '/os/linux/red_os'},
                     {text: 'AlmaLinux', link: '/os/linux/alma_linux'},
                     {text: 'Fedora Server', link: '/os/linux/fedora_server'},
+                    {text: 'Fedora Desktop', link: '/os/linux/fedora_desktop'},
+                    {text: 'Fedora Core', link: '/os/linux/fedora_core'},
                     {text: 'Ubuntu Server', link: '/os/linux/ubuntu_server'},
                 ]},
                 {text: 'Windows', children: [
