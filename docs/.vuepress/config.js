@@ -1,15 +1,15 @@
 import { defaultTheme } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
-import { activeHeaderLinksPlugin } from '@vuepress/plugin-active-header-links'
-import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
+//import { activeHeaderLinksPlugin } from '@vuepress/plugin-active-header-links'
+//import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 
 export default {
     base: "/KnowledgeBase/",
 
     plugins: [
         searchPlugin(),
-        activeHeaderLinksPlugin(),
-        backToTopPlugin(),
+        //activeHeaderLinksPlugin(),
+        //backToTopPlugin(),
     ],
 
     theme: defaultTheme({
