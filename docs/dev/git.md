@@ -230,12 +230,12 @@ git config –global color.ui true - добавляет глобальную н�
 git merge - используется для слияния одной или нескольких веток в текущую, после чего устанавливает указатель текущей ветки на результирующий коммит  
 git clean -df - удаляет неотслеживаемые файлы и директории  
 git show &lt;commit_id&gt;  
-git prune (git prune < --dry-run>| <-v> | <--progress> |<--expire <time> |<-- > |<head>…)  
+git prune (git prune < --dry-run>| <-v> | <--progress> |<--expire \<time\> |<-- > |\<head\>…)  
     --dry-run: doesn’t execute the prune but rather lists what it will remove  
     -v (--verbose): displays the output of pruned data and actions  
     --progress: displays output indicating the prune’s progress  
-    --expire <time>: specifies when the wasted objects will expire  
-    <head>…: specifies the options that are referenced from the commit’s head  
+    --expire \<time\>: specifies when the wasted objects will expire  
+    \<head\>…: specifies the options that are referenced from the commit’s head  
 
 
 ## Остальное
