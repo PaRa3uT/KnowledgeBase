@@ -39,6 +39,23 @@ vgdisplay
 lvs
 lvdisplay
 
+### Increase size
+```
+Extend 'extended' partition
+    GParted
+
+Extend the Volume Group
+    GParted
+
+Extend the Logical Volume
+    sudo lvextend -l +100%FREE /dev/srv-debian-2-vg/root
+
+Extend the filesystem
+    check the filesystem with lsblk -f or df -Th
+    if XFS
+        sudo xfs_growfs /dev/mapper/srv--debian--2--vg-root
+```
+
 ## LVM on MDADM
 (/dev/sda1, /dev/sdb1) -> md0 -> /boot
 (/dev/sda5, /dev/sdb5) -> md1 -> VG -> LV (root, home) -> (/, /home)

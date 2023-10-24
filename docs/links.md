@@ -10,9 +10,17 @@
 [losst](http://losst.ru)  
 [winitpro](http://winitpro.ru)  
 [Tproger](https://tproger.ru)  
-[daily.dev](https://app.daily.dev/) - Агрегатор новостей из мира IT. Собирает лучшие статьи с разных платформ и публикует в ленте.
+[daily.dev](https://app.daily.dev/) - Агрегатор новостей из мира IT. Собирает лучшие статьи с разных платформ и публикует в ленте  
 [RealPython](https://realpython.com/)  
-[]()
+
+## Культура
+[Online Teatr](https://onlineteatr.com/) - прямые трансляций спектаклей лучших Московских театров  
+[журнал «Искусство»](https://iskusstvo-info.ru/)
+[Культура.РФ](https://www.culture.ru/)
+[Национальная электронная библиотека](https://rusneb.ru/)
+[полка](https://polka.academy/)
+[Россия К](https://vgtrk.ru/tvkultura)
+
 
 ## Online Tools
 [Проверка блокировки рекламы](https://checkadblock.ru/)
@@ -71,12 +79,7 @@
 [Deep Image](https://deep-image.ai/)
 ### «Оживление» портретных снимков
 [MyHeritage Deep Nostalgia](https://www.myheritage.com/deep-nostalgia)
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
+
 
 ## Проверить быстродействие сайта
 [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)  
