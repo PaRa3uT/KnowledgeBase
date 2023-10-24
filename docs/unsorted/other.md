@@ -1,4 +1,9 @@
 # Other
+## [Elasticsearch](https://www.elastic.co/)
+## [OpenSearch](https://opensearch.org/)
+Fork Elasticsearch
+## [Sphinx](http://www.sphinxsearch.com/)
+
 ## [IPFS](ipfs.io)
 
 ## QEMU

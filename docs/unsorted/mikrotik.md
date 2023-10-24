@@ -44,3 +44,14 @@ system logging export file=log.rsc
 ### WAN Static
 ### LAN Static
 ### DHCP Server
+
+##
+```
+/system logging print
+/system logging remove 4
+
+Also you might want to enable debug logging for dhcp.
+/system logging add topics=dhcp,debug action=memory
+
+/system logging add topics=dhcp,info action=memory
+```

@@ -173,6 +173,10 @@ systemctl status docker
 systemctl status containerd
 
 apt-get install -y docker-compose
+curl -SL https://github.com/docker/compose/releases/download/v2.20.3/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+
 vim /etc/docker/daemon.json
 {
     "log-driver": "local",

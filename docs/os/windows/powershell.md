@@ -1,3 +1,11 @@
+# PowerShell
+```
+Get-NetTCPConnection -State Listen
+Get-NetTCPConnection -State Established
+Get-Process -Id (Get-NetTCPConnection -State Listen).OwningProcess
+Get-Process -Id (Get-NetTCPConnection -State Listen).OwningProcess | Format-Table Id, ProcessName, Path
+Get-NetTcpConnection -State Listen | Select-Object LocalAddress,LocalPort,OwningProcess,@{Name="Process";Expression={(Get-Process -Id $_.OwningProcess).ProcessName}} | Sort-Object -Property LocalPort | Format-Table
+```
 ##Запуск PowerShell скрипта в обход ExecutionPolicy:
     powershell.exe -ExecutionPolicy Bypass -File C:\myUnsigned.ps1
     Или:

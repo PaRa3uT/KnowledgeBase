@@ -25,6 +25,19 @@ shutdown -r now
 freebsd-update install
 ```
 
+### Upgrade 12.4 to 13.2 (Major) (BIN)
+```
+freebsd-update fetch
+freebsd-update install
+execute the commands freebsd-version -k and uname -r, reboot the system if the outputs differ
+freebsd-update -r 13.2-RELEASE upgrade
+freebsd-update install
+reboot
+freebsd-update install
+pkg-static upgrade -f
+freebsd-update install
+```
+
 ##  Upgrading Packages After a Major Version Upgrade
 ```
 pkg-static upgrade -f

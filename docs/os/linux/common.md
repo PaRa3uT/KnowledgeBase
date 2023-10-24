@@ -22,6 +22,16 @@ ionice [-c class] [-n classdata] [-t] COMMAND [ARG]...
 diff file_1 file_2
 diff -c file_1 file_2
 diff -u file_1 file_2
+
+Место занятое в директории
+    ls -A | xargs -I {} du -sh -BM {} | sort -rn
+    du -hs $(ls -A) -BM | sort -nr  (показывает чуть меньше чем предыдущая команда)
+    du -sh -BM <path>/* | sort -rn | head -10 (Показывает не все файлы)
+
+    du -hs .[^.]*
+    du -xsh /media/* 2>/dev/null | sort -rh
+    du -hs ..[^.]* .[^.]* *
+    du -cks | sort -nr
 ```
 
 ## S.M.A.R.T.
@@ -61,6 +71,7 @@ iostat -dx 10 360
 netstat -an -> ss -an
 ss -ltn (-l listen; -t tcp; -n port numeric)
 ss --summary (ss -s)
+sudo lsof -i:5432 (есть ли порт и кем занят)
 ```
 
 ## Работа с файлами

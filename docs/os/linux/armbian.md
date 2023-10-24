@@ -12,6 +12,13 @@ apt update
 apt upgrade
 ```
 
+## Software
+``
+apt install -y vim --no-install-recommends
+apt install -y htop --no-install-recommends
+apt install -y tmux --no-install-recommends
+``
+
 ## NextCloud
 ```
 wget https://raw.githubusercontent.com/nextcloud/nextcloudpi/master/install.sh
