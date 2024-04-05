@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3074defe","path":"/os/linux/fedora_core.html","title":"Fedora Core","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1698130470000,"contributors":[{"name":"PaRa3uT","email":"PaRa3uT.74@gmail.com","commits":1}]},"filePathRelative":"os/linux/fedora_core.md"}');export{e as data};

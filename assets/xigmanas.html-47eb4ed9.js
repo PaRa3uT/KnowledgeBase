@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-e61cc8d6","path":"/os/bsd/xigmanas.html","title":"XigmaNAS","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1649238620000,"contributors":[{"name":"Tarasov Artur","email":"para3ut.74@gmail.com","commits":1}]},"filePathRelative":"os/bsd/xigmanas.md"}');export{a as data};

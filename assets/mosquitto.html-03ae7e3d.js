@@ -1,0 +1,5 @@
+import{_ as s,r as n,o as i,c as a,a as e,b as t,d as r,e as d}from"./app-9ee1dfa4.js";const c={},l={id:"mosquitto",tabindex:"-1"},u=e("a",{class:"header-anchor",href:"#mosquitto","aria-hidden":"true"},"#",-1),m={href:"https://mosquitto.org/",target:"_blank",rel:"noopener noreferrer"},_=d(`<p>1.6.9 (default) bind websockets port on windows 2.0.14 (default) don&#39;t bind websocket port on Windows</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>mosquitto
+mosquitto -v -c mosquitto.conf
+mosquitto_sub -t test/topic -v
+mosquitto_pub -t test/topic -m &#39;hello world&#39;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2);function p(v,h){const o=n("ExternalLinkIcon");return i(),a("div",null,[e("h1",l,[u,t(),e("a",m,[t("Mosquitto"),r(o)])]),_])}const f=s(c,[["render",p],["__file","mosquitto.html.vue"]]);export{f as default};

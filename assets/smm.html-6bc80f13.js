@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-97fc0634","path":"/unsorted/smm.html","title":"SMM","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1637574541000,"contributors":[{"name":"Tarasov Artur","email":"para3ut.74@gmail.com","commits":1}]},"filePathRelative":"unsorted/smm.md"}');export{t as data};

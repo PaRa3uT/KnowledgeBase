@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-021ce63f","path":"/os/linux/devuan.html","title":"Devuan","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681200508000,"contributors":[{"name":"PaRa3uT","email":"PaRa3uT.74@gmail.com","commits":2}]},"filePathRelative":"os/linux/devuan.md"}');export{a as data};

@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-72d248f8","path":"/os/linux/void.html","title":"Void Linux","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1676741344000,"contributors":[{"name":"PaRa3uT","email":"PaRa3uT.74@gmail.com","commits":1}]},"filePathRelative":"os/linux/void.md"}');export{a as data};

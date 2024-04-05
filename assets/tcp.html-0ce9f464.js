@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-05efc152","path":"/network/tcp.html","title":"TCP","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1634710715000,"contributors":[{"name":"Tarasov Artur","email":"para3ut.74@gmail.com","commits":1}]},"filePathRelative":"network/tcp.md"}');export{t as data};

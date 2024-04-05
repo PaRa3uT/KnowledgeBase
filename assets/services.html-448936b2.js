@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-487326bd","path":"/os/windows/services.html","title":"Описание сервисов","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1676741127000,"contributors":[{"name":"PaRa3uT","email":"PaRa3uT.74@gmail.com","commits":1}]},"filePathRelative":"os/windows/services.md"}');export{e as data};

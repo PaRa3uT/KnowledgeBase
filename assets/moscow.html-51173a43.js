@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-79ff8f83","path":"/travel/moscow.html","title":"Москва","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1635321305000,"contributors":[{"name":"Tarasov Artur","email":"para3ut.74@gmail.com","commits":2}]},"filePathRelative":"travel/moscow.md"}');export{t as data};

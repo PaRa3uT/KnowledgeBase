@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7496ddfe","path":"/dev/sql.html","title":"SQL","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1640256701000,"contributors":[{"name":"Tarasov Artur","email":"para3ut.74@gmail.com","commits":2}]},"filePathRelative":"dev/sql.md"}');export{t as data};

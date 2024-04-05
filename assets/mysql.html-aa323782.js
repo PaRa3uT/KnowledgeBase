@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-3f7252f7","path":"/unsorted/mysql.html","title":"MariaDB/MySQL","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681201131000,"contributors":[{"name":"PaRa3uT","email":"PaRa3uT.74@gmail.com","commits":1}]},"filePathRelative":"unsorted/mysql.md"}');export{a as data};
