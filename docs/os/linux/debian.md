@@ -293,13 +293,20 @@ admin:adminadmin
 
 ## Redis
 ```
-apt-get install redis (?redis-server)
+apt-get install redis-server
 systemctl status redis-server
 /etc/redis/redis.conf
 loglevel warning
 logfile ""
 syslog-enabled yes
 always-show-logo no
+save ""
+maxmemory 256mb
+requirepass "" 
+appendonly no
+maxmemory-policy allkeys-lru
+# protected-mode no
+
 ```
 
 ## InfluxDB
@@ -418,8 +425,12 @@ apt-get install timescaledb-2-postgresql-13
 2:
     sudo wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
     sudo apt-key add mosquitto-repo.gpg.key
+    или
+    sudo wget -q https://repo.mosquitto.org/debian/mosquitto-repo.gpg -O /etc/apt/keyrings/mosquitto-repo.gpg
+
     cd /etc/apt/sources.list.d/
     sudo wget http://repo.mosquitto.org/debian/mosquitto-bullseye.list
+    sudo wget http://repo.mosquitto.org/debian/mosquitto-bookworm.list
     sudo apt-get update
 3:
     sudo apt-get install mosquitto

@@ -1,4 +1,15 @@
 # Storage
+## SSD Windows
+```
+проверить, включена ли поддержка TRIM
+cmd -> fsutil behavior query disabledeletenotify
+NTFS DisableDeleteNotify = 0 (TRIM включен)
+```
+```
+включить TRIM для SSD в Windows
+cmd -> fsutil behavior set disabledeletenotify NTFS 0
+    -> fsutil behavior set disabledeletenotify ReFS 0 
+```
 ## Partioning
 ### Server
 /boot   xfs     ~1GB
@@ -99,3 +110,16 @@ zfs send -c -i name_of_previous_snapshot name_of_the_pool@name_of_the_snapshot |
 ## FAT 16
 ## FAT 12
 ## exFAT
+## MBR to GPT
+```
+Offline
+Settings -> Update & Security ->  Recovery -> "Advanced startup" -> Restart now button
+Troubleshoot -> Advanced options -> Command Prompt
+mbr2gpt /validate
+mbr2gpt /convert
+
+Online
+mbr2gpt /validate /allowFullOS
+
+У меня была ошибка, команда mbr2gpt не выполнялась. Похоже из-за того что у меня было два раздела восстановления. У знать какой используется можно reagentc /info, неиспользуемый раздел можно удалить. Удалить через diskpart не получилось, удалил с помощью EaseUS Partition Master Free Edition
+```

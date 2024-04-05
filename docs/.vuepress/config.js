@@ -18,6 +18,7 @@ export default {
             {text: 'Ссылки', link: '/links'},
             {text: 'Dev', children: [
                 {text: 'Python', link: '/dev/python'},
+                {text: 'Rust', link: '/dev/rust'},
                 {text: 'Git', link: '/dev/git'},
                 {text: 'JavaScript', link: '/dev/java_script'},
                 {text: 'JS. Vue 3', link: '/dev/js_vue_3'},

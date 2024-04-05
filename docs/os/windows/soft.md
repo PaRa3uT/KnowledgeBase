@@ -52,6 +52,8 @@ nnCron
     ?Symantec Endpoint Protection
     - Avira Free Antivirus (Сливает пароли. Видно на чью учетку зареган на видном месте) (https://www.avira.com/en/free-antivirus-windows)
     - Panda Free Antivirus (Обновление через VPN) (https://www.pandasecurity.com/en-us/homeusers/solutions/free-antivirus/)
+    - Avast (Не работают в России)
+    - AVG (Не работают в России)
 
 ## Антивирусы бизнес версии
     Win 10:
@@ -104,8 +106,8 @@ Sophos Virus Removal Tool
 ```
 
 ## Partition Editors:
-    AOMEI Partition Assistant Standart (Была ошибка при изменении NTFS раздела в большую сторону)
-    EaseUS Partition Master Free Edition (Есть реклама)
+    AOMEI Partition Assistant Standart (Была ошибка при изменении NTFS раздела в большую сторону) (В бесплатной версии отключена возможность сконвертировать mbr в gpt)
+    EaseUS Partition Master Free Edition (Есть реклама) (В бесплатной версии отключена возможность сконвертировать mbr в gpt)
     Paragon Partition Manager Community Edition
     IM-Magic Partition Resizer Free
     MiniTool Partition Wizard (При запуске вылезла реклама с галочкой больше не показывать)
@@ -179,6 +181,7 @@ Sophos Virus Removal Tool
 ## Other:
     + Geek (Geek Uninstaller)
     + f.lux (https://justgetflux.com/)
+    [OpenVPN](https://openvpn.net/community-downloads/)
     small CD-writer
     unetbootin
     Veeam Endpoint Backup
@@ -197,6 +200,7 @@ Sophos Virus Removal Tool
     Cmder (https://cmder.net/) = ConEmu (console emulator) (https://conemu.github.io/) + clink (cmd extender) (https://mridgers.github.io/clink/) + git for windows (Unix tools on windows) (https://gitforwindows.org/)
     ?Chocolately
     ?nnCron
+    - CCleaner (Не работает в России)
     - Soft Organizer ()
 
 ## Viber
