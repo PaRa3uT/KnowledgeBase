@@ -8,6 +8,7 @@
 SET PATH=%~dp0MinGit\cmd;%PATH%
 SET gitdir=%~dp0MinGit
 SET HOME=%gitdir%\home
+SET EDITOR="С:\gvim_9.0.1712_x86\vim\vim90\gvim.exe"
 ```
 3. Установка имени и электронной почты
 ```
@@ -100,6 +101,8 @@ git reset --hard HEAD~1
 Последствия будут такими же, как при отмене изменений публичного снимка
 ```
 git commit --amend -m "Updated message for the previous commit"
+
+git push --force-with-lease repository-name branch-name (это только если коммит с неправильным комментарием запушен в удалённый репозиторий)
 ```
 ```
 git add dir1

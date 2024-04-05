@@ -17,7 +17,7 @@ Budgie
 mc  
 vim  
 
-## [Portainer] (https://docs.portainer.io/start/install-ce/server/docker/linux)
+## [Portainer](https://docs.portainer.io/start/install-ce/server/docker/linux)
 ```
 Install:
     sudo docker volume create portainer_data
@@ -33,4 +33,4 @@ Upgrade:
 
 ## Панели управления серверами
 ### Webmin
-### [Cockpit] (https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html-single/managing_systems_using_the_rhel_9_web_console/index)
+### [Cockpit](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html-single/managing_systems_using_the_rhel_9_web_console/index)

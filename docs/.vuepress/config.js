@@ -53,7 +53,7 @@ export default {
                     {text: 'Ubuntu Server', link: '/os/linux/ubuntu_server'},
                 ]},
                 {text: 'Windows', children: [
-                    {text: 'Windows', link: '/os/windows'},
+                    {text: 'Windows', link: '/os/windows/windows'},
                     {text: 'Windows Server', link: '/os/windows/server'},
                     {text: 'Software', link: '/os/windows/soft'},
                     {text: 'WSL', link: '/os/windows/WSL'},
@@ -69,7 +69,8 @@ export default {
                 ]},
                 {text: 'Other', children: [
                     {text: 'OpenWRT', link: '/os/openwrt'},
-                    {text: 'Android', link: '/os/android'}
+                    {text: 'Android', link: '/os/android'},
+                    {text: 'Mikrotik', link: '/os/mikrotik'}
                 ]},
             ]},
             {text: 'Сети', children: [

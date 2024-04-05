@@ -123,6 +123,38 @@ sudo apt upgrade --without-new-pkgs
 sudo apt full-upgrade
 sudo apt autoremove
 ```
+## Upgrade Debian 11 to 12
+Обновление до последней версии текущего релиза
+```
+sudo apt update
+sudo apt dist-upgrade
+sudo apt --fix-broken install
+sudo apt autoremove
+```
+
+Сохраняем списко текущих пакетов
+```
+dpkg --get-selections "*" > ~/dpkg.list
+dpkg -l > ~/dpkg-full.list
+```
+
+Замена репозиториев
+```
+sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list
+sudo apt update
+```
+
+Минимальное обновление
+```
+sudo apt upgrade --without-new-pkgs
+```
+
+Полное обновление
+```
+sudo apt full-upgrade
+reboot
+sudo apt autoremove
+```
 
 
 ## MariaDB

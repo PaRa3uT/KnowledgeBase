@@ -31,3 +31,5 @@ Syncthing
 ?[Magic Earth](https://www.magicearth.com/) - программа для работы с картами
 ?[gallery3d](https://gitlab.e.foundation/e/os/android_packages_apps_Gallery2) - галерея фотографий
 ?[DocumentsUI](https://gitlab.e.foundation/e/os/android_packages_apps_DocumentsUI) - файловый менеджер
+
+## Bloatware (удаляем через adb)

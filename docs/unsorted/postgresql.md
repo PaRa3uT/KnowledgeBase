@@ -21,6 +21,11 @@
 Удалить базу данных: # sudo -u postgres psql -U postgres -c "DROP DATABASE basa01"
 ```
 
+## Backup
+```
+pg_dump -d database_name -F p -f dump.sql
+```
+
 ## Extensions
 ```
 SELECT * FROM pg_available_extensions WHERE name = 'postgis' OR NAME = 'timescaledb';

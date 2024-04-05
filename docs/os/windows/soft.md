@@ -104,7 +104,6 @@ Sophos Virus Removal Tool
 ```
 
 ## Partition Editors:
-    
     AOMEI Partition Assistant Standart (Была ошибка при изменении NTFS раздела в большую сторону)
     EaseUS Partition Master Free Edition (Есть реклама)
     Paragon Partition Manager Community Edition
@@ -155,16 +154,16 @@ Sophos Virus Removal Tool
     Cyberfox
     Tor Browser
     Iridium Browser
-    SRWare Iron
     Spark
     UC
+    - SRWare Iron
     - Yandex (Слишком умный, агрессивная политика распространения)
     - Sputnik (Остались только платные версии)
 
 ## Просмотрщики изображений:
-    IrfanView (Eng)
+    * XnView
+    * IrfanView (Eng)
     FastStone(При запуске обновляет какую то базу, открывается в полном экране без интерфеса)
-    XnView
     HoneyView
     ACDSee Quick View
     ACDSee Photo Studio Standard 2018
@@ -172,8 +171,14 @@ Sophos Virus Removal Tool
     - Ashampoo Photo Commander Free (Нет переключения колёсиком)
     - Picassa (Нет листания простым скролом, только с зажатым ctrl)
 
+## Tweakers
+    [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)
+    [Dism++](https://github.com/Chuyu-Team/Dism-Multi-language/releases)
+    [WPD](https://wpd.app/)
+
 ## Other:
     + Geek (Geek Uninstaller)
+    + f.lux (https://justgetflux.com/)
     small CD-writer
     unetbootin
     Veeam Endpoint Backup
@@ -185,16 +190,14 @@ Sophos Virus Removal Tool
     Registry Workshop
     ninite.com
     SyncToy
-    O&O ShutUp 10
     Malwarebytes Free 3
     Emsisoft Emergency Kit (EEK)
     Kaspersky System Checker
     Kaspersky Software Updater
-    - Soft Organizer ()
     Cmder (https://cmder.net/) = ConEmu (console emulator) (https://conemu.github.io/) + clink (cmd extender) (https://mridgers.github.io/clink/) + git for windows (Unix tools on windows) (https://gitforwindows.org/)
     ?Chocolately
     ?nnCron
-    +f.lux (https://justgetflux.com/)
+    - Soft Organizer ()
 
 ## Viber
 Не запускался на Windows 10 LTSC, иногда даже окно не прорисовывалось

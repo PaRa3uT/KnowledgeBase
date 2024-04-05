@@ -1,5 +1,20 @@
 # Links
 
+## Разобрать
+[Online UUID Generator](https://www.uuidgenerator.net/version4)
+[Javascript Playground ](https://playcode.io/)
+[JSON Formatter & Validator](https://jsonformatter.curiousconcept.com/#)
+[Online GUID / UUID Generator](https://guidgenerator.com/)
+[JSON Viewer](https://codebeautify.org/jsonviewer)
+[JWT Debugger](https://jwt.io/)
+[Геопортал Челябинской области](https://gis.gov74.ru)
+[Your Python Regular Expression's Best Buddy](https://www.pyregex.com/)
+[ГИДРОМЕТЦЕНТР России](https://meteoinfo.ru/)
+[Инсоляция в России](https://nova-sun.ru/insolyatsiya-v-rossii)
+[Markdown Online](https://dillinger.io/)
+[Flight Radar](https://www.flightradar24.com)
+[TIOBE Index](https://www.tiobe.com/tiobe-index/)
+
 ## Sites
 [XDA](https://www.xda-developers.com/)  
 [DNS Клуб новости](https://club.dns-shop.ru/digest)  
@@ -15,12 +30,15 @@
 
 ## Культура
 [Online Teatr](https://onlineteatr.com/) - прямые трансляций спектаклей лучших Московских театров  
-[журнал «Искусство»](https://iskusstvo-info.ru/)
-[Культура.РФ](https://www.culture.ru/)
-[Национальная электронная библиотека](https://rusneb.ru/)
-[полка](https://polka.academy/)
-[Россия К](https://vgtrk.ru/tvkultura)
+[журнал «Искусство»](https://iskusstvo-info.ru/)  
+[Культура.РФ](https://www.culture.ru/)  
+[Национальная электронная библиотека](https://rusneb.ru/)  
+[полка](https://polka.academy/)  
+[Россия К](https://vgtrk.ru/tvkultura)  
 
+## Путешествия
+[nakarte.me](https://nakarte.me)
+[Тревел-гид от Tele2](https://travel.tele2.ru/)
 
 ## Online Tools
 [Проверка блокировки рекламы](https://checkadblock.ru/)
@@ -34,6 +52,7 @@
 [SSL Configuration Generator](https://ssl-config.mozilla.org/#server=nginx&server-version=1.17.0&config=modern)  
 [Punycode-конвертер](https://www.punycoder.com/)  
 [Набор online компиляторов (C++, Python, Rust, ...)](https://godbolt.org/)  
+
 ### скачивание видео
 [SaveFrom](https://ru.savefrom.net/)  
 [TubeOffline](https://www.tubeoffline.com/)  
@@ -47,39 +66,46 @@
 
 ## Онлайновые AI-сервисы для обработки изображений
 ### Раскрашивание чёрно-белых фотографий
-[Colorize](https://colorize.cc/)
-[Palette](https://palette.fm/)
-[MyHeritage In Color](https://www.myheritage.com/incolor)
-[Image Colorizer](https://imagecolorizer.com/colorize.html)
+[Colorize](https://colorize.cc/)  
+[Palette](https://palette.fm/)  
+[MyHeritage In Color](https://www.myheritage.com/incolor)  
+[Image Colorizer](https://imagecolorizer.com/colorize.html)  
+
 ### Удаление водяных знаков с изображений
 [Watermark Remover](https://www.watermarkremover.io/)
-### Удаление фона на фотографиях
-[Remove.bg](https://www.remove.bg/)
-[Erase.bg](https://www.erase.bg/)
-[BGremover](https://bgremover.vanceai.com/)
-[ClipDrop Remove Background](https://clipdrop.co/remove-background)
-[Background Eraser Tool](https://bgeraser.com/)
-### Удаление объектов с изображений
-[Magic Eraser Tool](https://bgeraser.com/)
-[ClipDrop Cleanup](https://clipdrop.co/cleanup)
-[JpgRM](https://jpgrm.com/)
-### Увеличение разрешения изображений без потери качества
-[Let’s Enhance](https://letsenhance.io/)
-[Upscale.media](https://www.upscale.media/)
-[AI Image Enlarger](https://imglarger.com/)
-[Waifu2x](http://waifu2x.udp.jp/index.ru.html)
-### Коррекция освещения на изображениях
-[ClipDrop Relight](https://clipdrop.co/relight)
-### Реставрация старых фотографий
-[AI Restoration](https://colorize.cc/gallery/)
-[GFP-GAN](https://app.baseten.co/apps/QPp4nPE/operator_views/RqgOnqV)
-[MyHeritage Photo Enhancer](https://www.myheritage.com/photo-enhancer)
-### Улучшение изображений
-[AI Image Sharpener](https://imglarger.com/Sharpener)
-[Deep Image](https://deep-image.ai/)
-### «Оживление» портретных снимков
-[MyHeritage Deep Nostalgia](https://www.myheritage.com/deep-nostalgia)
 
+### Удаление фона на фотографиях
+[Remove.bg](https://www.remove.bg/)  
+[Erase.bg](https://www.erase.bg/)  
+[BGremover](https://bgremover.vanceai.com/)  
+[ClipDrop Remove Background](https://clipdrop.co/remove-background)  
+[Background Eraser Tool](https://bgeraser.com/)  
+
+### Удаление объектов с изображений
+[Magic Eraser Tool](https://bgeraser.com/)  
+[ClipDrop Cleanup](https://clipdrop.co/cleanup)  
+[JpgRM](https://jpgrm.com/)  
+
+### Увеличение разрешения изображений без потери качества
+[Let’s Enhance](https://letsenhance.io/)  
+[Upscale.media](https://www.upscale.media/)  
+[AI Image Enlarger](https://imglarger.com/)  
+[Waifu2x](http://waifu2x.udp.jp/index.ru.html)  
+
+### Коррекция освещения на изображениях
+[ClipDrop Relight](https://clipdrop.co/relight)  
+
+### Реставрация старых фотографий
+[AI Restoration](https://colorize.cc/gallery/)  
+[GFP-GAN](https://app.baseten.co/apps/QPp4nPE/operator_views/RqgOnqV)  
+[MyHeritage Photo Enhancer](https://www.myheritage.com/photo-enhancer)  
+
+### Улучшение изображений
+[AI Image Sharpener](https://imglarger.com/Sharpener)  
+[Deep Image](https://deep-image.ai/)  
+
+### «Оживление» портретных снимков
+[MyHeritage Deep Nostalgia](https://www.myheritage.com/deep-nostalgia)  
 
 ## Проверить быстродействие сайта
 [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)  
@@ -140,6 +166,7 @@
 [rutor.org](http://rutorc6mqdinc4cz.onion)  
 [зеркало The Pirate Bay](http://uj3wazyk5u4hnvtk.onion)  
 [Схоронил](http://jtm5j25w7fq5tubs.onion)  
+[nnm](http://nnmclub2vvjqzjne6q4rrozkkkdmlvnrcsyes2bbkm7e5ut2aproy4id.onion/)  
 
 ## Dev
 [2021 JavaScript Rising Stars](https://risingstars.js.org/2021/en)  
@@ -163,8 +190,16 @@
 [Bundlephobia](https://bundlephobia.com/) - С помощью Bundlephobia можно проверить размер зависимостей до добавления их в проект.  
 
 ## Torrents
-[nnm](https://www.nnmclub.to)
-[RuTor](http://6tor.org)
+[nnm](https://www.nnmclub.to)  
+[RuTor](http://6tor.org)  
+[RuTor](http://rutor.info/)  
+[RuTor](http://rutor.is/)  
+https://www.rutororg-mirror.ru/  
+[SOFTPILOT.WIN](https://surasoft.ru/)  
+[UNIONDHT.ORG](https://uniondht.org)  
+[PB.WTF](https://pb.wtf)  
+[FOST.CLUB](https://fost.club)  
+[DDGROUPCLUB.WIN](http://ddgroupclub.win)  
 
 ## Unsorted
 [Image Upscaler](https://imgupscaler.com/) - Бесплатный инструмент для улучшения качества изображения на основе последних разработок в области искусственного интеллекта. Поддерживает пакетную обработку  
@@ -178,6 +213,5 @@
 [resume.io](https://resume.io/) - Сайт для создания профессиональных резюме  
 [Storytale](https://storytale.io/) - Сайт с иллюстрациями практически на любую тему  
 [readme.so](https://readme.so/) - Сайт для создания README проекта. С помощью вшитого редактора можно быстро добавить и настроить все необходимые разделы.
-[]()
-[]()
-[]()
+[Обмен кодом, ?без подсветки синтаксиса](https://paste.aiogram.dev/)  
+[Обмен файлами](https://dropmefiles.com/)  

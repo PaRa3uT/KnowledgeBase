@@ -1,4 +1,7 @@
 # JavaScript
+## Документация
+[MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript)
+
 ## Node Blacklist Packages
 - colors
 - faker
