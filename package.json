@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^5.1.8",
-    "vuepress": "^2.0.0-rc.12",
-    "@vuepress/bundler-vite": "^2.0.0-rc.12",
-    "@vuepress/theme-default": "^2.0.0-rc.31"
+    "vite": "5.1.8",
+    "vuepress": "2.0.0-rc.12",
+    "@vuepress/bundler-vite": "2.0.0-rc.12",
+    "@vuepress/theme-default": "2.0.0-rc.31"
   }
 }
