@@ -10,8 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "vite": "5.1.8",
-    "vuepress": "2.0.0-rc.12",
-    "@vuepress/bundler-vite": "2.0.0-rc.12",
-    "@vuepress/theme-default": "2.0.0-rc.31"
+    "sass": "^1.80.3",
+    "vuepress": "^2.0.0-rc.19",
+    "@vuepress/bundler-vite": "^2.0.0-rc.19",
+    "@vuepress/theme-default": "^2.0.0-rc.68"
   }
 }
