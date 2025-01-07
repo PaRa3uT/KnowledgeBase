@@ -14,6 +14,8 @@ docker container --help
 docker exec -it awx_web bash  (запустить консоль контейнера)  
 docker exec -it <conainer_name> <command> (запустить command в контейнере)
 docker exec -it <conainer_name> sh|bash|python
+
+docker stats –no-stream (Использование памяти запущенными контейнерами)
 ```
 
 ## Display Docker version and info

@@ -136,6 +136,7 @@ Sophos Virus Removal Tool
     w3m
 
 ## Browser:
+    + Tor Browser
     + Firefox ESR
     + Firefox:
         + uBlock
@@ -146,7 +147,7 @@ Sophos Virus Removal Tool
         NoScript
         RequestPolicy
         FoxyProxy
-    + Palemoon:
+    - Palemoon:
         CipherFox
         FoxyProxy Standard
     * Brave
@@ -154,7 +155,6 @@ Sophos Virus Removal Tool
     Vivaldi (Chromium)
     Google chrome (Chromium)
     Cyberfox
-    Tor Browser
     Iridium Browser
     Spark
     UC
@@ -216,3 +216,6 @@ Sophos Virus Removal Tool
            ]
        },
 в ключе "device_id" добавил значение "0x9874" (Видеоадаптер -> AMD Radeon R5 Graphics)
+
+## VSCode
+ --verbose --log debug --disable-extensions

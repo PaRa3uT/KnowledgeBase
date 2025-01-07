@@ -24,11 +24,18 @@ https://mikrotik.wiki/wiki/
 
 Backup configuration:
     BIN:
-        Files -> Backup
+        Files -> Backup (system backup save name=test)
     TXT:
-        New Terminal -> "export file=config_backup_20170403.rsc" 
+        New Terminal -> "export file=config_backup_20170403.rsc"
+        New Terminal -> "export file=config_backup_20170403.rsc verbose=yes"
         Files -> "config_backup_20170403.rsc"
 
+Restore configuration:
+    BIN:
+        (system backup load name=test)
+    TXT:
+        import file=test.rsc
+        import file=test.rsc verbose=yes
 ```
 
 
@@ -52,7 +59,10 @@ IP -> Services отключи ненужные службы:
     www
     telnet
     /ip service disable ftp
+    /ip service disable telnet,ftp,www,api
     открывать только SSH и Winbox с определенных адресов (по умолчанию доступен ли из интернета?), остальное — disable
+    /ip service set ssh port=2200 (сменить порт сервиса)
+    /ip service set winbox address=192.168.88.0/24 (разрешать подключения к сервису только с определённых адресов)
 Так же проверь, не включены ли службы IP: Web Proxy, IP → UPnP, IP → Socks:
     /ip proxy
     /ip upnp
@@ -98,6 +108,29 @@ IP -> Services отключи ненужные службы:
 /system routerboard upgrade
 /system reboot
 }
+
+## As second router in LAN
+```
+Reset configuration: with no default
+/system reset-configuration no-defaults=yes skip-backup=yes
+
+Create bridge and add all interfaces
+Create DHCP client on created bridge
+```
+
+## DNS-over-HTTPS
+```
+/tool fetch url=https://curl.se/ca/cacert.pem (загрузка сертификатов)
+/certificate import file-name=cacert.pem passphrase="" (импорт сертификатов)
+/ip dns set servers=195.133.25.16 (Настройка DNS серверов)
+/ip dns set use-doh-server=https://dns.comss.one/mikrotik verify-doh-cert=yes (Включение DoH)
+/ip dns print (проверка настроек)
+```
+
+## Commands
+```
+/interface print (список интерфейсов)
+```
 
 ## Firewall rules:
     Разрешаем пинги

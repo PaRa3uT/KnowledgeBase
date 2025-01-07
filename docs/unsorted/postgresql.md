@@ -1,4 +1,7 @@
 # PostgreSQL
+[PostgreSQL Configurator](https://pgconfigurator.cybertec.at/)
+[PostgreSQL Configuration Builder](https://www.pgconfig.org)
+
 ```
 \l (listing databases)
 \c <database_name> (switching database)

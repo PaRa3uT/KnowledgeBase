@@ -17,6 +17,8 @@ apt upgrade
 apt install -y vim --no-install-recommends
 apt install -y htop --no-install-recommends
 apt install -y tmux --no-install-recommends
+apt install -y python3-venv --no-install-recommends
+apt install -y python3-pip-whl --no-install-recommends
 ``
 
 ## NextCloud

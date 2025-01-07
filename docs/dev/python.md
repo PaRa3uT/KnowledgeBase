@@ -125,6 +125,17 @@ df = data[0]
 print(df)
 ```
 
+## uv (менеджер пакетов)
+```
+pip install uv
+uv pip tree
+uv pip compile docs/requirements.in --universal --output-file docs/requirements.txt  # Compile requirements into a platform-independent requirements file
+uv venv .venv (создать виртуальное окружение)
+uv pip install <package_name> (установить пакет)
+uv add <package_name> (установить пакет)
+uv remove <package_name> (удалить пакет)
+uv add --group production gunicorn
+```
 
 ## Занимательные фигуры на Python в одну строку
 ```

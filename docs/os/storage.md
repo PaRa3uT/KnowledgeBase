@@ -1,4 +1,26 @@
 # Storage
+fdisk - 
+sgdisk - manage GPT partitions
+
+## S.M.A.R.T.
+```
+smartctl /dev/sda -i (отобразит идентификационную информацию о диске)
+smartctl --scan (список дисков)
+
+smartctl /dev/sda -t short (запустить короткий тест)
+smartctl /dev/sda -t long (запустить расширенное тестирование)
+smartctl /dev/sda -l selftest (отобразить информацию как прошло тестирование)
+
+sudo apt-get install smartmontools
+sudo smartctl -H /dev/sda
+sudo smartctl -A /dev/sda
+```
+
+## 4K aligned (Advanced Format)
+```
+wmic partition get Blocksize,StartingOffset, Name
+fsutil fsinfo ntfsinfo <drive letter>
+```
 ## SSD Windows
 ```
 проверить, включена ли поддержка TRIM
@@ -65,6 +87,10 @@ Extend the filesystem
     check the filesystem with lsblk -f or df -Th
     if XFS
         sudo xfs_growfs /dev/mapper/srv--debian--2--vg-root
+    if Ext4
+        resize2fs /dev/mapper/lvm_system-root
+    if btrfs
+        btrfs filesystem resize max /mounted_volume
 ```
 
 ## LVM on MDADM
@@ -94,11 +120,17 @@ Extend the filesystem
 
 ## ZFS
 ```
+?Pool
+?Dataset
+?Partition
 zfs snapshot -r name_of_the_pool@name_of_the_snapshot
 zfs send -R -c name_of_the_pool@name_of_the_snapshot > export_name
 zfs send -R -c name_of_the_pool@name_of_the_snapshot | ssh example.com cat > mybackupfile
 zfs send -R -c name_of_the_pool@name_of_the_snapshot | ssh example.com zfs receive storage/mybackup
 zfs send -c -i name_of_previous_snapshot name_of_the_pool@name_of_the_snapshot | ssh example.com zfs receive storage/mybackup
+
+convert nonredundant pool (1 disk) to mirror poll:
+    zpool attach <pool_name> <existing_disk> <new_disk>
 ```
 
 ## XFS

@@ -121,6 +121,7 @@ sudo apt upgrade --without-new-pkgs
 Полное обновление
 ```
 sudo apt full-upgrade
+reboot
 sudo apt autoremove
 ```
 ## Upgrade Debian 11 to 12

@@ -12,8 +12,8 @@ SET EDITOR="С:\gvim_9.0.1712_x86\vim\vim90\gvim.exe"
 ```
 3. Установка имени и электронной почты
 ```
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
 ```
 4. Параметры установки окончаний строк  
 ```
@@ -28,20 +28,24 @@ git config --global core.safecrlf warn
 ```
 git config http.sslVerify=false  // Disable SSL Verification
 ```
+5. Проверяем
+```
+git config --global --list
+```
 
 ## Рабочие процессы
 
 ```
 Feature:
-    - создаём ветку фичи (из мастера) feature/xxx
+    - создаём ветку фичи (из мастера) feature/xxx (git checkout -b feature/xxx)
     - ведём разработку в ветке фичи
-    - комитим в ветку фичи
+    - комитим в ветку фичи (git commit -m "comment description")
     - слить изменения из мастера в свою ветку ?(merge/*rebase)
-    - пушим изменения на сервер
+    - пушим изменения на сервер (git push orign feature/xxx)
     - создаём запрос на слияние веток (либо ?*merge/?rebase в мастер)
 
 Fix:
-    -
+    - создаём ветку исправления (?откуда мастер или feature/xxx)
     -
 ```
 
@@ -124,10 +128,12 @@ git push origin <branch_name>:master
 ### Слияние двух веток
 ```
 Команда объединит указанную ветку с основной.
-git merge existing_branch_name
+git merge <existing_branch_name>
 
 если надо выполнить коммит слияния, выполните команду git merge с флагом --no-ff
-git merge --no-ff existing_branch_name
+git merge --no-ff <existing_branch_name>
+
+git merge --squash <existing_branch_name>
 ```
 
 ### Работа с задачами
